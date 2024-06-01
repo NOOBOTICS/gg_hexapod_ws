@@ -1,0 +1,17 @@
+/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_controller/share/gg_hex_controller//config/gg_hexleg_controller.yaml
+/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_controller/share/gg_hex_controller//launch/controller.launch.py
+/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_controller/share/ament_index/resource_index/package_run_dependencies/gg_hex_controller
+/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_controller/share/ament_index/resource_index/parent_prefix_path/gg_hex_controller
+/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_controller/share/gg_hex_controller/environment/ament_prefix_path.sh
+/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_controller/share/gg_hex_controller/environment/ament_prefix_path.dsv
+/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_controller/share/gg_hex_controller/environment/path.sh
+/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_controller/share/gg_hex_controller/environment/path.dsv
+/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_controller/share/gg_hex_controller/local_setup.bash
+/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_controller/share/gg_hex_controller/local_setup.sh
+/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_controller/share/gg_hex_controller/local_setup.zsh
+/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_controller/share/gg_hex_controller/local_setup.dsv
+/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_controller/share/gg_hex_controller/package.dsv
+/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_controller/share/ament_index/resource_index/packages/gg_hex_controller
+/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_controller/share/gg_hex_controller/cmake/gg_hex_controllerConfig.cmake
+/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_controller/share/gg_hex_controller/cmake/gg_hex_controllerConfig-version.cmake
+/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_controller/share/gg_hex_controller/package.xml

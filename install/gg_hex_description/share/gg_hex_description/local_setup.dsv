@@ -1,2 +1,1 @@
-source;share/gg_hex_description/environment/ament_prefix_path.sh
-source;share/gg_hex_description/environment/path.sh
+/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/build/gg_hex_description/ament_cmake_environment_hooks/local_setup.dsv

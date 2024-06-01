@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<robot name="gg_hexleg"  xmlns:xacro= "http://www.ros.org/wiki/xacro">
+
+<xacro:include filename="robotleg.urdf.xacro"/>
+
+<xacro:include filename="gg_hexleg_ros2_control.xacro"/>
+
+<xacro:include filename="gg_hexleg_gazebo.xacro"/>
+
+<xacro:include filename="gg_hexleg_controller.xacro"/>
+
+
+</robot>

@@ -1,0 +1,129 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/build/arm_description_pkg
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/arm_description_pkg/share/arm_description_pkg//meshes/config.json
+-- Symlinking: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/arm_description_pkg/share/arm_description_pkg//meshes/part_1.part
+-- Symlinking: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/arm_description_pkg/share/arm_description_pkg//meshes/part_1.stl
+-- Symlinking: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/arm_description_pkg/share/arm_description_pkg//meshes/part_10.part
+-- Symlinking: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/arm_description_pkg/share/arm_description_pkg//meshes/part_10.stl
+-- Symlinking: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/arm_description_pkg/share/arm_description_pkg//meshes/part_2.part
+-- Symlinking: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/arm_description_pkg/share/arm_description_pkg//meshes/part_2.stl
+-- Symlinking: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/arm_description_pkg/share/arm_description_pkg//meshes/part_3.part
+-- Symlinking: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/arm_description_pkg/share/arm_description_pkg//meshes/part_3.stl
+-- Symlinking: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/arm_description_pkg/share/arm_description_pkg//meshes/part_4.part
+-- Symlinking: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/arm_description_pkg/share/arm_description_pkg//meshes/part_4.stl
+-- Symlinking: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/arm_description_pkg/share/arm_description_pkg//meshes/part_5.part
+-- Symlinking: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/arm_description_pkg/share/arm_description_pkg//meshes/part_5.stl
+-- Symlinking: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/arm_description_pkg/share/arm_description_pkg//meshes/part_6.part
+-- Symlinking: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/arm_description_pkg/share/arm_description_pkg//meshes/part_6.stl
+-- Symlinking: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/arm_description_pkg/share/arm_description_pkg//meshes/part_7.part
+-- Symlinking: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/arm_description_pkg/share/arm_description_pkg//meshes/part_7.stl
+-- Symlinking: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/arm_description_pkg/share/arm_description_pkg//meshes/part_8.part
+-- Symlinking: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/arm_description_pkg/share/arm_description_pkg//meshes/part_8.stl
+-- Symlinking: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/arm_description_pkg/share/arm_description_pkg//meshes/part_9.part
+-- Symlinking: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/arm_description_pkg/share/arm_description_pkg//meshes/part_9.stl
+-- Symlinking: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/arm_description_pkg/share/arm_description_pkg//meshes/robot.urdf
+-- Symlinking: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/arm_description_pkg/share/arm_description_pkg//meshes_upright/config.json
+-- Symlinking: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/arm_description_pkg/share/arm_description_pkg//meshes_upright/part_1.part
+-- Symlinking: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/arm_description_pkg/share/arm_description_pkg//meshes_upright/part_1.stl
+-- Symlinking: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/arm_description_pkg/share/arm_description_pkg//meshes_upright/part_10.part
+-- Symlinking: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/arm_description_pkg/share/arm_description_pkg//meshes_upright/part_10.stl
+-- Symlinking: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/arm_description_pkg/share/arm_description_pkg//meshes_upright/part_2.part
+-- Symlinking: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/arm_description_pkg/share/arm_description_pkg//meshes_upright/part_2.stl
+-- Symlinking: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/arm_description_pkg/share/arm_description_pkg//meshes_upright/part_3.part
+-- Symlinking: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/arm_description_pkg/share/arm_description_pkg//meshes_upright/part_3.stl
+-- Symlinking: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/arm_description_pkg/share/arm_description_pkg//meshes_upright/part_4.part
+-- Symlinking: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/arm_description_pkg/share/arm_description_pkg//meshes_upright/part_4.stl
+-- Symlinking: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/arm_description_pkg/share/arm_description_pkg//meshes_upright/part_5.part
+-- Symlinking: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/arm_description_pkg/share/arm_description_pkg//meshes_upright/part_5.stl
+-- Symlinking: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/arm_description_pkg/share/arm_description_pkg//meshes_upright/part_8.part
+-- Symlinking: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/arm_description_pkg/share/arm_description_pkg//meshes_upright/part_8.stl
+-- Symlinking: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/arm_description_pkg/share/arm_description_pkg//meshes_upright/part_9.part
+-- Symlinking: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/arm_description_pkg/share/arm_description_pkg//meshes_upright/part_9.stl
+-- Symlinking: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/arm_description_pkg/share/arm_description_pkg//meshes_upright/robot.urdf
+-- Symlinking: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/arm_description_pkg/share/arm_description_pkg//meshes_upright_xacro/GS_arm.urdf.xacro
+-- Symlinking: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/arm_description_pkg/share/arm_description_pkg//meshes_upright_xacro/GS_arm_combo.urdf.xacro
+-- Symlinking: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/arm_description_pkg/share/arm_description_pkg//meshes_upright_xacro/GS_arm_controller.xacro
+-- Symlinking: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/arm_description_pkg/share/arm_description_pkg//meshes_upright_xacro/GS_arm_gazebo.xacro
+-- Symlinking: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/arm_description_pkg/share/arm_description_pkg//meshes_upright_xacro/GS_arm_ros2_control.xacro
+-- Symlinking: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/arm_description_pkg/share/arm_description_pkg//meshes_upright_xacro/config.json
+-- Symlinking: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/arm_description_pkg/share/arm_description_pkg//meshes_upright_xacro/part_1.part
+-- Symlinking: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/arm_description_pkg/share/arm_description_pkg//meshes_upright_xacro/part_1.stl
+-- Symlinking: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/arm_description_pkg/share/arm_description_pkg//meshes_upright_xacro/part_10.part
+-- Symlinking: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/arm_description_pkg/share/arm_description_pkg//meshes_upright_xacro/part_10.stl
+-- Symlinking: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/arm_description_pkg/share/arm_description_pkg//meshes_upright_xacro/part_2.part
+-- Symlinking: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/arm_description_pkg/share/arm_description_pkg//meshes_upright_xacro/part_2.stl
+-- Symlinking: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/arm_description_pkg/share/arm_description_pkg//meshes_upright_xacro/part_3.part
+-- Symlinking: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/arm_description_pkg/share/arm_description_pkg//meshes_upright_xacro/part_3.stl
+-- Symlinking: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/arm_description_pkg/share/arm_description_pkg//meshes_upright_xacro/part_4.part
+-- Symlinking: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/arm_description_pkg/share/arm_description_pkg//meshes_upright_xacro/part_4.stl
+-- Symlinking: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/arm_description_pkg/share/arm_description_pkg//meshes_upright_xacro/part_5.part
+-- Symlinking: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/arm_description_pkg/share/arm_description_pkg//meshes_upright_xacro/part_5.stl
+-- Symlinking: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/arm_description_pkg/share/arm_description_pkg//meshes_upright_xacro/part_8.part
+-- Symlinking: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/arm_description_pkg/share/arm_description_pkg//meshes_upright_xacro/part_8.stl
+-- Symlinking: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/arm_description_pkg/share/arm_description_pkg//meshes_upright_xacro/part_9.part
+-- Symlinking: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/arm_description_pkg/share/arm_description_pkg//meshes_upright_xacro/part_9.stl
+-- Symlinking: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/arm_description_pkg/share/arm_description_pkg//meshes_upright_xacro_copy/GS_arm.urdf.xacro
+-- Symlinking: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/arm_description_pkg/share/arm_description_pkg//meshes_upright_xacro_copy/GS_arm_combo.urdf.xacro
+-- Symlinking: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/arm_description_pkg/share/arm_description_pkg//meshes_upright_xacro_copy/GS_arm_controller.xacro
+-- Symlinking: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/arm_description_pkg/share/arm_description_pkg//meshes_upright_xacro_copy/GS_arm_gazebo.xacro
+-- Symlinking: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/arm_description_pkg/share/arm_description_pkg//meshes_upright_xacro_copy/GS_arm_ros2_control.xacro
+-- Symlinking: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/arm_description_pkg/share/arm_description_pkg//meshes_upright_xacro_copy/config.json
+-- Symlinking: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/arm_description_pkg/share/arm_description_pkg//meshes_upright_xacro_copy/part_1.part
+-- Symlinking: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/arm_description_pkg/share/arm_description_pkg//meshes_upright_xacro_copy/part_1.stl
+-- Symlinking: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/arm_description_pkg/share/arm_description_pkg//meshes_upright_xacro_copy/part_10.part
+-- Symlinking: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/arm_description_pkg/share/arm_description_pkg//meshes_upright_xacro_copy/part_10.stl
+-- Symlinking: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/arm_description_pkg/share/arm_description_pkg//meshes_upright_xacro_copy/part_2.part
+-- Symlinking: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/arm_description_pkg/share/arm_description_pkg//meshes_upright_xacro_copy/part_2.stl
+-- Symlinking: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/arm_description_pkg/share/arm_description_pkg//meshes_upright_xacro_copy/part_3.part
+-- Symlinking: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/arm_description_pkg/share/arm_description_pkg//meshes_upright_xacro_copy/part_3.stl
+-- Symlinking: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/arm_description_pkg/share/arm_description_pkg//meshes_upright_xacro_copy/part_4.part
+-- Symlinking: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/arm_description_pkg/share/arm_description_pkg//meshes_upright_xacro_copy/part_4.stl
+-- Symlinking: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/arm_description_pkg/share/arm_description_pkg//meshes_upright_xacro_copy/part_5.part
+-- Symlinking: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/arm_description_pkg/share/arm_description_pkg//meshes_upright_xacro_copy/part_5.stl
+-- Symlinking: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/arm_description_pkg/share/arm_description_pkg//meshes_upright_xacro_copy/part_6.part
+-- Symlinking: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/arm_description_pkg/share/arm_description_pkg//meshes_upright_xacro_copy/part_6.stl
+-- Symlinking: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/arm_description_pkg/share/arm_description_pkg//meshes_upright_xacro_copy/part_7.part
+-- Symlinking: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/arm_description_pkg/share/arm_description_pkg//meshes_upright_xacro_copy/part_7.stl
+-- Symlinking: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/arm_description_pkg/share/arm_description_pkg//meshes_upright_xacro_copy/part_8.part
+-- Symlinking: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/arm_description_pkg/share/arm_description_pkg//meshes_upright_xacro_copy/part_8.stl
+-- Symlinking: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/arm_description_pkg/share/arm_description_pkg//meshes_upright_xacro_copy/part_9.part
+-- Symlinking: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/arm_description_pkg/share/arm_description_pkg//meshes_upright_xacro_copy/part_9.stl
+-- Symlinking: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/arm_description_pkg/share/arm_description_pkg//meshes_upright_xacro_copy/robot.urdf.xacro
+-- Symlinking: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/arm_description_pkg/share/arm_description_pkg//meshes_upright_xacro_copy/robot.urdf1.xacro
+-- Symlinking: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/arm_description_pkg/share/arm_description_pkg//launch/arm_display.launch.xml
+-- Symlinking: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/arm_description_pkg/share/ament_index/resource_index/package_run_dependencies/arm_description_pkg
+-- Symlinking: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/arm_description_pkg/share/ament_index/resource_index/parent_prefix_path/arm_description_pkg
+-- Symlinking: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/arm_description_pkg/share/arm_description_pkg/environment/ament_prefix_path.sh
+-- Symlinking: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/arm_description_pkg/share/arm_description_pkg/environment/ament_prefix_path.dsv
+-- Symlinking: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/arm_description_pkg/share/arm_description_pkg/environment/path.sh
+-- Symlinking: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/arm_description_pkg/share/arm_description_pkg/environment/path.dsv
+-- Symlinking: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/arm_description_pkg/share/arm_description_pkg/local_setup.bash
+-- Symlinking: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/arm_description_pkg/share/arm_description_pkg/local_setup.sh
+-- Symlinking: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/arm_description_pkg/share/arm_description_pkg/local_setup.zsh
+-- Symlinking: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/arm_description_pkg/share/arm_description_pkg/local_setup.dsv
+-- Symlinking: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/arm_description_pkg/share/arm_description_pkg/package.dsv
+-- Symlinking: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/arm_description_pkg/share/ament_index/resource_index/packages/arm_description_pkg
+-- Symlinking: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/arm_description_pkg/share/arm_description_pkg/cmake/arm_description_pkgConfig.cmake
+-- Symlinking: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/arm_description_pkg/share/arm_description_pkg/cmake/arm_description_pkgConfig-version.cmake
+-- Symlinking: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/arm_description_pkg/share/arm_description_pkg/package.xml

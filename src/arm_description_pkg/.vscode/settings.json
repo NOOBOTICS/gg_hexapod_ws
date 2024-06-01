@@ -1,0 +1,22 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/nobel/workspace_arm/IRoC_U_arm/arm_ws/install/armkin_pkg/lib/python3.10/site-packages",
+        "/home/nobel/workspace_arm/IRoC_U_arm/arm_ws/install/armcam_pkg/lib/python3.10/site-packages",
+        "/home/nobel/arm_ws/install/cam_pkg/lib/python3.10/site-packages",
+        "/home/nobel/arm_ws/install/arm_pkg/lib/python3.10/site-packages",
+        "/home/nobel/arduinobot_ws/install/arduinobot_py_examples/lib/python3.10/site-packages",
+        "/home/nobel/install/arduinobot_py_examples/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/nobel/workspace_arm/IRoC_U_arm/arm_ws/install/armkin_pkg/lib/python3.10/site-packages",
+        "/home/nobel/workspace_arm/IRoC_U_arm/arm_ws/install/armcam_pkg/lib/python3.10/site-packages",
+        "/home/nobel/arm_ws/install/cam_pkg/lib/python3.10/site-packages",
+        "/home/nobel/arm_ws/install/arm_pkg/lib/python3.10/site-packages",
+        "/home/nobel/arduinobot_ws/install/arduinobot_py_examples/lib/python3.10/site-packages",
+        "/home/nobel/install/arduinobot_py_examples/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ]
+}

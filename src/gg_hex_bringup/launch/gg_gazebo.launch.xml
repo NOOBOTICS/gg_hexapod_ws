@@ -1,0 +1,24 @@
+<launch>
+
+    <let name = "urdf_path"
+        value="$(find-pkg-share gg_hex_description)/meshes/robot.urdf.xacro" />
+
+
+    <node pkg="robot_state_publisher" exec="robot_state_publisher">
+            <param name= "robot_description"
+            value="$(command 'xacro $(var urdf_path)')"/>
+    </node>
+
+
+    <node pkg="joint_state_publisher" exec="joint_state_publisher"/>
+
+
+    <include file= "$(find-pkg-share gazebo_ros)/launch/gazebo.launch.py" >
+    <!-- <arg name="world" value = "$(find-pkg-share arm_bringup_pkg)/world/GS_arm_world.world"/> -->
+    </include>
+
+
+    <node pkg ="gazebo_ros" exec = "spawn_entity.py"
+     args ="-topic robot_description -entity gg_hex" />
+     
+</launch>

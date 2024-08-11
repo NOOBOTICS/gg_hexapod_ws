@@ -1,0 +1,17 @@
+/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_interface/share/gg_hex_interface//srv/EulerToQuaternion.srv
+/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_interface/share/gg_hex_interface//srv/QuaternionToEuler.srv
+/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_interface/share/ament_index/resource_index/package_run_dependencies/gg_hex_interface
+/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_interface/share/ament_index/resource_index/parent_prefix_path/gg_hex_interface
+/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_interface/share/gg_hex_interface/environment/ament_prefix_path.sh
+/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_interface/share/gg_hex_interface/environment/ament_prefix_path.dsv
+/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_interface/share/gg_hex_interface/environment/path.sh
+/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_interface/share/gg_hex_interface/environment/path.dsv
+/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_interface/share/gg_hex_interface/local_setup.bash
+/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_interface/share/gg_hex_interface/local_setup.sh
+/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_interface/share/gg_hex_interface/local_setup.zsh
+/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_interface/share/gg_hex_interface/local_setup.dsv
+/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_interface/share/gg_hex_interface/package.dsv
+/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_interface/share/ament_index/resource_index/packages/gg_hex_interface
+/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_interface/share/gg_hex_interface/cmake/gg_hex_interfaceConfig.cmake
+/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_interface/share/gg_hex_interface/cmake/gg_hex_interfaceConfig-version.cmake
+/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_interface/share/gg_hex_interface/package.xml

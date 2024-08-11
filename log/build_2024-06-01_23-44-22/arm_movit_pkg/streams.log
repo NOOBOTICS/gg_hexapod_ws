@@ -1,0 +1,28 @@
+[0.042s] Invoking command in '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/build/arm_movit_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nobel/workspace_arm/IRoC_U_arm/arm_ws/install/armkin_pkg:/home/nobel/workspace_arm/IRoC_U_arm/arm_ws/install/armcam_pkg:/home/nobel/arduinobot_ws/install/arduinobot_py_examples:/home/nobel/install/arduinobot_py_examples:/opt/ros/humble /usr/bin/cmake --build /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/build/arm_movit_pkg -- -j16 -l16
+[0.091s] Invoked command in '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/build/arm_movit_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nobel/workspace_arm/IRoC_U_arm/arm_ws/install/armkin_pkg:/home/nobel/workspace_arm/IRoC_U_arm/arm_ws/install/armcam_pkg:/home/nobel/arduinobot_ws/install/arduinobot_py_examples:/home/nobel/install/arduinobot_py_examples:/opt/ros/humble /usr/bin/cmake --build /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/build/arm_movit_pkg -- -j16 -l16
+[0.138s] Invoking command in '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/build/arm_movit_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nobel/workspace_arm/IRoC_U_arm/arm_ws/install/armkin_pkg:/home/nobel/workspace_arm/IRoC_U_arm/arm_ws/install/armcam_pkg:/home/nobel/arduinobot_ws/install/arduinobot_py_examples:/home/nobel/install/arduinobot_py_examples:/opt/ros/humble /usr/bin/cmake --install /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/build/arm_movit_pkg
+[0.148s] -- Install configuration: ""
+[0.148s] -- Execute custom install script
+[0.149s] -- Up-to-date symlink: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/arm_movit_pkg/share/arm_movit_pkg//config/arm.srdf
+[0.149s] -- Up-to-date symlink: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/arm_movit_pkg/share/arm_movit_pkg//config/initial_positions.yaml
+[0.149s] -- Up-to-date symlink: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/arm_movit_pkg/share/arm_movit_pkg//config/joint_limits.yaml
+[0.151s] -- Up-to-date symlink: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/arm_movit_pkg/share/arm_movit_pkg//config/kinematics.yaml
+[0.152s] -- Up-to-date symlink: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/arm_movit_pkg/share/arm_movit_pkg//config/moveit_controllers.yaml
+[0.152s] -- Up-to-date symlink: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/arm_movit_pkg/share/arm_movit_pkg//config/pilz_cartesian_limits.yaml
+[0.153s] -- Up-to-date symlink: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/arm_movit_pkg/share/arm_movit_pkg//launch/moveit.launch.py
+[0.154s] -- Up-to-date symlink: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/arm_movit_pkg/share/ament_index/resource_index/package_run_dependencies/arm_movit_pkg
+[0.154s] -- Up-to-date symlink: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/arm_movit_pkg/share/ament_index/resource_index/parent_prefix_path/arm_movit_pkg
+[0.159s] -- Up-to-date symlink: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/arm_movit_pkg/share/arm_movit_pkg/environment/ament_prefix_path.sh
+[0.159s] -- Up-to-date symlink: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/arm_movit_pkg/share/arm_movit_pkg/environment/ament_prefix_path.dsv
+[0.159s] -- Up-to-date symlink: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/arm_movit_pkg/share/arm_movit_pkg/environment/path.sh
+[0.159s] -- Up-to-date symlink: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/arm_movit_pkg/share/arm_movit_pkg/environment/path.dsv
+[0.160s] -- Up-to-date symlink: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/arm_movit_pkg/share/arm_movit_pkg/local_setup.bash
+[0.160s] -- Up-to-date symlink: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/arm_movit_pkg/share/arm_movit_pkg/local_setup.sh
+[0.160s] -- Up-to-date symlink: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/arm_movit_pkg/share/arm_movit_pkg/local_setup.zsh
+[0.160s] -- Up-to-date symlink: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/arm_movit_pkg/share/arm_movit_pkg/local_setup.dsv
+[0.160s] -- Symlinking: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/arm_movit_pkg/share/arm_movit_pkg/package.dsv
+[0.174s] -- Up-to-date symlink: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/arm_movit_pkg/share/ament_index/resource_index/packages/arm_movit_pkg
+[0.174s] -- Up-to-date symlink: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/arm_movit_pkg/share/arm_movit_pkg/cmake/arm_movit_pkgConfig.cmake
+[0.174s] -- Up-to-date symlink: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/arm_movit_pkg/share/arm_movit_pkg/cmake/arm_movit_pkgConfig-version.cmake
+[0.174s] -- Up-to-date symlink: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/arm_movit_pkg/share/arm_movit_pkg/package.xml
+[0.204s] Invoked command in '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/build/arm_movit_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nobel/workspace_arm/IRoC_U_arm/arm_ws/install/armkin_pkg:/home/nobel/workspace_arm/IRoC_U_arm/arm_ws/install/armcam_pkg:/home/nobel/arduinobot_ws/install/arduinobot_py_examples:/home/nobel/install/arduinobot_py_examples:/opt/ros/humble /usr/bin/cmake --install /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/build/arm_movit_pkg

@@ -1,0 +1,83 @@
+[0.042s] Invoking command in '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/build/gg_hex_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nobel/workspace_arm/IRoC_U_arm/arm_ws/install/armkin_pkg:/home/nobel/workspace_arm/IRoC_U_arm/arm_ws/install/armcam_pkg:/home/nobel/arduinobot_ws/install/arduinobot_py_examples:/home/nobel/install/arduinobot_py_examples:/opt/ros/humble /usr/bin/cmake --build /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/build/gg_hex_description -- -j16 -l16
+[0.102s] Invoked command in '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/build/gg_hex_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nobel/workspace_arm/IRoC_U_arm/arm_ws/install/armkin_pkg:/home/nobel/workspace_arm/IRoC_U_arm/arm_ws/install/armcam_pkg:/home/nobel/arduinobot_ws/install/arduinobot_py_examples:/home/nobel/install/arduinobot_py_examples:/opt/ros/humble /usr/bin/cmake --build /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/build/gg_hex_description -- -j16 -l16
+[0.145s] Invoking command in '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/build/gg_hex_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nobel/workspace_arm/IRoC_U_arm/arm_ws/install/armkin_pkg:/home/nobel/workspace_arm/IRoC_U_arm/arm_ws/install/armcam_pkg:/home/nobel/arduinobot_ws/install/arduinobot_py_examples:/home/nobel/install/arduinobot_py_examples:/opt/ros/humble /usr/bin/cmake --install /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/build/gg_hex_description
+[0.165s] -- Install configuration: ""
+[0.167s] -- Execute custom install script
+[0.172s] -- Symlinking: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description/share/gg_hex_description//meshes/080-1656-000_3.step.part
+[0.184s] -- Symlinking: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description/share/gg_hex_description//meshes/080-1656-000_3.step.stl
+[0.185s] -- Symlinking: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description/share/gg_hex_description//meshes/142-13449-1000-a02.step.part
+[0.185s] -- Symlinking: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description/share/gg_hex_description//meshes/142-13449-1000-a02.step.stl
+[0.193s] -- Symlinking: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description/share/gg_hex_description//meshes/142-63448-1gen_a00.step.part
+[0.204s] -- Symlinking: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description/share/gg_hex_description//meshes/142-63448-1gen_a00.step.stl
+[0.213s] -- Symlinking: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description/share/gg_hex_description//meshes/1side.part
+[0.222s] -- Symlinking: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description/share/gg_hex_description//meshes/1side.stl
+[0.232s] -- Symlinking: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description/share/gg_hex_description//meshes/1side_1.part
+[0.246s] -- Symlinking: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description/share/gg_hex_description//meshes/1side_1.stl
+[0.256s] -- Symlinking: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description/share/gg_hex_description//meshes/1side_2.part
+[0.266s] -- Symlinking: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description/share/gg_hex_description//meshes/1side_2.stl
+[0.280s] -- Symlinking: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description/share/gg_hex_description//meshes/1side_3.part
+[0.290s] -- Symlinking: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description/share/gg_hex_description//meshes/1side_3.stl
+[0.301s] -- Symlinking: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description/share/gg_hex_description//meshes/1side_4.part
+[0.312s] -- Symlinking: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description/share/gg_hex_description//meshes/1side_4.stl
+[0.322s] -- Symlinking: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description/share/gg_hex_description//meshes/1side_5.part
+[0.336s] -- Symlinking: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description/share/gg_hex_description//meshes/1side_5.stl
+[0.348s] -- Symlinking: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description/share/gg_hex_description//meshes/arm_low__same_8.part
+[0.361s] -- Symlinking: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description/share/gg_hex_description//meshes/arm_low__same_8.stl
+[0.371s] -- Symlinking: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description/share/gg_hex_description//meshes/arm_up_same_9.part
+[0.383s] -- Symlinking: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description/share/gg_hex_description//meshes/arm_up_same_9.stl
+[0.394s] -- Symlinking: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description/share/gg_hex_description//meshes/base_(1).step.part
+[0.404s] -- Symlinking: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description/share/gg_hex_description//meshes/base_(1).step.stl
+[0.417s] -- Symlinking: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description/share/gg_hex_description//meshes/cam_lider_stand.part
+[0.426s] -- Symlinking: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description/share/gg_hex_description//meshes/cam_lider_stand.stl
+[0.437s] -- Symlinking: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description/share/gg_hex_description//meshes/center.part
+[0.447s] -- Symlinking: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description/share/gg_hex_description//meshes/center.stl
+[0.457s] -- Up-to-date symlink: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description/share/gg_hex_description//meshes/config.json
+[0.458s] -- Symlinking: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description/share/gg_hex_description//meshes/document.part
+[0.468s] -- Symlinking: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description/share/gg_hex_description//meshes/document.stl
+[0.478s] -- Symlinking: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description/share/gg_hex_description//meshes/leg_1.part
+[0.487s] -- Symlinking: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description/share/gg_hex_description//meshes/leg_1.stl
+[0.497s] -- Symlinking: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description/share/gg_hex_description//meshes/mounting_plate.step.part
+[0.507s] -- Symlinking: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description/share/gg_hex_description//meshes/mounting_plate.step.stl
+[0.517s] -- Up-to-date symlink: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description/share/gg_hex_description//meshes/part_1.part
+[0.517s] -- Up-to-date symlink: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description/share/gg_hex_description//meshes/part_1.stl
+[0.517s] -- Symlinking: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description/share/gg_hex_description//meshes/part_1_12.part
+[0.527s] -- Symlinking: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description/share/gg_hex_description//meshes/part_1_12.stl
+[0.537s] -- Symlinking: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description/share/gg_hex_description//meshes/part_1_13.part
+[0.547s] -- Symlinking: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description/share/gg_hex_description//meshes/part_1_13.stl
+[0.556s] -- Symlinking: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description/share/gg_hex_description//meshes/porg_heat_sink.step.part
+[0.566s] -- Symlinking: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description/share/gg_hex_description//meshes/porg_heat_sink.step.stl
+[0.578s] -- Symlinking: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description/share/gg_hex_description//meshes/porg_hex_standoff.step.part
+[0.587s] -- Symlinking: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description/share/gg_hex_description//meshes/porg_hex_standoff.step.stl
+[0.597s] -- Symlinking: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description/share/gg_hex_description//meshes/porg_hex_standoff.step_1.part
+[0.607s] -- Symlinking: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description/share/gg_hex_description//meshes/porg_hex_standoff.step_1.stl
+[0.616s] -- Symlinking: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description/share/gg_hex_description//meshes/porg_system_screw.step.part
+[0.626s] -- Symlinking: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description/share/gg_hex_description//meshes/porg_system_screw.step.stl
+[0.635s] -- Symlinking: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description/share/gg_hex_description//meshes/porg_system_screw.step_1.part
+[0.644s] -- Symlinking: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description/share/gg_hex_description//meshes/porg_system_screw.step_1.stl
+[0.653s] -- Symlinking: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description/share/gg_hex_description//meshes/porg_system_screw.step_2.part
+[0.662s] -- Symlinking: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description/share/gg_hex_description//meshes/porg_system_screw.step_2.stl
+[0.671s] -- Symlinking: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description/share/gg_hex_description//meshes/porg_system_screw.step_3.part
+[0.680s] -- Symlinking: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description/share/gg_hex_description//meshes/porg_system_screw.step_3.stl
+[0.690s] -- Symlinking: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description/share/gg_hex_description//meshes/robot.urdf
+[0.699s] -- Symlinking: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description/share/gg_hex_description//meshes/scanner.step.part
+[0.709s] -- Symlinking: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description/share/gg_hex_description//meshes/scanner.step.stl
+[0.718s] -- Symlinking: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description/share/gg_hex_description//meshes/servo_motor_35kg_motor.part
+[0.727s] -- Symlinking: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description/share/gg_hex_description//meshes/servo_motor_35kg_motor.stl
+[0.736s] -- Symlinking: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description/share/gg_hex_description//meshes/servo_motor_35kg_motor_6.part
+[0.746s] -- Symlinking: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description/share/gg_hex_description//meshes/servo_motor_35kg_motor_6.stl
+[0.756s] -- Up-to-date symlink: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description/share/ament_index/resource_index/package_run_dependencies/gg_hex_description
+[0.756s] -- Up-to-date symlink: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description/share/ament_index/resource_index/parent_prefix_path/gg_hex_description
+[0.756s] -- Up-to-date symlink: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description/share/gg_hex_description/environment/ament_prefix_path.sh
+[0.756s] -- Up-to-date symlink: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description/share/gg_hex_description/environment/ament_prefix_path.dsv
+[0.756s] -- Up-to-date symlink: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description/share/gg_hex_description/environment/path.sh
+[0.756s] -- Up-to-date symlink: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description/share/gg_hex_description/environment/path.dsv
+[0.756s] -- Up-to-date symlink: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description/share/gg_hex_description/local_setup.bash
+[0.757s] -- Up-to-date symlink: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description/share/gg_hex_description/local_setup.sh
+[0.757s] -- Up-to-date symlink: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description/share/gg_hex_description/local_setup.zsh
+[0.757s] -- Up-to-date symlink: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description/share/gg_hex_description/local_setup.dsv
+[0.757s] -- Symlinking: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description/share/gg_hex_description/package.dsv
+[0.767s] -- Up-to-date symlink: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description/share/ament_index/resource_index/packages/gg_hex_description
+[0.767s] -- Up-to-date symlink: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description/share/gg_hex_description/cmake/gg_hex_descriptionConfig.cmake
+[0.767s] -- Up-to-date symlink: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description/share/gg_hex_description/cmake/gg_hex_descriptionConfig-version.cmake
+[0.767s] -- Up-to-date symlink: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description/share/gg_hex_description/package.xml
+[0.770s] Invoked command in '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/build/gg_hex_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nobel/workspace_arm/IRoC_U_arm/arm_ws/install/armkin_pkg:/home/nobel/workspace_arm/IRoC_U_arm/arm_ws/install/armcam_pkg:/home/nobel/arduinobot_ws/install/arduinobot_py_examples:/home/nobel/install/arduinobot_py_examples:/opt/ros/humble /usr/bin/cmake --install /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/build/gg_hex_description

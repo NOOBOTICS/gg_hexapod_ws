@@ -1,0 +1,38 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/nobel/Drone_Related/Drones_Library/follow_drone_ws/install/sjtu_drone_bringup/lib/python3.10/site-packages",
+        "/home/nobel/workspace_arm/IRoC_U_arm/arm_ws/build/armkin_pkg",
+        "/home/nobel/workspace_arm/IRoC_U_arm/arm_ws/install/armkin_pkg/lib/python3.10/site-packages",
+        "/home/nobel/workspace_arm/IRoC_U_arm/arm_ws/build/armcam_pkg",
+        "/home/nobel/workspace_arm/IRoC_U_arm/arm_ws/install/armcam_pkg/lib/python3.10/site-packages",
+        "/home/nobel/workspace_arm/IRoC_U_arm/arm_ws/install/arm_utils_pkg/local/lib/python3.10/dist-packages",
+        "/home/nobel/workspace_arm/IRoC_U_arm/arm_ws/install/arm_interface_pkg/local/lib/python3.10/dist-packages",
+        "/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_utils/local/lib/python3.10/dist-packages",
+        "/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/arm_utils_pkg/local/lib/python3.10/dist-packages",
+        "/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/arm_interface_pkg/local/lib/python3.10/dist-packages",
+        "/home/nobel/arm_ws/install/cam_pkg/lib/python3.10/site-packages",
+        "/home/nobel/arm_ws/install/arm_pkg/lib/python3.10/site-packages",
+        "/home/nobel/arduinobot_ws/install/arduinobot_py_examples/lib/python3.10/site-packages",
+        "/home/nobel/install/arduinobot_py_examples/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/nobel/Drone_Related/Drones_Library/follow_drone_ws/install/sjtu_drone_bringup/lib/python3.10/site-packages",
+        "/home/nobel/workspace_arm/IRoC_U_arm/arm_ws/build/armkin_pkg",
+        "/home/nobel/workspace_arm/IRoC_U_arm/arm_ws/install/armkin_pkg/lib/python3.10/site-packages",
+        "/home/nobel/workspace_arm/IRoC_U_arm/arm_ws/build/armcam_pkg",
+        "/home/nobel/workspace_arm/IRoC_U_arm/arm_ws/install/armcam_pkg/lib/python3.10/site-packages",
+        "/home/nobel/workspace_arm/IRoC_U_arm/arm_ws/install/arm_utils_pkg/local/lib/python3.10/dist-packages",
+        "/home/nobel/workspace_arm/IRoC_U_arm/arm_ws/install/arm_interface_pkg/local/lib/python3.10/dist-packages",
+        "/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_utils/local/lib/python3.10/dist-packages",
+        "/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/arm_utils_pkg/local/lib/python3.10/dist-packages",
+        "/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/arm_interface_pkg/local/lib/python3.10/dist-packages",
+        "/home/nobel/arm_ws/install/cam_pkg/lib/python3.10/site-packages",
+        "/home/nobel/arm_ws/install/arm_pkg/lib/python3.10/site-packages",
+        "/home/nobel/arduinobot_ws/install/arduinobot_py_examples/lib/python3.10/site-packages",
+        "/home/nobel/install/arduinobot_py_examples/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ]
+}

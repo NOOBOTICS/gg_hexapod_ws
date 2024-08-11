@@ -1,0 +1,38 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/build/gg_hex_moveit
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_moveit/share/ament_index/resource_index/package_run_dependencies/gg_hex_moveit
+-- Symlinking: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_moveit/share/ament_index/resource_index/parent_prefix_path/gg_hex_moveit
+-- Symlinking: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_moveit/share/gg_hex_moveit/environment/ament_prefix_path.sh
+-- Symlinking: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_moveit/share/gg_hex_moveit/environment/ament_prefix_path.dsv
+-- Symlinking: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_moveit/share/gg_hex_moveit/environment/path.sh
+-- Symlinking: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_moveit/share/gg_hex_moveit/environment/path.dsv
+-- Symlinking: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_moveit/share/gg_hex_moveit/local_setup.bash
+-- Symlinking: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_moveit/share/gg_hex_moveit/local_setup.sh
+-- Symlinking: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_moveit/share/gg_hex_moveit/local_setup.zsh
+-- Symlinking: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_moveit/share/gg_hex_moveit/local_setup.dsv
+-- Symlinking: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_moveit/share/gg_hex_moveit/package.dsv
+-- Symlinking: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_moveit/share/ament_index/resource_index/packages/gg_hex_moveit
+-- Symlinking: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_moveit/share/gg_hex_moveit/cmake/gg_hex_moveitConfig.cmake
+-- Symlinking: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_moveit/share/gg_hex_moveit/cmake/gg_hex_moveitConfig-version.cmake
+-- Symlinking: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_moveit/share/gg_hex_moveit/package.xml

@@ -2,6 +2,7 @@
 /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_bringup/share/gg_hex_bringup//launch/gg_gazebo_rviz.launch.xml
 /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_bringup/share/gg_hex_bringup//launch/gg_hexleg_gazebo_rviz.launch.xml
 /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_bringup/share/gg_hex_bringup//launch/gg_hexleg_rviz.launch.xml
+/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_bringup/share/gg_hex_bringup//rviz/config.rviz
 /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_bringup/share/gg_hex_bringup//rviz/hex_config.rviz
 /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_bringup/share/ament_index/resource_index/package_run_dependencies/gg_hex_bringup
 /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_bringup/share/ament_index/resource_index/parent_prefix_path/gg_hex_bringup

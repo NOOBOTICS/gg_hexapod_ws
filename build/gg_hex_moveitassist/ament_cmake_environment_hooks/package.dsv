@@ -1,0 +1,4 @@
+source;share/gg_hex_moveitassist/local_setup.bash
+source;share/gg_hex_moveitassist/local_setup.dsv
+source;share/gg_hex_moveitassist/local_setup.sh
+source;share/gg_hex_moveitassist/local_setup.zsh

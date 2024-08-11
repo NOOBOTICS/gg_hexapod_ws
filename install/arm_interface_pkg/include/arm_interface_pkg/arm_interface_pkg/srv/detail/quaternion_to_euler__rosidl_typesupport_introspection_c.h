@@ -1,0 +1,1 @@
+/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/build/arm_interface_pkg/rosidl_typesupport_introspection_c/arm_interface_pkg/srv/detail/quaternion_to_euler__rosidl_typesupport_introspection_c.h

@@ -1,0 +1,1 @@
+/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/build/arm_interface_pkg/rosidl_generator_py/arm_interface_pkg/srv/_euler_to_quaternion.py

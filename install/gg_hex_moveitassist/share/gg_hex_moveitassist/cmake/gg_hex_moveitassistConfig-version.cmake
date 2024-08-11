@@ -1,0 +1,1 @@
+/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/build/gg_hex_moveitassist/ament_cmake_core/gg_hex_moveitassistConfig-version.cmake

@@ -1,0 +1,5 @@
+1) nobel@nobel-Aspire-A515-57G:~$ sudo apt-get install ros-humble-tf-transformations
+
+2) nobel@nobel-Aspire-A515-57G:~$ sudo pip3 install transforms3d
+
+3) Ensure the angle_conversion.py script starts with the proper shebang line to specify the Python interpreter:#!/usr/bin/env python3

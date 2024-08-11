@@ -1,0 +1,7 @@
+setup.py
+gg_hex_utils/__init__.py
+gg_hex_utils/angle_conversion.py
+gg_hex_utils.egg-info/PKG-INFO
+gg_hex_utils.egg-info/SOURCES.txt
+gg_hex_utils.egg-info/dependency_links.txt
+gg_hex_utils.egg-info/top_level.txt

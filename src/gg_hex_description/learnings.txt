@@ -1,0 +1,5 @@
+reduce the number of fixed joints, onshape can convert a perticular no of joints only.
+if there are more joints some of the joints wont be rendered
+
+links should have proper limits for displaying in rviz
+

@@ -1,0 +1,7 @@
+{
+  "package_name": "arm_interface_pkg",
+  "non_idl_tuples": [
+    "/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/src/arm_interface_pkg:srv/EulerToQuaternion.srv",
+    "/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/src/arm_interface_pkg:srv/QuaternionToEuler.srv"
+  ]
+}

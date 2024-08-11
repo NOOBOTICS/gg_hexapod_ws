@@ -1,0 +1,642 @@
+[0.077s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.078s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x790643cda3b0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x790643dcafe0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x790643dcafe0>>)
+[0.255s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.255s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.255s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.255s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.255s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.255s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.255s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(src/arm_description_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(src/arm_description_pkg) by extension 'ignore'
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(src/arm_description_pkg) by extension 'ignore_ament_install'
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(src/arm_description_pkg) by extensions ['colcon_pkg']
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(src/arm_description_pkg) by extension 'colcon_pkg'
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(src/arm_description_pkg) by extensions ['colcon_meta']
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(src/arm_description_pkg) by extension 'colcon_meta'
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(src/arm_description_pkg) by extensions ['ros']
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(src/arm_description_pkg) by extension 'ros'
+[0.268s] DEBUG:colcon.colcon_core.package_identification:Package 'src/arm_description_pkg' with type 'ros.ament_cmake' and name 'arm_description_pkg'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(src/arm_movit_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(src/arm_movit_pkg) by extension 'ignore'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(src/arm_movit_pkg) by extension 'ignore_ament_install'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(src/arm_movit_pkg) by extensions ['colcon_pkg']
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(src/arm_movit_pkg) by extension 'colcon_pkg'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(src/arm_movit_pkg) by extensions ['colcon_meta']
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(src/arm_movit_pkg) by extension 'colcon_meta'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(src/arm_movit_pkg) by extensions ['ros']
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(src/arm_movit_pkg) by extension 'ros'
+[0.269s] DEBUG:colcon.colcon_core.package_identification:Package 'src/arm_movit_pkg' with type 'ros.ament_cmake' and name 'arm_movit_pkg'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(src/gg_hex_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(src/gg_hex_bringup) by extension 'ignore'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/gg_hex_bringup) by extension 'ignore_ament_install'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/gg_hex_bringup) by extensions ['colcon_pkg']
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/gg_hex_bringup) by extension 'colcon_pkg'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/gg_hex_bringup) by extensions ['colcon_meta']
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/gg_hex_bringup) by extension 'colcon_meta'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/gg_hex_bringup) by extensions ['ros']
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/gg_hex_bringup) by extension 'ros'
+[0.270s] DEBUG:colcon.colcon_core.package_identification:Package 'src/gg_hex_bringup' with type 'ros.ament_cmake' and name 'gg_hex_bringup'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/gg_hex_controller) by extensions ['ignore', 'ignore_ament_install']
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/gg_hex_controller) by extension 'ignore'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/gg_hex_controller) by extension 'ignore_ament_install'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/gg_hex_controller) by extensions ['colcon_pkg']
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/gg_hex_controller) by extension 'colcon_pkg'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/gg_hex_controller) by extensions ['colcon_meta']
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/gg_hex_controller) by extension 'colcon_meta'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/gg_hex_controller) by extensions ['ros']
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/gg_hex_controller) by extension 'ros'
+[0.271s] DEBUG:colcon.colcon_core.package_identification:Package 'src/gg_hex_controller' with type 'ros.ament_cmake' and name 'gg_hex_controller'
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(src/gg_hex_description) by extensions ['ignore', 'ignore_ament_install']
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(src/gg_hex_description) by extension 'ignore'
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(src/gg_hex_description) by extension 'ignore_ament_install'
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(src/gg_hex_description) by extensions ['colcon_pkg']
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(src/gg_hex_description) by extension 'colcon_pkg'
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(src/gg_hex_description) by extensions ['colcon_meta']
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(src/gg_hex_description) by extension 'colcon_meta'
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(src/gg_hex_description) by extensions ['ros']
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(src/gg_hex_description) by extension 'ros'
+[0.278s] DEBUG:colcon.colcon_core.package_identification:Package 'src/gg_hex_description' with type 'ros.ament_cmake' and name 'gg_hex_description'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/gg_hex_interface) by extensions ['ignore', 'ignore_ament_install']
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/gg_hex_interface) by extension 'ignore'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/gg_hex_interface) by extension 'ignore_ament_install'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/gg_hex_interface) by extensions ['colcon_pkg']
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/gg_hex_interface) by extension 'colcon_pkg'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/gg_hex_interface) by extensions ['colcon_meta']
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/gg_hex_interface) by extension 'colcon_meta'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/gg_hex_interface) by extensions ['ros']
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/gg_hex_interface) by extension 'ros'
+[0.279s] DEBUG:colcon.colcon_core.package_identification:Package 'src/gg_hex_interface' with type 'ros.ament_cmake' and name 'gg_hex_interface'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/gg_hex_moveit) by extensions ['ignore', 'ignore_ament_install']
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/gg_hex_moveit) by extension 'ignore'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/gg_hex_moveit) by extension 'ignore_ament_install'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/gg_hex_moveit) by extensions ['colcon_pkg']
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/gg_hex_moveit) by extension 'colcon_pkg'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/gg_hex_moveit) by extensions ['colcon_meta']
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/gg_hex_moveit) by extension 'colcon_meta'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/gg_hex_moveit) by extensions ['ros']
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/gg_hex_moveit) by extension 'ros'
+[0.280s] DEBUG:colcon.colcon_core.package_identification:Package 'src/gg_hex_moveit' with type 'ros.ament_cmake' and name 'gg_hex_moveit'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/gg_hex_moveitassist) by extensions ['ignore', 'ignore_ament_install']
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/gg_hex_moveitassist) by extension 'ignore'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/gg_hex_moveitassist) by extension 'ignore_ament_install'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/gg_hex_moveitassist) by extensions ['colcon_pkg']
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/gg_hex_moveitassist) by extension 'colcon_pkg'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/gg_hex_moveitassist) by extensions ['colcon_meta']
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/gg_hex_moveitassist) by extension 'colcon_meta'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/gg_hex_moveitassist) by extensions ['ros']
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/gg_hex_moveitassist) by extension 'ros'
+[0.281s] DEBUG:colcon.colcon_core.package_identification:Package 'src/gg_hex_moveitassist' with type 'ros.ament_cmake' and name 'gg_hex_moveitassist'
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/gg_hex_utils) by extensions ['ignore', 'ignore_ament_install']
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/gg_hex_utils) by extension 'ignore'
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/gg_hex_utils) by extension 'ignore_ament_install'
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/gg_hex_utils) by extensions ['colcon_pkg']
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/gg_hex_utils) by extension 'colcon_pkg'
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/gg_hex_utils) by extensions ['colcon_meta']
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/gg_hex_utils) by extension 'colcon_meta'
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/gg_hex_utils) by extensions ['ros']
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/gg_hex_utils) by extension 'ros'
+[0.281s] DEBUG:colcon.colcon_core.package_identification:Package 'src/gg_hex_utils' with type 'ros.ament_cmake' and name 'gg_hex_utils'
+[0.281s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.281s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.281s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.281s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.281s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.300s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.300s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.305s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/nobel/ROS2_Nav2/ros2_nav2/turtlebot3_ws/install
+[0.305s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 13 installed packages in /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install
+[0.306s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 19 installed packages in /home/nobel/workspace_arm/IRoC_U_arm/arm_ws/install
+[0.307s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 5 installed packages in /home/nobel/install
+[0.307s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 5 installed packages in /home/nobel/arduinobot_ws/install
+[0.308s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/nobel/arm_ws/install
+[0.309s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 425 installed packages in /opt/ros/humble
+[0.311s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.361s] Level 5:colcon.colcon_core.verb:set package 'arm_description_pkg' build argument 'cmake_args' from command line to 'None'
+[0.361s] Level 5:colcon.colcon_core.verb:set package 'arm_description_pkg' build argument 'cmake_target' from command line to 'None'
+[0.361s] Level 5:colcon.colcon_core.verb:set package 'arm_description_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.361s] Level 5:colcon.colcon_core.verb:set package 'arm_description_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[0.361s] Level 5:colcon.colcon_core.verb:set package 'arm_description_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[0.361s] Level 5:colcon.colcon_core.verb:set package 'arm_description_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[0.361s] Level 5:colcon.colcon_core.verb:set package 'arm_description_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[0.361s] Level 5:colcon.colcon_core.verb:set package 'arm_description_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[0.361s] Level 5:colcon.colcon_core.verb:set package 'arm_description_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.361s] DEBUG:colcon.colcon_core.verb:Building package 'arm_description_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/build/arm_description_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/arm_description_pkg', 'merge_install': False, 'path': '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/src/arm_description_pkg', 'symlink_install': True, 'test_result_base': None}
+[0.361s] Level 5:colcon.colcon_core.verb:set package 'arm_movit_pkg' build argument 'cmake_args' from command line to 'None'
+[0.361s] Level 5:colcon.colcon_core.verb:set package 'arm_movit_pkg' build argument 'cmake_target' from command line to 'None'
+[0.361s] Level 5:colcon.colcon_core.verb:set package 'arm_movit_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.361s] Level 5:colcon.colcon_core.verb:set package 'arm_movit_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[0.361s] Level 5:colcon.colcon_core.verb:set package 'arm_movit_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[0.361s] Level 5:colcon.colcon_core.verb:set package 'arm_movit_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[0.361s] Level 5:colcon.colcon_core.verb:set package 'arm_movit_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[0.361s] Level 5:colcon.colcon_core.verb:set package 'arm_movit_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[0.361s] Level 5:colcon.colcon_core.verb:set package 'arm_movit_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.361s] DEBUG:colcon.colcon_core.verb:Building package 'arm_movit_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/build/arm_movit_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/arm_movit_pkg', 'merge_install': False, 'path': '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/src/arm_movit_pkg', 'symlink_install': True, 'test_result_base': None}
+[0.362s] Level 5:colcon.colcon_core.verb:set package 'gg_hex_bringup' build argument 'cmake_args' from command line to 'None'
+[0.362s] Level 5:colcon.colcon_core.verb:set package 'gg_hex_bringup' build argument 'cmake_target' from command line to 'None'
+[0.362s] Level 5:colcon.colcon_core.verb:set package 'gg_hex_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.362s] Level 5:colcon.colcon_core.verb:set package 'gg_hex_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.362s] Level 5:colcon.colcon_core.verb:set package 'gg_hex_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[0.362s] Level 5:colcon.colcon_core.verb:set package 'gg_hex_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[0.362s] Level 5:colcon.colcon_core.verb:set package 'gg_hex_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[0.362s] Level 5:colcon.colcon_core.verb:set package 'gg_hex_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.362s] Level 5:colcon.colcon_core.verb:set package 'gg_hex_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.362s] DEBUG:colcon.colcon_core.verb:Building package 'gg_hex_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/build/gg_hex_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_bringup', 'merge_install': False, 'path': '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/src/gg_hex_bringup', 'symlink_install': True, 'test_result_base': None}
+[0.362s] Level 5:colcon.colcon_core.verb:set package 'gg_hex_controller' build argument 'cmake_args' from command line to 'None'
+[0.362s] Level 5:colcon.colcon_core.verb:set package 'gg_hex_controller' build argument 'cmake_target' from command line to 'None'
+[0.362s] Level 5:colcon.colcon_core.verb:set package 'gg_hex_controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.362s] Level 5:colcon.colcon_core.verb:set package 'gg_hex_controller' build argument 'cmake_clean_cache' from command line to 'False'
+[0.362s] Level 5:colcon.colcon_core.verb:set package 'gg_hex_controller' build argument 'cmake_clean_first' from command line to 'False'
+[0.362s] Level 5:colcon.colcon_core.verb:set package 'gg_hex_controller' build argument 'cmake_force_configure' from command line to 'False'
+[0.362s] Level 5:colcon.colcon_core.verb:set package 'gg_hex_controller' build argument 'ament_cmake_args' from command line to 'None'
+[0.362s] Level 5:colcon.colcon_core.verb:set package 'gg_hex_controller' build argument 'catkin_cmake_args' from command line to 'None'
+[0.362s] Level 5:colcon.colcon_core.verb:set package 'gg_hex_controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.362s] DEBUG:colcon.colcon_core.verb:Building package 'gg_hex_controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/build/gg_hex_controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_controller', 'merge_install': False, 'path': '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/src/gg_hex_controller', 'symlink_install': True, 'test_result_base': None}
+[0.363s] Level 5:colcon.colcon_core.verb:set package 'gg_hex_description' build argument 'cmake_args' from command line to 'None'
+[0.363s] Level 5:colcon.colcon_core.verb:set package 'gg_hex_description' build argument 'cmake_target' from command line to 'None'
+[0.363s] Level 5:colcon.colcon_core.verb:set package 'gg_hex_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.363s] Level 5:colcon.colcon_core.verb:set package 'gg_hex_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.363s] Level 5:colcon.colcon_core.verb:set package 'gg_hex_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.363s] Level 5:colcon.colcon_core.verb:set package 'gg_hex_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.363s] Level 5:colcon.colcon_core.verb:set package 'gg_hex_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.363s] Level 5:colcon.colcon_core.verb:set package 'gg_hex_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.363s] Level 5:colcon.colcon_core.verb:set package 'gg_hex_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.363s] DEBUG:colcon.colcon_core.verb:Building package 'gg_hex_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/build/gg_hex_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description', 'merge_install': False, 'path': '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/src/gg_hex_description', 'symlink_install': True, 'test_result_base': None}
+[0.363s] Level 5:colcon.colcon_core.verb:set package 'gg_hex_interface' build argument 'cmake_args' from command line to 'None'
+[0.363s] Level 5:colcon.colcon_core.verb:set package 'gg_hex_interface' build argument 'cmake_target' from command line to 'None'
+[0.363s] Level 5:colcon.colcon_core.verb:set package 'gg_hex_interface' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.363s] Level 5:colcon.colcon_core.verb:set package 'gg_hex_interface' build argument 'cmake_clean_cache' from command line to 'False'
+[0.363s] Level 5:colcon.colcon_core.verb:set package 'gg_hex_interface' build argument 'cmake_clean_first' from command line to 'False'
+[0.363s] Level 5:colcon.colcon_core.verb:set package 'gg_hex_interface' build argument 'cmake_force_configure' from command line to 'False'
+[0.363s] Level 5:colcon.colcon_core.verb:set package 'gg_hex_interface' build argument 'ament_cmake_args' from command line to 'None'
+[0.363s] Level 5:colcon.colcon_core.verb:set package 'gg_hex_interface' build argument 'catkin_cmake_args' from command line to 'None'
+[0.363s] Level 5:colcon.colcon_core.verb:set package 'gg_hex_interface' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.363s] DEBUG:colcon.colcon_core.verb:Building package 'gg_hex_interface' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/build/gg_hex_interface', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_interface', 'merge_install': False, 'path': '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/src/gg_hex_interface', 'symlink_install': True, 'test_result_base': None}
+[0.363s] Level 5:colcon.colcon_core.verb:set package 'gg_hex_moveit' build argument 'cmake_args' from command line to 'None'
+[0.363s] Level 5:colcon.colcon_core.verb:set package 'gg_hex_moveit' build argument 'cmake_target' from command line to 'None'
+[0.363s] Level 5:colcon.colcon_core.verb:set package 'gg_hex_moveit' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.363s] Level 5:colcon.colcon_core.verb:set package 'gg_hex_moveit' build argument 'cmake_clean_cache' from command line to 'False'
+[0.363s] Level 5:colcon.colcon_core.verb:set package 'gg_hex_moveit' build argument 'cmake_clean_first' from command line to 'False'
+[0.363s] Level 5:colcon.colcon_core.verb:set package 'gg_hex_moveit' build argument 'cmake_force_configure' from command line to 'False'
+[0.364s] Level 5:colcon.colcon_core.verb:set package 'gg_hex_moveit' build argument 'ament_cmake_args' from command line to 'None'
+[0.364s] Level 5:colcon.colcon_core.verb:set package 'gg_hex_moveit' build argument 'catkin_cmake_args' from command line to 'None'
+[0.364s] Level 5:colcon.colcon_core.verb:set package 'gg_hex_moveit' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.364s] DEBUG:colcon.colcon_core.verb:Building package 'gg_hex_moveit' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/build/gg_hex_moveit', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_moveit', 'merge_install': False, 'path': '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/src/gg_hex_moveit', 'symlink_install': True, 'test_result_base': None}
+[0.364s] Level 5:colcon.colcon_core.verb:set package 'gg_hex_moveitassist' build argument 'cmake_args' from command line to 'None'
+[0.364s] Level 5:colcon.colcon_core.verb:set package 'gg_hex_moveitassist' build argument 'cmake_target' from command line to 'None'
+[0.364s] Level 5:colcon.colcon_core.verb:set package 'gg_hex_moveitassist' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.364s] Level 5:colcon.colcon_core.verb:set package 'gg_hex_moveitassist' build argument 'cmake_clean_cache' from command line to 'False'
+[0.364s] Level 5:colcon.colcon_core.verb:set package 'gg_hex_moveitassist' build argument 'cmake_clean_first' from command line to 'False'
+[0.364s] Level 5:colcon.colcon_core.verb:set package 'gg_hex_moveitassist' build argument 'cmake_force_configure' from command line to 'False'
+[0.364s] Level 5:colcon.colcon_core.verb:set package 'gg_hex_moveitassist' build argument 'ament_cmake_args' from command line to 'None'
+[0.364s] Level 5:colcon.colcon_core.verb:set package 'gg_hex_moveitassist' build argument 'catkin_cmake_args' from command line to 'None'
+[0.364s] Level 5:colcon.colcon_core.verb:set package 'gg_hex_moveitassist' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.364s] DEBUG:colcon.colcon_core.verb:Building package 'gg_hex_moveitassist' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/build/gg_hex_moveitassist', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_moveitassist', 'merge_install': False, 'path': '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/src/gg_hex_moveitassist', 'symlink_install': True, 'test_result_base': None}
+[0.364s] Level 5:colcon.colcon_core.verb:set package 'gg_hex_utils' build argument 'cmake_args' from command line to 'None'
+[0.364s] Level 5:colcon.colcon_core.verb:set package 'gg_hex_utils' build argument 'cmake_target' from command line to 'None'
+[0.364s] Level 5:colcon.colcon_core.verb:set package 'gg_hex_utils' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.364s] Level 5:colcon.colcon_core.verb:set package 'gg_hex_utils' build argument 'cmake_clean_cache' from command line to 'False'
+[0.364s] Level 5:colcon.colcon_core.verb:set package 'gg_hex_utils' build argument 'cmake_clean_first' from command line to 'False'
+[0.364s] Level 5:colcon.colcon_core.verb:set package 'gg_hex_utils' build argument 'cmake_force_configure' from command line to 'False'
+[0.364s] Level 5:colcon.colcon_core.verb:set package 'gg_hex_utils' build argument 'ament_cmake_args' from command line to 'None'
+[0.364s] Level 5:colcon.colcon_core.verb:set package 'gg_hex_utils' build argument 'catkin_cmake_args' from command line to 'None'
+[0.364s] Level 5:colcon.colcon_core.verb:set package 'gg_hex_utils' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.364s] DEBUG:colcon.colcon_core.verb:Building package 'gg_hex_utils' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/build/gg_hex_utils', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_utils', 'merge_install': False, 'path': '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/src/gg_hex_utils', 'symlink_install': True, 'test_result_base': None}
+[0.364s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.365s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.366s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/src/gg_hex_interface' with build type 'ament_cmake'
+[0.366s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/src/gg_hex_interface'
+[0.369s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.369s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.369s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.375s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/src/arm_description_pkg' with build type 'ament_cmake'
+[0.375s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/src/arm_description_pkg'
+[0.375s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.376s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.381s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/src/arm_movit_pkg' with build type 'ament_cmake'
+[0.381s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/src/arm_movit_pkg'
+[0.381s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.382s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.388s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/src/gg_hex_bringup' with build type 'ament_cmake'
+[0.388s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/src/gg_hex_bringup'
+[0.388s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.388s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.394s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/src/gg_hex_controller' with build type 'ament_cmake'
+[0.395s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/src/gg_hex_controller'
+[0.395s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.395s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.401s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/src/gg_hex_description' with build type 'ament_cmake'
+[0.401s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/src/gg_hex_description'
+[0.402s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.402s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.407s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/src/gg_hex_moveit' with build type 'ament_cmake'
+[0.407s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/src/gg_hex_moveit'
+[0.407s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.408s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.413s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/src/gg_hex_moveitassist' with build type 'ament_cmake'
+[0.413s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/src/gg_hex_moveitassist'
+[0.413s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.413s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.424s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/build/gg_hex_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nobel/workspace_arm/IRoC_U_arm/arm_ws/install/armkin_pkg:/home/nobel/workspace_arm/IRoC_U_arm/arm_ws/install/armcam_pkg:/home/nobel/arduinobot_ws/install/arduinobot_py_examples:/home/nobel/install/arduinobot_py_examples:/opt/ros/humble /usr/bin/cmake --build /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/build/gg_hex_interface -- -j16 -l16
+[0.430s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/build/arm_description_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nobel/workspace_arm/IRoC_U_arm/arm_ws/install/armkin_pkg:/home/nobel/workspace_arm/IRoC_U_arm/arm_ws/install/armcam_pkg:/home/nobel/arduinobot_ws/install/arduinobot_py_examples:/home/nobel/install/arduinobot_py_examples:/opt/ros/humble /usr/bin/cmake --build /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/build/arm_description_pkg -- -j16 -l16
+[0.433s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/build/arm_movit_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nobel/workspace_arm/IRoC_U_arm/arm_ws/install/armkin_pkg:/home/nobel/workspace_arm/IRoC_U_arm/arm_ws/install/armcam_pkg:/home/nobel/arduinobot_ws/install/arduinobot_py_examples:/home/nobel/install/arduinobot_py_examples:/opt/ros/humble /usr/bin/cmake --build /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/build/arm_movit_pkg -- -j16 -l16
+[0.437s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/build/gg_hex_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nobel/workspace_arm/IRoC_U_arm/arm_ws/install/armkin_pkg:/home/nobel/workspace_arm/IRoC_U_arm/arm_ws/install/armcam_pkg:/home/nobel/arduinobot_ws/install/arduinobot_py_examples:/home/nobel/install/arduinobot_py_examples:/opt/ros/humble /usr/bin/cmake --build /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/build/gg_hex_bringup -- -j16 -l16
+[0.441s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/build/gg_hex_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nobel/workspace_arm/IRoC_U_arm/arm_ws/install/armkin_pkg:/home/nobel/workspace_arm/IRoC_U_arm/arm_ws/install/armcam_pkg:/home/nobel/arduinobot_ws/install/arduinobot_py_examples:/home/nobel/install/arduinobot_py_examples:/opt/ros/humble /usr/bin/cmake --build /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/build/gg_hex_controller -- -j16 -l16
+[0.444s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/build/gg_hex_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nobel/workspace_arm/IRoC_U_arm/arm_ws/install/armkin_pkg:/home/nobel/workspace_arm/IRoC_U_arm/arm_ws/install/armcam_pkg:/home/nobel/arduinobot_ws/install/arduinobot_py_examples:/home/nobel/install/arduinobot_py_examples:/opt/ros/humble /usr/bin/cmake --build /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/build/gg_hex_description -- -j16 -l16
+[0.448s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/build/gg_hex_moveit': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nobel/workspace_arm/IRoC_U_arm/arm_ws/install/armkin_pkg:/home/nobel/workspace_arm/IRoC_U_arm/arm_ws/install/armcam_pkg:/home/nobel/arduinobot_ws/install/arduinobot_py_examples:/home/nobel/install/arduinobot_py_examples:/opt/ros/humble /usr/bin/cmake --build /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/build/gg_hex_moveit -- -j16 -l16
+[0.454s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/build/gg_hex_moveitassist': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nobel/workspace_arm/IRoC_U_arm/arm_ws/install/armkin_pkg:/home/nobel/workspace_arm/IRoC_U_arm/arm_ws/install/armcam_pkg:/home/nobel/arduinobot_ws/install/arduinobot_py_examples:/home/nobel/install/arduinobot_py_examples:/opt/ros/humble /usr/bin/cmake --build /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/build/gg_hex_moveitassist -- -j16 -l16
+[0.493s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/build/gg_hex_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nobel/workspace_arm/IRoC_U_arm/arm_ws/install/armkin_pkg:/home/nobel/workspace_arm/IRoC_U_arm/arm_ws/install/armcam_pkg:/home/nobel/arduinobot_ws/install/arduinobot_py_examples:/home/nobel/install/arduinobot_py_examples:/opt/ros/humble /usr/bin/cmake --build /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/build/gg_hex_interface -- -j16 -l16
+[0.495s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/build/gg_hex_moveitassist' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nobel/workspace_arm/IRoC_U_arm/arm_ws/install/armkin_pkg:/home/nobel/workspace_arm/IRoC_U_arm/arm_ws/install/armcam_pkg:/home/nobel/arduinobot_ws/install/arduinobot_py_examples:/home/nobel/install/arduinobot_py_examples:/opt/ros/humble /usr/bin/cmake --build /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/build/gg_hex_moveitassist -- -j16 -l16
+[0.496s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/build/arm_movit_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nobel/workspace_arm/IRoC_U_arm/arm_ws/install/armkin_pkg:/home/nobel/workspace_arm/IRoC_U_arm/arm_ws/install/armcam_pkg:/home/nobel/arduinobot_ws/install/arduinobot_py_examples:/home/nobel/install/arduinobot_py_examples:/opt/ros/humble /usr/bin/cmake --build /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/build/arm_movit_pkg -- -j16 -l16
+[0.500s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/build/gg_hex_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nobel/workspace_arm/IRoC_U_arm/arm_ws/install/armkin_pkg:/home/nobel/workspace_arm/IRoC_U_arm/arm_ws/install/armcam_pkg:/home/nobel/arduinobot_ws/install/arduinobot_py_examples:/home/nobel/install/arduinobot_py_examples:/opt/ros/humble /usr/bin/cmake --build /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/build/gg_hex_controller -- -j16 -l16
+[0.501s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/build/gg_hex_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nobel/workspace_arm/IRoC_U_arm/arm_ws/install/armkin_pkg:/home/nobel/workspace_arm/IRoC_U_arm/arm_ws/install/armcam_pkg:/home/nobel/arduinobot_ws/install/arduinobot_py_examples:/home/nobel/install/arduinobot_py_examples:/opt/ros/humble /usr/bin/cmake --build /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/build/gg_hex_bringup -- -j16 -l16
+[0.502s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/build/arm_description_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nobel/workspace_arm/IRoC_U_arm/arm_ws/install/armkin_pkg:/home/nobel/workspace_arm/IRoC_U_arm/arm_ws/install/armcam_pkg:/home/nobel/arduinobot_ws/install/arduinobot_py_examples:/home/nobel/install/arduinobot_py_examples:/opt/ros/humble /usr/bin/cmake --build /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/build/arm_description_pkg -- -j16 -l16
+[0.504s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/build/gg_hex_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nobel/workspace_arm/IRoC_U_arm/arm_ws/install/armkin_pkg:/home/nobel/workspace_arm/IRoC_U_arm/arm_ws/install/armcam_pkg:/home/nobel/arduinobot_ws/install/arduinobot_py_examples:/home/nobel/install/arduinobot_py_examples:/opt/ros/humble /usr/bin/cmake --build /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/build/gg_hex_description -- -j16 -l16
+[0.505s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/build/gg_hex_moveit' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nobel/workspace_arm/IRoC_U_arm/arm_ws/install/armkin_pkg:/home/nobel/workspace_arm/IRoC_U_arm/arm_ws/install/armcam_pkg:/home/nobel/arduinobot_ws/install/arduinobot_py_examples:/home/nobel/install/arduinobot_py_examples:/opt/ros/humble /usr/bin/cmake --build /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/build/gg_hex_moveit -- -j16 -l16
+[0.527s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/build/gg_hex_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nobel/workspace_arm/IRoC_U_arm/arm_ws/install/armkin_pkg:/home/nobel/workspace_arm/IRoC_U_arm/arm_ws/install/armcam_pkg:/home/nobel/arduinobot_ws/install/arduinobot_py_examples:/home/nobel/install/arduinobot_py_examples:/opt/ros/humble /usr/bin/cmake --install /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/build/gg_hex_interface
+[0.530s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/build/gg_hex_moveitassist': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nobel/workspace_arm/IRoC_U_arm/arm_ws/install/armkin_pkg:/home/nobel/workspace_arm/IRoC_U_arm/arm_ws/install/armcam_pkg:/home/nobel/arduinobot_ws/install/arduinobot_py_examples:/home/nobel/install/arduinobot_py_examples:/opt/ros/humble /usr/bin/cmake --install /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/build/gg_hex_moveitassist
+[0.532s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/build/arm_movit_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nobel/workspace_arm/IRoC_U_arm/arm_ws/install/armkin_pkg:/home/nobel/workspace_arm/IRoC_U_arm/arm_ws/install/armcam_pkg:/home/nobel/arduinobot_ws/install/arduinobot_py_examples:/home/nobel/install/arduinobot_py_examples:/opt/ros/humble /usr/bin/cmake --install /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/build/arm_movit_pkg
+[0.534s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/build/arm_description_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nobel/workspace_arm/IRoC_U_arm/arm_ws/install/armkin_pkg:/home/nobel/workspace_arm/IRoC_U_arm/arm_ws/install/armcam_pkg:/home/nobel/arduinobot_ws/install/arduinobot_py_examples:/home/nobel/install/arduinobot_py_examples:/opt/ros/humble /usr/bin/cmake --install /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/build/arm_description_pkg
+[0.535s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/build/gg_hex_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nobel/workspace_arm/IRoC_U_arm/arm_ws/install/armkin_pkg:/home/nobel/workspace_arm/IRoC_U_arm/arm_ws/install/armcam_pkg:/home/nobel/arduinobot_ws/install/arduinobot_py_examples:/home/nobel/install/arduinobot_py_examples:/opt/ros/humble /usr/bin/cmake --install /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/build/gg_hex_controller
+[0.538s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/build/gg_hex_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nobel/workspace_arm/IRoC_U_arm/arm_ws/install/armkin_pkg:/home/nobel/workspace_arm/IRoC_U_arm/arm_ws/install/armcam_pkg:/home/nobel/arduinobot_ws/install/arduinobot_py_examples:/home/nobel/install/arduinobot_py_examples:/opt/ros/humble /usr/bin/cmake --install /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/build/gg_hex_bringup
+[0.547s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/build/gg_hex_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nobel/workspace_arm/IRoC_U_arm/arm_ws/install/armkin_pkg:/home/nobel/workspace_arm/IRoC_U_arm/arm_ws/install/armcam_pkg:/home/nobel/arduinobot_ws/install/arduinobot_py_examples:/home/nobel/install/arduinobot_py_examples:/opt/ros/humble /usr/bin/cmake --install /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/build/gg_hex_description
+[0.548s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/build/gg_hex_moveit': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nobel/workspace_arm/IRoC_U_arm/arm_ws/install/armkin_pkg:/home/nobel/workspace_arm/IRoC_U_arm/arm_ws/install/armcam_pkg:/home/nobel/arduinobot_ws/install/arduinobot_py_examples:/home/nobel/install/arduinobot_py_examples:/opt/ros/humble /usr/bin/cmake --install /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/build/gg_hex_moveit
+[0.556s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(arm_movit_pkg)
+[0.572s] Level 1:colcon.colcon_core.environment:checking '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/arm_movit_pkg' for CMake module files
+[0.574s] Level 1:colcon.colcon_core.environment:checking '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/arm_movit_pkg' for CMake config files
+[0.575s] Level 1:colcon.colcon_core.shell:create_environment_hook('arm_movit_pkg', 'cmake_prefix_path')
+[0.576s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/arm_movit_pkg/share/arm_movit_pkg/hook/cmake_prefix_path.ps1'
+[0.578s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/arm_movit_pkg/share/arm_movit_pkg/hook/cmake_prefix_path.dsv'
+[0.579s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/arm_movit_pkg/share/arm_movit_pkg/hook/cmake_prefix_path.sh'
+[0.581s] Level 1:colcon.colcon_core.environment:checking '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/arm_movit_pkg/bin'
+[0.582s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/build/arm_movit_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nobel/workspace_arm/IRoC_U_arm/arm_ws/install/armkin_pkg:/home/nobel/workspace_arm/IRoC_U_arm/arm_ws/install/armcam_pkg:/home/nobel/arduinobot_ws/install/arduinobot_py_examples:/home/nobel/install/arduinobot_py_examples:/opt/ros/humble /usr/bin/cmake --install /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/build/arm_movit_pkg
+[0.582s] Level 1:colcon.colcon_core.environment:checking '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/arm_movit_pkg/lib/pkgconfig/arm_movit_pkg.pc'
+[0.583s] Level 1:colcon.colcon_core.environment:checking '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/arm_movit_pkg/lib/python3.10/site-packages'
+[0.583s] Level 1:colcon.colcon_core.environment:checking '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/arm_movit_pkg/bin'
+[0.584s] INFO:colcon.colcon_core.shell:Creating package script '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/arm_movit_pkg/share/arm_movit_pkg/package.ps1'
+[0.586s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/arm_movit_pkg/share/arm_movit_pkg/package.dsv'
+[0.588s] INFO:colcon.colcon_core.shell:Creating package script '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/arm_movit_pkg/share/arm_movit_pkg/package.sh'
+[0.589s] INFO:colcon.colcon_core.shell:Creating package script '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/arm_movit_pkg/share/arm_movit_pkg/package.bash'
+[0.590s] INFO:colcon.colcon_core.shell:Creating package script '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/arm_movit_pkg/share/arm_movit_pkg/package.zsh'
+[0.591s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/arm_movit_pkg/share/colcon-core/packages/arm_movit_pkg)
+[0.593s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gg_hex_interface)
+[0.593s] Level 1:colcon.colcon_core.environment:checking '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_interface' for CMake module files
+[0.594s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/build/gg_hex_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nobel/workspace_arm/IRoC_U_arm/arm_ws/install/armkin_pkg:/home/nobel/workspace_arm/IRoC_U_arm/arm_ws/install/armcam_pkg:/home/nobel/arduinobot_ws/install/arduinobot_py_examples:/home/nobel/install/arduinobot_py_examples:/opt/ros/humble /usr/bin/cmake --install /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/build/gg_hex_interface
+[0.595s] Level 1:colcon.colcon_core.environment:checking '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_interface' for CMake config files
+[0.596s] Level 1:colcon.colcon_core.shell:create_environment_hook('gg_hex_interface', 'cmake_prefix_path')
+[0.596s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_interface/share/gg_hex_interface/hook/cmake_prefix_path.ps1'
+[0.597s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_interface/share/gg_hex_interface/hook/cmake_prefix_path.dsv'
+[0.597s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_interface/share/gg_hex_interface/hook/cmake_prefix_path.sh'
+[0.598s] Level 1:colcon.colcon_core.environment:checking '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_interface/bin'
+[0.598s] Level 1:colcon.colcon_core.environment:checking '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_interface/lib/pkgconfig/gg_hex_interface.pc'
+[0.598s] Level 1:colcon.colcon_core.environment:checking '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_interface/lib/python3.10/site-packages'
+[0.599s] Level 1:colcon.colcon_core.environment:checking '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_interface/bin'
+[0.600s] INFO:colcon.colcon_core.shell:Creating package script '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_interface/share/gg_hex_interface/package.ps1'
+[0.600s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_interface/share/gg_hex_interface/package.dsv'
+[0.601s] INFO:colcon.colcon_core.shell:Creating package script '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_interface/share/gg_hex_interface/package.sh'
+[0.601s] INFO:colcon.colcon_core.shell:Creating package script '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_interface/share/gg_hex_interface/package.bash'
+[0.602s] INFO:colcon.colcon_core.shell:Creating package script '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_interface/share/gg_hex_interface/package.zsh'
+[0.602s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_interface/share/colcon-core/packages/gg_hex_interface)
+[0.606s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gg_hex_moveitassist)
+[0.607s] Level 1:colcon.colcon_core.environment:checking '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_moveitassist' for CMake module files
+[0.607s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/build/gg_hex_moveitassist' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nobel/workspace_arm/IRoC_U_arm/arm_ws/install/armkin_pkg:/home/nobel/workspace_arm/IRoC_U_arm/arm_ws/install/armcam_pkg:/home/nobel/arduinobot_ws/install/arduinobot_py_examples:/home/nobel/install/arduinobot_py_examples:/opt/ros/humble /usr/bin/cmake --install /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/build/gg_hex_moveitassist
+[0.609s] Level 1:colcon.colcon_core.environment:checking '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_moveitassist' for CMake config files
+[0.609s] Level 1:colcon.colcon_core.shell:create_environment_hook('gg_hex_moveitassist', 'cmake_prefix_path')
+[0.609s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_moveitassist/share/gg_hex_moveitassist/hook/cmake_prefix_path.ps1'
+[0.610s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_moveitassist/share/gg_hex_moveitassist/hook/cmake_prefix_path.dsv'
+[0.611s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_moveitassist/share/gg_hex_moveitassist/hook/cmake_prefix_path.sh'
+[0.611s] Level 1:colcon.colcon_core.environment:checking '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_moveitassist/bin'
+[0.611s] Level 1:colcon.colcon_core.environment:checking '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_moveitassist/lib/pkgconfig/gg_hex_moveitassist.pc'
+[0.612s] Level 1:colcon.colcon_core.environment:checking '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_moveitassist/lib/python3.10/site-packages'
+[0.612s] Level 1:colcon.colcon_core.environment:checking '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_moveitassist/bin'
+[0.613s] INFO:colcon.colcon_core.shell:Creating package script '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_moveitassist/share/gg_hex_moveitassist/package.ps1'
+[0.613s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_moveitassist/share/gg_hex_moveitassist/package.dsv'
+[0.614s] INFO:colcon.colcon_core.shell:Creating package script '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_moveitassist/share/gg_hex_moveitassist/package.sh'
+[0.615s] INFO:colcon.colcon_core.shell:Creating package script '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_moveitassist/share/gg_hex_moveitassist/package.bash'
+[0.616s] INFO:colcon.colcon_core.shell:Creating package script '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_moveitassist/share/gg_hex_moveitassist/package.zsh'
+[0.616s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_moveitassist/share/colcon-core/packages/gg_hex_moveitassist)
+[0.617s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gg_hex_controller)
+[0.618s] Level 1:colcon.colcon_core.environment:checking '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_controller' for CMake module files
+[0.618s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/build/gg_hex_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nobel/workspace_arm/IRoC_U_arm/arm_ws/install/armkin_pkg:/home/nobel/workspace_arm/IRoC_U_arm/arm_ws/install/armcam_pkg:/home/nobel/arduinobot_ws/install/arduinobot_py_examples:/home/nobel/install/arduinobot_py_examples:/opt/ros/humble /usr/bin/cmake --install /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/build/gg_hex_controller
+[0.619s] Level 1:colcon.colcon_core.environment:checking '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_controller' for CMake config files
+[0.619s] Level 1:colcon.colcon_core.shell:create_environment_hook('gg_hex_controller', 'cmake_prefix_path')
+[0.620s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_controller/share/gg_hex_controller/hook/cmake_prefix_path.ps1'
+[0.620s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_controller/share/gg_hex_controller/hook/cmake_prefix_path.dsv'
+[0.621s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_controller/share/gg_hex_controller/hook/cmake_prefix_path.sh'
+[0.621s] Level 1:colcon.colcon_core.environment:checking '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_controller/bin'
+[0.622s] Level 1:colcon.colcon_core.environment:checking '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_controller/lib/pkgconfig/gg_hex_controller.pc'
+[0.622s] Level 1:colcon.colcon_core.environment:checking '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_controller/lib/python3.10/site-packages'
+[0.622s] Level 1:colcon.colcon_core.environment:checking '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_controller/bin'
+[0.623s] INFO:colcon.colcon_core.shell:Creating package script '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_controller/share/gg_hex_controller/package.ps1'
+[0.623s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_controller/share/gg_hex_controller/package.dsv'
+[0.624s] INFO:colcon.colcon_core.shell:Creating package script '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_controller/share/gg_hex_controller/package.sh'
+[0.625s] INFO:colcon.colcon_core.shell:Creating package script '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_controller/share/gg_hex_controller/package.bash'
+[0.625s] INFO:colcon.colcon_core.shell:Creating package script '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_controller/share/gg_hex_controller/package.zsh'
+[0.626s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_controller/share/colcon-core/packages/gg_hex_controller)
+[0.627s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gg_hex_moveit)
+[0.627s] Level 1:colcon.colcon_core.environment:checking '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_moveit' for CMake module files
+[0.628s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/build/gg_hex_moveit' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nobel/workspace_arm/IRoC_U_arm/arm_ws/install/armkin_pkg:/home/nobel/workspace_arm/IRoC_U_arm/arm_ws/install/armcam_pkg:/home/nobel/arduinobot_ws/install/arduinobot_py_examples:/home/nobel/install/arduinobot_py_examples:/opt/ros/humble /usr/bin/cmake --install /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/build/gg_hex_moveit
+[0.629s] Level 1:colcon.colcon_core.environment:checking '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_moveit' for CMake config files
+[0.629s] Level 1:colcon.colcon_core.shell:create_environment_hook('gg_hex_moveit', 'cmake_prefix_path')
+[0.630s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_moveit/share/gg_hex_moveit/hook/cmake_prefix_path.ps1'
+[0.630s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_moveit/share/gg_hex_moveit/hook/cmake_prefix_path.dsv'
+[0.631s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_moveit/share/gg_hex_moveit/hook/cmake_prefix_path.sh'
+[0.632s] Level 1:colcon.colcon_core.environment:checking '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_moveit/bin'
+[0.632s] Level 1:colcon.colcon_core.environment:checking '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_moveit/lib/pkgconfig/gg_hex_moveit.pc'
+[0.632s] Level 1:colcon.colcon_core.environment:checking '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_moveit/lib/python3.10/site-packages'
+[0.632s] Level 1:colcon.colcon_core.environment:checking '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_moveit/bin'
+[0.633s] INFO:colcon.colcon_core.shell:Creating package script '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_moveit/share/gg_hex_moveit/package.ps1'
+[0.633s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_moveit/share/gg_hex_moveit/package.dsv'
+[0.634s] INFO:colcon.colcon_core.shell:Creating package script '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_moveit/share/gg_hex_moveit/package.sh'
+[0.635s] INFO:colcon.colcon_core.shell:Creating package script '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_moveit/share/gg_hex_moveit/package.bash'
+[0.635s] INFO:colcon.colcon_core.shell:Creating package script '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_moveit/share/gg_hex_moveit/package.zsh'
+[0.636s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_moveit/share/colcon-core/packages/gg_hex_moveit)
+[0.637s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(arm_description_pkg)
+[0.638s] Level 1:colcon.colcon_core.environment:checking '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/arm_description_pkg' for CMake module files
+[0.639s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/build/arm_description_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nobel/workspace_arm/IRoC_U_arm/arm_ws/install/armkin_pkg:/home/nobel/workspace_arm/IRoC_U_arm/arm_ws/install/armcam_pkg:/home/nobel/arduinobot_ws/install/arduinobot_py_examples:/home/nobel/install/arduinobot_py_examples:/opt/ros/humble /usr/bin/cmake --install /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/build/arm_description_pkg
+[0.639s] Level 1:colcon.colcon_core.environment:checking '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/arm_description_pkg' for CMake config files
+[0.640s] Level 1:colcon.colcon_core.shell:create_environment_hook('arm_description_pkg', 'cmake_prefix_path')
+[0.641s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/arm_description_pkg/share/arm_description_pkg/hook/cmake_prefix_path.ps1'
+[0.641s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/arm_description_pkg/share/arm_description_pkg/hook/cmake_prefix_path.dsv'
+[0.642s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/arm_description_pkg/share/arm_description_pkg/hook/cmake_prefix_path.sh'
+[0.643s] Level 1:colcon.colcon_core.environment:checking '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/arm_description_pkg/bin'
+[0.643s] Level 1:colcon.colcon_core.environment:checking '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/arm_description_pkg/lib/pkgconfig/arm_description_pkg.pc'
+[0.643s] Level 1:colcon.colcon_core.environment:checking '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/arm_description_pkg/lib/python3.10/site-packages'
+[0.644s] Level 1:colcon.colcon_core.environment:checking '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/arm_description_pkg/bin'
+[0.644s] INFO:colcon.colcon_core.shell:Creating package script '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/arm_description_pkg/share/arm_description_pkg/package.ps1'
+[0.645s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/arm_description_pkg/share/arm_description_pkg/package.dsv'
+[0.645s] INFO:colcon.colcon_core.shell:Creating package script '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/arm_description_pkg/share/arm_description_pkg/package.sh'
+[0.646s] INFO:colcon.colcon_core.shell:Creating package script '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/arm_description_pkg/share/arm_description_pkg/package.bash'
+[0.647s] INFO:colcon.colcon_core.shell:Creating package script '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/arm_description_pkg/share/arm_description_pkg/package.zsh'
+[0.648s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/arm_description_pkg/share/colcon-core/packages/arm_description_pkg)
+[0.649s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gg_hex_bringup)
+[0.650s] Level 1:colcon.colcon_core.environment:checking '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_bringup' for CMake module files
+[0.650s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/build/gg_hex_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nobel/workspace_arm/IRoC_U_arm/arm_ws/install/armkin_pkg:/home/nobel/workspace_arm/IRoC_U_arm/arm_ws/install/armcam_pkg:/home/nobel/arduinobot_ws/install/arduinobot_py_examples:/home/nobel/install/arduinobot_py_examples:/opt/ros/humble /usr/bin/cmake --install /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/build/gg_hex_bringup
+[0.651s] Level 1:colcon.colcon_core.environment:checking '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_bringup' for CMake config files
+[0.651s] Level 1:colcon.colcon_core.shell:create_environment_hook('gg_hex_bringup', 'cmake_prefix_path')
+[0.652s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_bringup/share/gg_hex_bringup/hook/cmake_prefix_path.ps1'
+[0.652s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_bringup/share/gg_hex_bringup/hook/cmake_prefix_path.dsv'
+[0.653s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_bringup/share/gg_hex_bringup/hook/cmake_prefix_path.sh'
+[0.654s] Level 1:colcon.colcon_core.environment:checking '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_bringup/bin'
+[0.654s] Level 1:colcon.colcon_core.environment:checking '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_bringup/lib/pkgconfig/gg_hex_bringup.pc'
+[0.654s] Level 1:colcon.colcon_core.environment:checking '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_bringup/lib/python3.10/site-packages'
+[0.655s] Level 1:colcon.colcon_core.environment:checking '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_bringup/bin'
+[0.655s] INFO:colcon.colcon_core.shell:Creating package script '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_bringup/share/gg_hex_bringup/package.ps1'
+[0.656s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_bringup/share/gg_hex_bringup/package.dsv'
+[0.656s] INFO:colcon.colcon_core.shell:Creating package script '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_bringup/share/gg_hex_bringup/package.sh'
+[0.657s] INFO:colcon.colcon_core.shell:Creating package script '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_bringup/share/gg_hex_bringup/package.bash'
+[0.658s] INFO:colcon.colcon_core.shell:Creating package script '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_bringup/share/gg_hex_bringup/package.zsh'
+[0.658s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_bringup/share/colcon-core/packages/gg_hex_bringup)
+[0.662s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(arm_movit_pkg)
+[0.662s] Level 1:colcon.colcon_core.environment:checking '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/arm_movit_pkg' for CMake module files
+[0.663s] Level 1:colcon.colcon_core.environment:checking '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/arm_movit_pkg' for CMake config files
+[0.664s] Level 1:colcon.colcon_core.shell:create_environment_hook('arm_movit_pkg', 'cmake_prefix_path')
+[0.664s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/arm_movit_pkg/share/arm_movit_pkg/hook/cmake_prefix_path.ps1'
+[0.666s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/arm_movit_pkg/share/arm_movit_pkg/hook/cmake_prefix_path.dsv'
+[0.666s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/arm_movit_pkg/share/arm_movit_pkg/hook/cmake_prefix_path.sh'
+[0.667s] Level 1:colcon.colcon_core.environment:checking '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/arm_movit_pkg/bin'
+[0.668s] Level 1:colcon.colcon_core.environment:checking '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/arm_movit_pkg/lib/pkgconfig/arm_movit_pkg.pc'
+[0.668s] Level 1:colcon.colcon_core.environment:checking '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/arm_movit_pkg/lib/python3.10/site-packages'
+[0.668s] Level 1:colcon.colcon_core.environment:checking '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/arm_movit_pkg/bin'
+[0.669s] INFO:colcon.colcon_core.shell:Creating package script '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/arm_movit_pkg/share/arm_movit_pkg/package.ps1'
+[0.670s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/arm_movit_pkg/share/arm_movit_pkg/package.dsv'
+[0.670s] INFO:colcon.colcon_core.shell:Creating package script '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/arm_movit_pkg/share/arm_movit_pkg/package.sh'
+[0.671s] INFO:colcon.colcon_core.shell:Creating package script '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/arm_movit_pkg/share/arm_movit_pkg/package.bash'
+[0.672s] INFO:colcon.colcon_core.shell:Creating package script '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/arm_movit_pkg/share/arm_movit_pkg/package.zsh'
+[0.673s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/arm_movit_pkg/share/colcon-core/packages/arm_movit_pkg)
+[0.674s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gg_hex_interface)
+[0.674s] Level 1:colcon.colcon_core.environment:checking '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_interface' for CMake module files
+[0.676s] Level 1:colcon.colcon_core.environment:checking '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_interface' for CMake config files
+[0.677s] Level 1:colcon.colcon_core.shell:create_environment_hook('gg_hex_interface', 'cmake_prefix_path')
+[0.677s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_interface/share/gg_hex_interface/hook/cmake_prefix_path.ps1'
+[0.678s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_interface/share/gg_hex_interface/hook/cmake_prefix_path.dsv'
+[0.678s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_interface/share/gg_hex_interface/hook/cmake_prefix_path.sh'
+[0.679s] Level 1:colcon.colcon_core.environment:checking '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_interface/bin'
+[0.679s] Level 1:colcon.colcon_core.environment:checking '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_interface/lib/pkgconfig/gg_hex_interface.pc'
+[0.680s] Level 1:colcon.colcon_core.environment:checking '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_interface/lib/python3.10/site-packages'
+[0.680s] Level 1:colcon.colcon_core.environment:checking '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_interface/bin'
+[0.681s] INFO:colcon.colcon_core.shell:Creating package script '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_interface/share/gg_hex_interface/package.ps1'
+[0.682s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_interface/share/gg_hex_interface/package.dsv'
+[0.683s] INFO:colcon.colcon_core.shell:Creating package script '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_interface/share/gg_hex_interface/package.sh'
+[0.684s] INFO:colcon.colcon_core.shell:Creating package script '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_interface/share/gg_hex_interface/package.bash'
+[0.685s] INFO:colcon.colcon_core.shell:Creating package script '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_interface/share/gg_hex_interface/package.zsh'
+[0.685s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_interface/share/colcon-core/packages/gg_hex_interface)
+[0.687s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gg_hex_moveitassist)
+[0.688s] Level 1:colcon.colcon_core.environment:checking '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_moveitassist' for CMake module files
+[0.688s] Level 1:colcon.colcon_core.environment:checking '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_moveitassist' for CMake config files
+[0.688s] Level 1:colcon.colcon_core.shell:create_environment_hook('gg_hex_moveitassist', 'cmake_prefix_path')
+[0.689s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_moveitassist/share/gg_hex_moveitassist/hook/cmake_prefix_path.ps1'
+[0.689s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_moveitassist/share/gg_hex_moveitassist/hook/cmake_prefix_path.dsv'
+[0.690s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_moveitassist/share/gg_hex_moveitassist/hook/cmake_prefix_path.sh'
+[0.690s] Level 1:colcon.colcon_core.environment:checking '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_moveitassist/bin'
+[0.690s] Level 1:colcon.colcon_core.environment:checking '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_moveitassist/lib/pkgconfig/gg_hex_moveitassist.pc'
+[0.691s] Level 1:colcon.colcon_core.environment:checking '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_moveitassist/lib/python3.10/site-packages'
+[0.691s] Level 1:colcon.colcon_core.environment:checking '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_moveitassist/bin'
+[0.691s] INFO:colcon.colcon_core.shell:Creating package script '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_moveitassist/share/gg_hex_moveitassist/package.ps1'
+[0.693s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_moveitassist/share/gg_hex_moveitassist/package.dsv'
+[0.694s] INFO:colcon.colcon_core.shell:Creating package script '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_moveitassist/share/gg_hex_moveitassist/package.sh'
+[0.694s] INFO:colcon.colcon_core.shell:Creating package script '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_moveitassist/share/gg_hex_moveitassist/package.bash'
+[0.695s] INFO:colcon.colcon_core.shell:Creating package script '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_moveitassist/share/gg_hex_moveitassist/package.zsh'
+[0.696s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_moveitassist/share/colcon-core/packages/gg_hex_moveitassist)
+[0.697s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gg_hex_controller)
+[0.698s] Level 1:colcon.colcon_core.environment:checking '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_controller' for CMake module files
+[0.699s] Level 1:colcon.colcon_core.environment:checking '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_controller' for CMake config files
+[0.700s] Level 1:colcon.colcon_core.shell:create_environment_hook('gg_hex_controller', 'cmake_prefix_path')
+[0.701s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_controller/share/gg_hex_controller/hook/cmake_prefix_path.ps1'
+[0.701s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_controller/share/gg_hex_controller/hook/cmake_prefix_path.dsv'
+[0.702s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_controller/share/gg_hex_controller/hook/cmake_prefix_path.sh'
+[0.703s] Level 1:colcon.colcon_core.environment:checking '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_controller/bin'
+[0.703s] Level 1:colcon.colcon_core.environment:checking '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_controller/lib/pkgconfig/gg_hex_controller.pc'
+[0.704s] Level 1:colcon.colcon_core.environment:checking '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_controller/lib/python3.10/site-packages'
+[0.704s] Level 1:colcon.colcon_core.environment:checking '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_controller/bin'
+[0.705s] INFO:colcon.colcon_core.shell:Creating package script '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_controller/share/gg_hex_controller/package.ps1'
+[0.706s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_controller/share/gg_hex_controller/package.dsv'
+[0.707s] INFO:colcon.colcon_core.shell:Creating package script '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_controller/share/gg_hex_controller/package.sh'
+[0.707s] INFO:colcon.colcon_core.shell:Creating package script '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_controller/share/gg_hex_controller/package.bash'
+[0.708s] INFO:colcon.colcon_core.shell:Creating package script '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_controller/share/gg_hex_controller/package.zsh'
+[0.709s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_controller/share/colcon-core/packages/gg_hex_controller)
+[0.709s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gg_hex_moveit)
+[0.710s] Level 1:colcon.colcon_core.environment:checking '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_moveit' for CMake module files
+[0.711s] Level 1:colcon.colcon_core.environment:checking '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_moveit' for CMake config files
+[0.712s] Level 1:colcon.colcon_core.shell:create_environment_hook('gg_hex_moveit', 'cmake_prefix_path')
+[0.712s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_moveit/share/gg_hex_moveit/hook/cmake_prefix_path.ps1'
+[0.713s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_moveit/share/gg_hex_moveit/hook/cmake_prefix_path.dsv'
+[0.714s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_moveit/share/gg_hex_moveit/hook/cmake_prefix_path.sh'
+[0.715s] Level 1:colcon.colcon_core.environment:checking '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_moveit/bin'
+[0.715s] Level 1:colcon.colcon_core.environment:checking '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_moveit/lib/pkgconfig/gg_hex_moveit.pc'
+[0.716s] Level 1:colcon.colcon_core.environment:checking '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_moveit/lib/python3.10/site-packages'
+[0.716s] Level 1:colcon.colcon_core.environment:checking '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_moveit/bin'
+[0.717s] INFO:colcon.colcon_core.shell:Creating package script '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_moveit/share/gg_hex_moveit/package.ps1'
+[0.718s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_moveit/share/gg_hex_moveit/package.dsv'
+[0.718s] INFO:colcon.colcon_core.shell:Creating package script '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_moveit/share/gg_hex_moveit/package.sh'
+[0.719s] INFO:colcon.colcon_core.shell:Creating package script '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_moveit/share/gg_hex_moveit/package.bash'
+[0.720s] INFO:colcon.colcon_core.shell:Creating package script '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_moveit/share/gg_hex_moveit/package.zsh'
+[0.720s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_moveit/share/colcon-core/packages/gg_hex_moveit)
+[0.720s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/src/gg_hex_utils' with build type 'ament_cmake'
+[0.720s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/src/gg_hex_utils'
+[0.721s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.721s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.731s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(arm_description_pkg)
+[0.732s] Level 1:colcon.colcon_core.environment:checking '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/arm_description_pkg' for CMake module files
+[0.732s] Level 1:colcon.colcon_core.environment:checking '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/arm_description_pkg' for CMake config files
+[0.733s] Level 1:colcon.colcon_core.shell:create_environment_hook('arm_description_pkg', 'cmake_prefix_path')
+[0.733s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/arm_description_pkg/share/arm_description_pkg/hook/cmake_prefix_path.ps1'
+[0.734s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/arm_description_pkg/share/arm_description_pkg/hook/cmake_prefix_path.dsv'
+[0.735s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/arm_description_pkg/share/arm_description_pkg/hook/cmake_prefix_path.sh'
+[0.736s] Level 1:colcon.colcon_core.environment:checking '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/arm_description_pkg/bin'
+[0.736s] Level 1:colcon.colcon_core.environment:checking '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/arm_description_pkg/lib/pkgconfig/arm_description_pkg.pc'
+[0.736s] Level 1:colcon.colcon_core.environment:checking '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/arm_description_pkg/lib/python3.10/site-packages'
+[0.737s] Level 1:colcon.colcon_core.environment:checking '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/arm_description_pkg/bin'
+[0.737s] INFO:colcon.colcon_core.shell:Creating package script '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/arm_description_pkg/share/arm_description_pkg/package.ps1'
+[0.738s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/arm_description_pkg/share/arm_description_pkg/package.dsv'
+[0.739s] INFO:colcon.colcon_core.shell:Creating package script '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/arm_description_pkg/share/arm_description_pkg/package.sh'
+[0.740s] INFO:colcon.colcon_core.shell:Creating package script '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/arm_description_pkg/share/arm_description_pkg/package.bash'
+[0.740s] INFO:colcon.colcon_core.shell:Creating package script '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/arm_description_pkg/share/arm_description_pkg/package.zsh'
+[0.741s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/arm_description_pkg/share/colcon-core/packages/arm_description_pkg)
+[0.742s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gg_hex_bringup)
+[0.742s] Level 1:colcon.colcon_core.environment:checking '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_bringup' for CMake module files
+[0.743s] Level 1:colcon.colcon_core.environment:checking '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_bringup' for CMake config files
+[0.744s] Level 1:colcon.colcon_core.shell:create_environment_hook('gg_hex_bringup', 'cmake_prefix_path')
+[0.744s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_bringup/share/gg_hex_bringup/hook/cmake_prefix_path.ps1'
+[0.745s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_bringup/share/gg_hex_bringup/hook/cmake_prefix_path.dsv'
+[0.745s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_bringup/share/gg_hex_bringup/hook/cmake_prefix_path.sh'
+[0.746s] Level 1:colcon.colcon_core.environment:checking '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_bringup/bin'
+[0.747s] Level 1:colcon.colcon_core.environment:checking '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_bringup/lib/pkgconfig/gg_hex_bringup.pc'
+[0.747s] Level 1:colcon.colcon_core.environment:checking '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_bringup/lib/python3.10/site-packages'
+[0.747s] Level 1:colcon.colcon_core.environment:checking '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_bringup/bin'
+[0.747s] INFO:colcon.colcon_core.shell:Creating package script '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_bringup/share/gg_hex_bringup/package.ps1'
+[0.748s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_bringup/share/gg_hex_bringup/package.dsv'
+[0.749s] INFO:colcon.colcon_core.shell:Creating package script '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_bringup/share/gg_hex_bringup/package.sh'
+[0.749s] INFO:colcon.colcon_core.shell:Creating package script '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_bringup/share/gg_hex_bringup/package.bash'
+[0.750s] INFO:colcon.colcon_core.shell:Creating package script '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_bringup/share/gg_hex_bringup/package.zsh'
+[0.751s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_bringup/share/colcon-core/packages/gg_hex_bringup)
+[0.757s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/build/gg_hex_utils': CMAKE_PREFIX_PATH=/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_interface:/home/nobel/ROS2_Nav2/ros2_nav2/turtlebot3_ws/install/turtlebot3_simulations:/home/nobel/ROS2_Nav2/ros2_nav2/turtlebot3_ws/install/turtlebot3_gazebo:/home/nobel/ROS2_Nav2/ros2_nav2/turtlebot3_ws/install/turtlebot3_fake_node:/home/nobel/workspace_arm/IRoC_U_arm/arm_ws/install/moveit_resources:/home/nobel/workspace_arm/IRoC_U_arm/arm_ws/install/moveit_resources_pr2_description:/home/nobel/workspace_arm/IRoC_U_arm/arm_ws/install/moveit_resources_panda_moveit_config:/home/nobel/workspace_arm/IRoC_U_arm/arm_ws/install/dual_arm_panda_moveit_config:/home/nobel/workspace_arm/IRoC_U_arm/arm_ws/install/moveit_resources_panda_description:/home/nobel/workspace_arm/IRoC_U_arm/arm_ws/install/moveit_resources_fanuc_moveit_config:/home/nobel/workspace_arm/IRoC_U_arm/arm_ws/install/moveit_resources_fanuc_description:/home/nobel/workspace_arm/IRoC_U_arm/arm_ws/install/cam_pkg:/home/nobel/workspace_arm/IRoC_U_arm/arm_ws/install/arm_utils_pkg:/home/nobel/workspace_arm/IRoC_U_arm/arm_ws/install/arm_pkg:/home/nobel/workspace_arm/IRoC_U_arm/arm_ws/install/arm_msg_pkg:/home/nobel/workspace_arm/IRoC_U_arm/arm_ws/install/arm_movit_pkg:/home/nobel/workspace_arm/IRoC_U_arm/arm_ws/install/arm_interface_pkg:/home/nobel/workspace_arm/IRoC_U_arm/arm_ws/install/arm_description_pkg:/home/nobel/workspace_arm/IRoC_U_arm/arm_ws/install/arm_description:/home/nobel/workspace_arm/IRoC_U_arm/arm_ws/install/arm_controller_pkg:/home/nobel/workspace_arm/IRoC_U_arm/arm_ws/install/arm_bringup_pkg:/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_utils:/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_moveitassist:/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_moveit:/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description:/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_controller:/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_bringup:/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/arm_utils_pkg:/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/arm_movit_pkg:/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/arm_interface_pkg:/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/arm_description_pkg:/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/arm_controller_pkg:/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/arm_bringup_pkg:/home/nobel/arm_ws/install/cam_pkg:/home/nobel/arm_ws/install/arm_pkg:/home/nobel/arduinobot_ws/install/arduinobot_description:/home/nobel/arduinobot_ws/install/arduinobot_controller:/home/nobel/arduinobot_ws/install/arduino_bot_cpp_examples:/home/nobel/install/arduinobot_description:/home/nobel/install/arduinobot_controller:/home/nobel/install/arduino_bot_cpp_examples:/home/nobel/workspace_arm/IRoC_U_arm/arm_ws/install/armkin_pkg:/home/nobel/workspace_arm/IRoC_U_arm/arm_ws/install/armcam_pkg:/home/nobel/arduinobot_ws/install/arduinobot_py_examples:/home/nobel/install/arduinobot_py_examples:/opt/ros/humble /usr/bin/cmake --build /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/build/gg_hex_utils -- -j16 -l16
+[1.171s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gg_hex_description)
+[1.171s] Level 1:colcon.colcon_core.environment:checking '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description' for CMake module files
+[1.172s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/build/gg_hex_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nobel/workspace_arm/IRoC_U_arm/arm_ws/install/armkin_pkg:/home/nobel/workspace_arm/IRoC_U_arm/arm_ws/install/armcam_pkg:/home/nobel/arduinobot_ws/install/arduinobot_py_examples:/home/nobel/install/arduinobot_py_examples:/opt/ros/humble /usr/bin/cmake --install /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/build/gg_hex_description
+[1.173s] Level 1:colcon.colcon_core.environment:checking '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description' for CMake config files
+[1.174s] Level 1:colcon.colcon_core.shell:create_environment_hook('gg_hex_description', 'cmake_prefix_path')
+[1.175s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description/share/gg_hex_description/hook/cmake_prefix_path.ps1'
+[1.175s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description/share/gg_hex_description/hook/cmake_prefix_path.dsv'
+[1.176s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description/share/gg_hex_description/hook/cmake_prefix_path.sh'
+[1.177s] Level 1:colcon.colcon_core.environment:checking '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description/bin'
+[1.177s] Level 1:colcon.colcon_core.environment:checking '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description/lib/pkgconfig/gg_hex_description.pc'
+[1.177s] Level 1:colcon.colcon_core.environment:checking '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description/lib/python3.10/site-packages'
+[1.177s] Level 1:colcon.colcon_core.environment:checking '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description/bin'
+[1.178s] INFO:colcon.colcon_core.shell:Creating package script '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description/share/gg_hex_description/package.ps1'
+[1.179s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description/share/gg_hex_description/package.dsv'
+[1.179s] INFO:colcon.colcon_core.shell:Creating package script '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description/share/gg_hex_description/package.sh'
+[1.180s] INFO:colcon.colcon_core.shell:Creating package script '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description/share/gg_hex_description/package.bash'
+[1.180s] INFO:colcon.colcon_core.shell:Creating package script '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description/share/gg_hex_description/package.zsh'
+[1.181s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description/share/colcon-core/packages/gg_hex_description)
+[1.184s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/build/gg_hex_utils' returned '0': CMAKE_PREFIX_PATH=/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_interface:/home/nobel/ROS2_Nav2/ros2_nav2/turtlebot3_ws/install/turtlebot3_simulations:/home/nobel/ROS2_Nav2/ros2_nav2/turtlebot3_ws/install/turtlebot3_gazebo:/home/nobel/ROS2_Nav2/ros2_nav2/turtlebot3_ws/install/turtlebot3_fake_node:/home/nobel/workspace_arm/IRoC_U_arm/arm_ws/install/moveit_resources:/home/nobel/workspace_arm/IRoC_U_arm/arm_ws/install/moveit_resources_pr2_description:/home/nobel/workspace_arm/IRoC_U_arm/arm_ws/install/moveit_resources_panda_moveit_config:/home/nobel/workspace_arm/IRoC_U_arm/arm_ws/install/dual_arm_panda_moveit_config:/home/nobel/workspace_arm/IRoC_U_arm/arm_ws/install/moveit_resources_panda_description:/home/nobel/workspace_arm/IRoC_U_arm/arm_ws/install/moveit_resources_fanuc_moveit_config:/home/nobel/workspace_arm/IRoC_U_arm/arm_ws/install/moveit_resources_fanuc_description:/home/nobel/workspace_arm/IRoC_U_arm/arm_ws/install/cam_pkg:/home/nobel/workspace_arm/IRoC_U_arm/arm_ws/install/arm_utils_pkg:/home/nobel/workspace_arm/IRoC_U_arm/arm_ws/install/arm_pkg:/home/nobel/workspace_arm/IRoC_U_arm/arm_ws/install/arm_msg_pkg:/home/nobel/workspace_arm/IRoC_U_arm/arm_ws/install/arm_movit_pkg:/home/nobel/workspace_arm/IRoC_U_arm/arm_ws/install/arm_interface_pkg:/home/nobel/workspace_arm/IRoC_U_arm/arm_ws/install/arm_description_pkg:/home/nobel/workspace_arm/IRoC_U_arm/arm_ws/install/arm_description:/home/nobel/workspace_arm/IRoC_U_arm/arm_ws/install/arm_controller_pkg:/home/nobel/workspace_arm/IRoC_U_arm/arm_ws/install/arm_bringup_pkg:/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_utils:/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_moveitassist:/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_moveit:/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description:/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_controller:/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_bringup:/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/arm_utils_pkg:/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/arm_movit_pkg:/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/arm_interface_pkg:/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/arm_description_pkg:/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/arm_controller_pkg:/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/arm_bringup_pkg:/home/nobel/arm_ws/install/cam_pkg:/home/nobel/arm_ws/install/arm_pkg:/home/nobel/arduinobot_ws/install/arduinobot_description:/home/nobel/arduinobot_ws/install/arduinobot_controller:/home/nobel/arduinobot_ws/install/arduino_bot_cpp_examples:/home/nobel/install/arduinobot_description:/home/nobel/install/arduinobot_controller:/home/nobel/install/arduino_bot_cpp_examples:/home/nobel/workspace_arm/IRoC_U_arm/arm_ws/install/armkin_pkg:/home/nobel/workspace_arm/IRoC_U_arm/arm_ws/install/armcam_pkg:/home/nobel/arduinobot_ws/install/arduinobot_py_examples:/home/nobel/install/arduinobot_py_examples:/opt/ros/humble /usr/bin/cmake --build /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/build/gg_hex_utils -- -j16 -l16
+[1.204s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gg_hex_description)
+[1.205s] Level 1:colcon.colcon_core.environment:checking '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description' for CMake module files
+[1.205s] Level 1:colcon.colcon_core.environment:checking '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description' for CMake config files
+[1.206s] Level 1:colcon.colcon_core.shell:create_environment_hook('gg_hex_description', 'cmake_prefix_path')
+[1.206s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description/share/gg_hex_description/hook/cmake_prefix_path.ps1'
+[1.206s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description/share/gg_hex_description/hook/cmake_prefix_path.dsv'
+[1.207s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description/share/gg_hex_description/hook/cmake_prefix_path.sh'
+[1.207s] Level 1:colcon.colcon_core.environment:checking '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description/bin'
+[1.207s] Level 1:colcon.colcon_core.environment:checking '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description/lib/pkgconfig/gg_hex_description.pc'
+[1.208s] Level 1:colcon.colcon_core.environment:checking '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description/lib/python3.10/site-packages'
+[1.208s] Level 1:colcon.colcon_core.environment:checking '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description/bin'
+[1.208s] INFO:colcon.colcon_core.shell:Creating package script '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description/share/gg_hex_description/package.ps1'
+[1.209s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description/share/gg_hex_description/package.dsv'
+[1.209s] INFO:colcon.colcon_core.shell:Creating package script '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description/share/gg_hex_description/package.sh'
+[1.209s] INFO:colcon.colcon_core.shell:Creating package script '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description/share/gg_hex_description/package.bash'
+[1.210s] INFO:colcon.colcon_core.shell:Creating package script '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description/share/gg_hex_description/package.zsh'
+[1.210s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description/share/colcon-core/packages/gg_hex_description)
+[1.213s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/build/gg_hex_utils': CMAKE_PREFIX_PATH=/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_interface:/home/nobel/ROS2_Nav2/ros2_nav2/turtlebot3_ws/install/turtlebot3_simulations:/home/nobel/ROS2_Nav2/ros2_nav2/turtlebot3_ws/install/turtlebot3_gazebo:/home/nobel/ROS2_Nav2/ros2_nav2/turtlebot3_ws/install/turtlebot3_fake_node:/home/nobel/workspace_arm/IRoC_U_arm/arm_ws/install/moveit_resources:/home/nobel/workspace_arm/IRoC_U_arm/arm_ws/install/moveit_resources_pr2_description:/home/nobel/workspace_arm/IRoC_U_arm/arm_ws/install/moveit_resources_panda_moveit_config:/home/nobel/workspace_arm/IRoC_U_arm/arm_ws/install/dual_arm_panda_moveit_config:/home/nobel/workspace_arm/IRoC_U_arm/arm_ws/install/moveit_resources_panda_description:/home/nobel/workspace_arm/IRoC_U_arm/arm_ws/install/moveit_resources_fanuc_moveit_config:/home/nobel/workspace_arm/IRoC_U_arm/arm_ws/install/moveit_resources_fanuc_description:/home/nobel/workspace_arm/IRoC_U_arm/arm_ws/install/cam_pkg:/home/nobel/workspace_arm/IRoC_U_arm/arm_ws/install/arm_utils_pkg:/home/nobel/workspace_arm/IRoC_U_arm/arm_ws/install/arm_pkg:/home/nobel/workspace_arm/IRoC_U_arm/arm_ws/install/arm_msg_pkg:/home/nobel/workspace_arm/IRoC_U_arm/arm_ws/install/arm_movit_pkg:/home/nobel/workspace_arm/IRoC_U_arm/arm_ws/install/arm_interface_pkg:/home/nobel/workspace_arm/IRoC_U_arm/arm_ws/install/arm_description_pkg:/home/nobel/workspace_arm/IRoC_U_arm/arm_ws/install/arm_description:/home/nobel/workspace_arm/IRoC_U_arm/arm_ws/install/arm_controller_pkg:/home/nobel/workspace_arm/IRoC_U_arm/arm_ws/install/arm_bringup_pkg:/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_utils:/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_moveitassist:/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_moveit:/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description:/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_controller:/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_bringup:/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/arm_utils_pkg:/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/arm_movit_pkg:/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/arm_interface_pkg:/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/arm_description_pkg:/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/arm_controller_pkg:/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/arm_bringup_pkg:/home/nobel/arm_ws/install/cam_pkg:/home/nobel/arm_ws/install/arm_pkg:/home/nobel/arduinobot_ws/install/arduinobot_description:/home/nobel/arduinobot_ws/install/arduinobot_controller:/home/nobel/arduinobot_ws/install/arduino_bot_cpp_examples:/home/nobel/install/arduinobot_description:/home/nobel/install/arduinobot_controller:/home/nobel/install/arduino_bot_cpp_examples:/home/nobel/workspace_arm/IRoC_U_arm/arm_ws/install/armkin_pkg:/home/nobel/workspace_arm/IRoC_U_arm/arm_ws/install/armcam_pkg:/home/nobel/arduinobot_ws/install/arduinobot_py_examples:/home/nobel/install/arduinobot_py_examples:/opt/ros/humble /usr/bin/cmake --install /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/build/gg_hex_utils
+[1.283s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gg_hex_utils)
+[1.283s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/build/gg_hex_utils' returned '0': CMAKE_PREFIX_PATH=/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_interface:/home/nobel/ROS2_Nav2/ros2_nav2/turtlebot3_ws/install/turtlebot3_simulations:/home/nobel/ROS2_Nav2/ros2_nav2/turtlebot3_ws/install/turtlebot3_gazebo:/home/nobel/ROS2_Nav2/ros2_nav2/turtlebot3_ws/install/turtlebot3_fake_node:/home/nobel/workspace_arm/IRoC_U_arm/arm_ws/install/moveit_resources:/home/nobel/workspace_arm/IRoC_U_arm/arm_ws/install/moveit_resources_pr2_description:/home/nobel/workspace_arm/IRoC_U_arm/arm_ws/install/moveit_resources_panda_moveit_config:/home/nobel/workspace_arm/IRoC_U_arm/arm_ws/install/dual_arm_panda_moveit_config:/home/nobel/workspace_arm/IRoC_U_arm/arm_ws/install/moveit_resources_panda_description:/home/nobel/workspace_arm/IRoC_U_arm/arm_ws/install/moveit_resources_fanuc_moveit_config:/home/nobel/workspace_arm/IRoC_U_arm/arm_ws/install/moveit_resources_fanuc_description:/home/nobel/workspace_arm/IRoC_U_arm/arm_ws/install/cam_pkg:/home/nobel/workspace_arm/IRoC_U_arm/arm_ws/install/arm_utils_pkg:/home/nobel/workspace_arm/IRoC_U_arm/arm_ws/install/arm_pkg:/home/nobel/workspace_arm/IRoC_U_arm/arm_ws/install/arm_msg_pkg:/home/nobel/workspace_arm/IRoC_U_arm/arm_ws/install/arm_movit_pkg:/home/nobel/workspace_arm/IRoC_U_arm/arm_ws/install/arm_interface_pkg:/home/nobel/workspace_arm/IRoC_U_arm/arm_ws/install/arm_description_pkg:/home/nobel/workspace_arm/IRoC_U_arm/arm_ws/install/arm_description:/home/nobel/workspace_arm/IRoC_U_arm/arm_ws/install/arm_controller_pkg:/home/nobel/workspace_arm/IRoC_U_arm/arm_ws/install/arm_bringup_pkg:/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_utils:/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_moveitassist:/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_moveit:/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description:/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_controller:/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_bringup:/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/arm_utils_pkg:/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/arm_movit_pkg:/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/arm_interface_pkg:/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/arm_description_pkg:/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/arm_controller_pkg:/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/arm_bringup_pkg:/home/nobel/arm_ws/install/cam_pkg:/home/nobel/arm_ws/install/arm_pkg:/home/nobel/arduinobot_ws/install/arduinobot_description:/home/nobel/arduinobot_ws/install/arduinobot_controller:/home/nobel/arduinobot_ws/install/arduino_bot_cpp_examples:/home/nobel/install/arduinobot_description:/home/nobel/install/arduinobot_controller:/home/nobel/install/arduino_bot_cpp_examples:/home/nobel/workspace_arm/IRoC_U_arm/arm_ws/install/armkin_pkg:/home/nobel/workspace_arm/IRoC_U_arm/arm_ws/install/armcam_pkg:/home/nobel/arduinobot_ws/install/arduinobot_py_examples:/home/nobel/install/arduinobot_py_examples:/opt/ros/humble /usr/bin/cmake --install /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/build/gg_hex_utils
+[1.284s] Level 1:colcon.colcon_core.environment:checking '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_utils' for CMake module files
+[1.285s] Level 1:colcon.colcon_core.environment:checking '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_utils' for CMake config files
+[1.285s] Level 1:colcon.colcon_core.shell:create_environment_hook('gg_hex_utils', 'cmake_prefix_path')
+[1.285s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_utils/share/gg_hex_utils/hook/cmake_prefix_path.ps1'
+[1.285s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_utils/share/gg_hex_utils/hook/cmake_prefix_path.dsv'
+[1.286s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_utils/share/gg_hex_utils/hook/cmake_prefix_path.sh'
+[1.286s] Level 1:colcon.colcon_core.environment:checking '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_utils/lib'
+[1.286s] Level 1:colcon.colcon_core.environment:checking '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_utils/bin'
+[1.286s] Level 1:colcon.colcon_core.environment:checking '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_utils/lib/pkgconfig/gg_hex_utils.pc'
+[1.287s] Level 1:colcon.colcon_core.environment:checking '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_utils/lib/python3.10/site-packages'
+[1.287s] Level 1:colcon.colcon_core.environment:checking '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_utils/bin'
+[1.287s] INFO:colcon.colcon_core.shell:Creating package script '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_utils/share/gg_hex_utils/package.ps1'
+[1.288s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_utils/share/gg_hex_utils/package.dsv'
+[1.288s] INFO:colcon.colcon_core.shell:Creating package script '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_utils/share/gg_hex_utils/package.sh'
+[1.288s] INFO:colcon.colcon_core.shell:Creating package script '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_utils/share/gg_hex_utils/package.bash'
+[1.288s] INFO:colcon.colcon_core.shell:Creating package script '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_utils/share/gg_hex_utils/package.zsh'
+[1.289s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_utils/share/colcon-core/packages/gg_hex_utils)
+[1.312s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gg_hex_utils)
+[1.313s] Level 1:colcon.colcon_core.environment:checking '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_utils' for CMake module files
+[1.313s] Level 1:colcon.colcon_core.environment:checking '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_utils' for CMake config files
+[1.313s] Level 1:colcon.colcon_core.shell:create_environment_hook('gg_hex_utils', 'cmake_prefix_path')
+[1.313s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_utils/share/gg_hex_utils/hook/cmake_prefix_path.ps1'
+[1.314s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_utils/share/gg_hex_utils/hook/cmake_prefix_path.dsv'
+[1.314s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_utils/share/gg_hex_utils/hook/cmake_prefix_path.sh'
+[1.315s] Level 1:colcon.colcon_core.environment:checking '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_utils/lib'
+[1.315s] Level 1:colcon.colcon_core.environment:checking '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_utils/bin'
+[1.315s] Level 1:colcon.colcon_core.environment:checking '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_utils/lib/pkgconfig/gg_hex_utils.pc'
+[1.315s] Level 1:colcon.colcon_core.environment:checking '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_utils/lib/python3.10/site-packages'
+[1.315s] Level 1:colcon.colcon_core.environment:checking '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_utils/bin'
+[1.316s] INFO:colcon.colcon_core.shell:Creating package script '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_utils/share/gg_hex_utils/package.ps1'
+[1.316s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_utils/share/gg_hex_utils/package.dsv'
+[1.317s] INFO:colcon.colcon_core.shell:Creating package script '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_utils/share/gg_hex_utils/package.sh'
+[1.317s] INFO:colcon.colcon_core.shell:Creating package script '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_utils/share/gg_hex_utils/package.bash'
+[1.318s] INFO:colcon.colcon_core.shell:Creating package script '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_utils/share/gg_hex_utils/package.zsh'
+[1.318s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_utils/share/colcon-core/packages/gg_hex_utils)
+[1.318s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.318s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.318s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.318s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.326s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.326s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.327s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.364s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.364s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/local_setup.ps1'
+[1.365s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/_local_setup_util_ps1.py'
+[1.367s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/setup.ps1'
+[1.369s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/local_setup.sh'
+[1.370s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/_local_setup_util_sh.py'
+[1.370s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/setup.sh'
+[1.372s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/local_setup.bash'
+[1.373s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/setup.bash'
+[1.375s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/local_setup.zsh'
+[1.376s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/setup.zsh'

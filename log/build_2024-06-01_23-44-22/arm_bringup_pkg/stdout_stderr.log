@@ -1,0 +1,22 @@
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/arm_bringup_pkg/share/arm_bringup_pkg//launch/arm_gazebo.launch.py
+-- Up-to-date symlink: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/arm_bringup_pkg/share/arm_bringup_pkg//launch/arm_gazebo.launch.xml
+-- Up-to-date symlink: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/arm_bringup_pkg/share/arm_bringup_pkg//launch/arm_rviz.launch.xml
+-- Up-to-date symlink: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/arm_bringup_pkg/share/arm_bringup_pkg//rviz/arm_config.rviz
+-- Up-to-date symlink: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/arm_bringup_pkg/share/arm_bringup_pkg//world/GS_arm_world.world
+-- Up-to-date symlink: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/arm_bringup_pkg/share/ament_index/resource_index/package_run_dependencies/arm_bringup_pkg
+-- Up-to-date symlink: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/arm_bringup_pkg/share/ament_index/resource_index/parent_prefix_path/arm_bringup_pkg
+-- Up-to-date symlink: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/arm_bringup_pkg/share/arm_bringup_pkg/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/arm_bringup_pkg/share/arm_bringup_pkg/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/arm_bringup_pkg/share/arm_bringup_pkg/environment/path.sh
+-- Up-to-date symlink: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/arm_bringup_pkg/share/arm_bringup_pkg/environment/path.dsv
+-- Up-to-date symlink: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/arm_bringup_pkg/share/arm_bringup_pkg/local_setup.bash
+-- Up-to-date symlink: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/arm_bringup_pkg/share/arm_bringup_pkg/local_setup.sh
+-- Up-to-date symlink: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/arm_bringup_pkg/share/arm_bringup_pkg/local_setup.zsh
+-- Up-to-date symlink: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/arm_bringup_pkg/share/arm_bringup_pkg/local_setup.dsv
+-- Symlinking: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/arm_bringup_pkg/share/arm_bringup_pkg/package.dsv
+-- Up-to-date symlink: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/arm_bringup_pkg/share/ament_index/resource_index/packages/arm_bringup_pkg
+-- Up-to-date symlink: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/arm_bringup_pkg/share/arm_bringup_pkg/cmake/arm_bringup_pkgConfig.cmake
+-- Up-to-date symlink: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/arm_bringup_pkg/share/arm_bringup_pkg/cmake/arm_bringup_pkgConfig-version.cmake
+-- Up-to-date symlink: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/arm_bringup_pkg/share/arm_bringup_pkg/package.xml

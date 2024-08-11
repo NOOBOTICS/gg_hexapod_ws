@@ -1,0 +1,8 @@
+source;share/gg_hex_moveitassist/hook/cmake_prefix_path.ps1
+source;share/gg_hex_moveitassist/hook/cmake_prefix_path.dsv
+source;share/gg_hex_moveitassist/hook/cmake_prefix_path.sh
+source;share/gg_hex_moveitassist/local_setup.bash
+source;share/gg_hex_moveitassist/local_setup.dsv
+source;share/gg_hex_moveitassist/local_setup.ps1
+source;share/gg_hex_moveitassist/local_setup.sh
+source;share/gg_hex_moveitassist/local_setup.zsh

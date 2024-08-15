@@ -1,1 +1,0 @@
-/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/build/arm_interface_pkg/rosidl_cmake/srv/QuaternionToEuler_Response.msg

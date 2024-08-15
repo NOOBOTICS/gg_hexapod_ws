@@ -1,1 +1,0 @@
-/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/src/arm_controller_pkg/launch/controller.launch.py

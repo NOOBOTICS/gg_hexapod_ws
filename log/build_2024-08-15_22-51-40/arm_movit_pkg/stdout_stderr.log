@@ -1,0 +1,24 @@
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/arm_movit_pkg/share/arm_movit_pkg//config/arm.srdf
+-- Symlinking: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/arm_movit_pkg/share/arm_movit_pkg//config/initial_positions.yaml
+-- Symlinking: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/arm_movit_pkg/share/arm_movit_pkg//config/joint_limits.yaml
+-- Symlinking: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/arm_movit_pkg/share/arm_movit_pkg//config/kinematics.yaml
+-- Symlinking: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/arm_movit_pkg/share/arm_movit_pkg//config/moveit_controllers.yaml
+-- Symlinking: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/arm_movit_pkg/share/arm_movit_pkg//config/pilz_cartesian_limits.yaml
+-- Symlinking: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/arm_movit_pkg/share/arm_movit_pkg//launch/moveit.launch.py
+-- Symlinking: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/arm_movit_pkg/share/ament_index/resource_index/package_run_dependencies/arm_movit_pkg
+-- Symlinking: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/arm_movit_pkg/share/ament_index/resource_index/parent_prefix_path/arm_movit_pkg
+-- Symlinking: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/arm_movit_pkg/share/arm_movit_pkg/environment/ament_prefix_path.sh
+-- Symlinking: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/arm_movit_pkg/share/arm_movit_pkg/environment/ament_prefix_path.dsv
+-- Symlinking: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/arm_movit_pkg/share/arm_movit_pkg/environment/path.sh
+-- Symlinking: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/arm_movit_pkg/share/arm_movit_pkg/environment/path.dsv
+-- Symlinking: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/arm_movit_pkg/share/arm_movit_pkg/local_setup.bash
+-- Symlinking: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/arm_movit_pkg/share/arm_movit_pkg/local_setup.sh
+-- Symlinking: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/arm_movit_pkg/share/arm_movit_pkg/local_setup.zsh
+-- Symlinking: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/arm_movit_pkg/share/arm_movit_pkg/local_setup.dsv
+-- Symlinking: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/arm_movit_pkg/share/arm_movit_pkg/package.dsv
+-- Symlinking: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/arm_movit_pkg/share/ament_index/resource_index/packages/arm_movit_pkg
+-- Symlinking: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/arm_movit_pkg/share/arm_movit_pkg/cmake/arm_movit_pkgConfig.cmake
+-- Symlinking: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/arm_movit_pkg/share/arm_movit_pkg/cmake/arm_movit_pkgConfig-version.cmake
+-- Symlinking: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/arm_movit_pkg/share/arm_movit_pkg/package.xml

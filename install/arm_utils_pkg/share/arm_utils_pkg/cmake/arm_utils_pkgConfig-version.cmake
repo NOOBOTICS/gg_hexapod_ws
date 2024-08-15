@@ -1,1 +1,0 @@
-/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/build/arm_utils_pkg/ament_cmake_core/arm_utils_pkgConfig-version.cmake

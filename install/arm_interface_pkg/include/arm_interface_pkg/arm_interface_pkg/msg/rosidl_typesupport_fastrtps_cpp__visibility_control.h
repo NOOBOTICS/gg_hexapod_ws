@@ -1,1 +1,0 @@
-/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/build/arm_interface_pkg/rosidl_typesupport_fastrtps_cpp/arm_interface_pkg/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h

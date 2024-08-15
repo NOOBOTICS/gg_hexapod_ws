@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<robot name="Hexapod_sim"  xmlns:xacro= "http://www.ros.org/wiki/xacro">
+
+  <xacro:property name="limlow" value="-3.4"/>
+  <xacro:property name="limhigh" value="3.4"/>
+
+  <xacro:macro name="default_transmission" params="number">
+    <transmission name="transmission_${number}">
+        <plugin>transmission_interface/SimpleTransmission</plugin>
+        <actuator name="motor_${number}" role="actuator1"/>
+        <joint name="joint${number}" role="joint1">
+            <mechanical_reduction>1.0</mechanical_reduction>
+        </joint>
+    </transmission>
+</xacro:macro>
+
+
+
+<xacro:default_transmission number = "1"/>
+<xacro:default_transmission number = "2"/>
+<xacro:default_transmission number = "3"/>
+<xacro:default_transmission number = "4"/>
+
+
+
+</robot>

@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<robot name="Hexapod_sim"  xmlns:xacro= "http://www.ros.org/wiki/xacro">
+    <gazebo reference="part_1">
+        <material>Gazebo/Blue</material>
+    </gazebo>
+    <gazebo reference="part_2">
+        <material>Gazebo/Red</material>
+    </gazebo>
+    <gazebo reference="part_3">
+        <material>Gazebo/Green</material>
+    </gazebo>
+    <gazebo reference="part_4">
+        <material>Gazebo/White</material>
+    </gazebo>
+    <gazebo reference="part_5">
+        <material>Gazebo/Gray</material>
+    </gazebo>
+
+
+    <gazebo>
+    <plugin filename="libgazebo_ros2_control.so" name="gazebo_ros2_control">
+
+        <robot_param>robot_description</robot_param>
+        <robot_param_node>robot_state_publisher</robot_param_node>
+        <parameters>$(find gg_hex_controller)/config/gg_hexleg_controller.yaml</parameters>
+
+    </plugin>
+    </gazebo>
+
+
+</robot>

@@ -23,11 +23,13 @@ function _colcon_prefix_chain_powershell_source_script {
 
 # source chained prefixes
 _colcon_prefix_chain_powershell_source_script "/opt/ros/humble\local_setup.ps1"
+_colcon_prefix_chain_powershell_source_script "/home/nobel/Drone_Related/Drones_Library/1st_drone_ws/install\local_setup.ps1"
 _colcon_prefix_chain_powershell_source_script "/home/nobel/arm_ws/install\local_setup.ps1"
 _colcon_prefix_chain_powershell_source_script "/home/nobel/arduinobot_ws/install\local_setup.ps1"
 _colcon_prefix_chain_powershell_source_script "/home/nobel/install\local_setup.ps1"
 _colcon_prefix_chain_powershell_source_script "/home/nobel/workspace_arm/IRoC_U_arm/arm_ws/install\local_setup.ps1"
 _colcon_prefix_chain_powershell_source_script "/home/nobel/ROS2_Nav2/ros2_nav2/turtlebot3_ws/install\local_setup.ps1"
+_colcon_prefix_chain_powershell_source_script "/home/nobel/Drone_Related/Drones_Library/follow_drone_ws/install\local_setup.ps1"
 
 # source this prefix
 $env:COLCON_CURRENT_PREFIX=(Split-Path $PSCommandPath -Parent)

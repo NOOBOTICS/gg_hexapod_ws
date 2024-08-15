@@ -310,8 +310,8 @@ message(STATUS "Execute custom install script")
 
 # begin of custom install code
 
-# install(DIRECTORY "meshes" "DESTINATION" "share/gg_hex_description/")
-ament_cmake_symlink_install_directory("/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/src/gg_hex_description" DIRECTORY "meshes" "DESTINATION" "share/gg_hex_description/")
+# install(DIRECTORY "meshes" "leg_sim" "DESTINATION" "share/gg_hex_description/")
+ament_cmake_symlink_install_directory("/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/src/gg_hex_description" DIRECTORY "meshes" "leg_sim" "DESTINATION" "share/gg_hex_description/")
 
 # install(FILES "/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/build/gg_hex_description/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/gg_hex_description" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
 ament_cmake_symlink_install_files("/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/src/gg_hex_description" FILES "/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/build/gg_hex_description/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/gg_hex_description" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")

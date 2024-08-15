@@ -14,10 +14,10 @@ controller_manager:
 gg_hexleg_controller:
   ros__parameters:
     joints:
-      - j1
-      - j2
-      - j3
-      - j4
+      - joint1
+      - joint2
+      - joint3
+      - joint4
 
 
     command_interfaces:

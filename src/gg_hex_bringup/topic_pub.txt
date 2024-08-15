@@ -1,0 +1,10 @@
+build the workspace by "colcon build --symlink-install"
+
+
+
+ros2 launch gg_hex_bringup gg_sim.xml 
+
+
+
+ros2 topic pub /gg_hexleg_controller/joint_trajectory trajectory_msgs/msg/JointTrajectory "{joint_names: ['joint1', 'joint2', 'joint3', 'joint4'], points: [{positions: [0.5, 0.5, 0.5, 0.5], time_from_start: {sec: 2, nanosec: 0}}]}"
+

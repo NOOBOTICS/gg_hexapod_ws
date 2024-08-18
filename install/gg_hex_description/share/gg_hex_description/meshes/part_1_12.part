@@ -1,1 +1,13 @@
-/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/src/gg_hex_description/meshes/part_1_12.part
+{
+    "configuration": "default",
+    "documentId": "3373df1cb1f0eb05db8860d8",
+    "documentMicroversion": "aa627c583ee7f2915f887f52",
+    "elementId": "e13f2356fe0d11f43689a6b3",
+    "fullConfiguration": "default",
+    "id": "M41jpLFz9HLoRHWCF",
+    "isStandardContent": false,
+    "name": "Part 1_12 <1>",
+    "partId": "KFXL",
+    "suppressed": false,
+    "type": "Part"
+}

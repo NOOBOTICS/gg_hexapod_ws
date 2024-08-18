@@ -1,1 +1,13 @@
-/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/src/gg_hex_description/meshes/142-13449-1000-a02.step.part
+{
+    "configuration": "default",
+    "documentId": "3373df1cb1f0eb05db8860d8",
+    "documentMicroversion": "e6c2d38edb3bab828103bacd",
+    "elementId": "c38418dd358ab68aa6461d8c",
+    "fullConfiguration": "default",
+    "id": "MfJUm4VvsYtOnsJPS",
+    "isStandardContent": false,
+    "name": "142-13449-1000-A02.step <1>",
+    "partId": "JFD",
+    "suppressed": false,
+    "type": "Part"
+}

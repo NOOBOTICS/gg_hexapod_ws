@@ -1,1 +1,13 @@
-/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/src/gg_hex_description/meshes/scanner.step.part
+{
+    "configuration": "default",
+    "documentId": "3373df1cb1f0eb05db8860d8",
+    "documentMicroversion": "e6c2d38edb3bab828103bacd",
+    "elementId": "ca8f8e27dec9a69f493c9ab1",
+    "fullConfiguration": "default",
+    "id": "Mgjk8iyvU5AfRV865",
+    "isStandardContent": false,
+    "name": "Scanner.step <1>",
+    "partId": "JFD",
+    "suppressed": false,
+    "type": "Part"
+}

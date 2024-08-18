@@ -1,1 +1,10 @@
-/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/src/gg_hex_interface/srv/EulerToQuaternion.srv
+# Request
+float64 roll
+float64 pitch
+float64 yaw
+---
+# Response
+float64 x
+float64 y
+float64 z
+float64 w

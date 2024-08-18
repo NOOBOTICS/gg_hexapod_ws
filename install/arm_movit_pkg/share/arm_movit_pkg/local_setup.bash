@@ -1,1 +1,0 @@
-/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/build/arm_movit_pkg/ament_cmake_environment_hooks/local_setup.bash

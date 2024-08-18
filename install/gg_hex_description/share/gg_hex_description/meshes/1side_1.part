@@ -1,1 +1,13 @@
-/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/src/gg_hex_description/meshes/1side_1.part
+{
+    "configuration": "default",
+    "documentId": "3373df1cb1f0eb05db8860d8",
+    "documentMicroversion": "e6c2d38edb3bab828103bacd",
+    "elementId": "e13f2356fe0d11f43689a6b3",
+    "fullConfiguration": "default",
+    "id": "MRStNy7SE79Z/5jHD",
+    "isStandardContent": false,
+    "name": "1side_1 <1>",
+    "partId": "KF7C",
+    "suppressed": false,
+    "type": "Part"
+}

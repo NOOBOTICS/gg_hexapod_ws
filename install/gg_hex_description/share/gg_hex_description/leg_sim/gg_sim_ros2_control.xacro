@@ -1,1 +1,55 @@
-/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/src/gg_hex_description/leg_sim/gg_sim_ros2_control.xacro
+<?xml version="1.0"?>
+<robot name="Hexapod_sim"  xmlns:xacro= "http://www.ros.org/wiki/xacro">
+
+    <xacro:property name="limlow" value="-3.4"/>
+    <xacro:property name="limhigh" value="3.4"/>
+
+    <ros2_control name="RobotSystem" type="system">
+        <hardware>
+            <plugin >gazebo_ros2_control/GazeboSystem</plugin>
+        </hardware>
+
+        <joint name="joint1" >
+            <command_interface name="position">
+                <param name="min">${limlow}</param>
+                <param name="max">${limhigh}</param>
+            </command_interface>
+            <state_interface name="position"/>
+
+        </joint>
+
+        <joint name="joint2" >
+            <command_interface name="position">
+                <param name="min">${limlow}</param>
+                <param name="max">${limhigh}</param>
+            </command_interface>
+            <state_interface name="position"/>
+
+        </joint>
+
+        <joint name="joint3" >
+            <command_interface name="position">
+                <param name="min">${limlow}</param>
+                <param name="max">${limhigh}</param>
+            </command_interface>
+            <state_interface name="position"/>
+
+        </joint>
+
+        <joint name="joint4" >
+            <command_interface name="position">
+                <param name="min">${limlow}</param>
+                <param name="max">${limhigh}</param>
+            </command_interface>
+            <state_interface name="position"/>
+
+        </joint>
+
+
+ 
+    </ros2_control>
+
+
+
+
+</robot>

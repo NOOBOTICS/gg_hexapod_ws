@@ -1,1 +1,13 @@
-/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/src/gg_hex_description/meshes/142-63448-1gen_a00.step.part
+{
+    "configuration": "default",
+    "documentId": "3373df1cb1f0eb05db8860d8",
+    "documentMicroversion": "e6c2d38edb3bab828103bacd",
+    "elementId": "c38418dd358ab68aa6461d8c",
+    "fullConfiguration": "default",
+    "id": "M59KqfU8b52GmucbD",
+    "isStandardContent": false,
+    "name": "142-63448-1GEN_A00.step <1>",
+    "partId": "KFHz",
+    "suppressed": false,
+    "type": "Part"
+}

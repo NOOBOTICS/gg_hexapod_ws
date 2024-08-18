@@ -1,1 +1,13 @@
-/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/src/gg_hex_description/leg_sim/part_1.part
+{
+    "configuration": "default",
+    "documentId": "d613988deb0ec228318aee1c",
+    "documentMicroversion": "3ae0694fa0d046578b8730af",
+    "elementId": "2debda4f2cb7946a4f17bbfc",
+    "fullConfiguration": "default",
+    "id": "Mp2ux0ZA4s+eN4A37",
+    "isStandardContent": false,
+    "name": "Part 1 <1>",
+    "partId": "JHD",
+    "suppressed": false,
+    "type": "Part"
+}

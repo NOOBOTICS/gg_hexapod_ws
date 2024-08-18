@@ -1,0 +1,123 @@
+[0.022s] Invoking command in '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/build/gg_hex_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nobel/workspace_arm/IRoC_U_arm/arm_ws/install/armkin_pkg:/home/nobel/Drone_Related/Drones_Library/follow_drone_ws/install/sjtu_drone_bringup:/home/nobel/arduinobot_ws/install/arduinobot_py_examples:/home/nobel/install/arduinobot_py_examples:/opt/ros/humble /usr/bin/cmake /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/src/gg_hex_description -DCMAKE_INSTALL_PREFIX=/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description
+[0.074s] -- The C compiler identification is GNU 11.4.0
+[0.130s] -- The CXX compiler identification is GNU 11.4.0
+[0.137s] -- Detecting C compiler ABI info
+[0.204s] -- Detecting C compiler ABI info - done
+[0.212s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.213s] -- Detecting C compile features
+[0.213s] -- Detecting C compile features - done
+[0.216s] -- Detecting CXX compiler ABI info
+[0.289s] -- Detecting CXX compiler ABI info - done
+[0.295s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.295s] -- Detecting CXX compile features
+[0.295s] -- Detecting CXX compile features - done
+[0.298s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.471s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.569s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.661s] -- Added test 'lint_cmake' to check CMake code style
+[0.664s] -- Added test 'xmllint' to check XML markup files
+[0.666s] -- Configuring done
+[0.669s] -- Generating done
+[0.670s] -- Build files have been written to: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/build/gg_hex_description
+[0.674s] Invoked command in '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/build/gg_hex_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nobel/workspace_arm/IRoC_U_arm/arm_ws/install/armkin_pkg:/home/nobel/Drone_Related/Drones_Library/follow_drone_ws/install/sjtu_drone_bringup:/home/nobel/arduinobot_ws/install/arduinobot_py_examples:/home/nobel/install/arduinobot_py_examples:/opt/ros/humble /usr/bin/cmake /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/src/gg_hex_description -DCMAKE_INSTALL_PREFIX=/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description
+[0.676s] Invoking command in '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/build/gg_hex_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nobel/workspace_arm/IRoC_U_arm/arm_ws/install/armkin_pkg:/home/nobel/Drone_Related/Drones_Library/follow_drone_ws/install/sjtu_drone_bringup:/home/nobel/arduinobot_ws/install/arduinobot_py_examples:/home/nobel/install/arduinobot_py_examples:/opt/ros/humble /usr/bin/cmake --build /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/build/gg_hex_description -- -j16 -l16
+[0.721s] Invoked command in '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/build/gg_hex_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nobel/workspace_arm/IRoC_U_arm/arm_ws/install/armkin_pkg:/home/nobel/Drone_Related/Drones_Library/follow_drone_ws/install/sjtu_drone_bringup:/home/nobel/arduinobot_ws/install/arduinobot_py_examples:/home/nobel/install/arduinobot_py_examples:/opt/ros/humble /usr/bin/cmake --build /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/build/gg_hex_description -- -j16 -l16
+[0.756s] Invoking command in '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/build/gg_hex_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nobel/workspace_arm/IRoC_U_arm/arm_ws/install/armkin_pkg:/home/nobel/Drone_Related/Drones_Library/follow_drone_ws/install/sjtu_drone_bringup:/home/nobel/arduinobot_ws/install/arduinobot_py_examples:/home/nobel/install/arduinobot_py_examples:/opt/ros/humble /usr/bin/cmake --install /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/build/gg_hex_description
+[0.763s] -- Install configuration: ""
+[0.763s] -- Installing: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description/share/gg_hex_description//meshes
+[0.763s] -- Installing: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description/share/gg_hex_description//meshes/1side_5.part
+[0.765s] -- Installing: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description/share/gg_hex_description//meshes/080-1656-000_3.step.stl
+[0.765s] -- Installing: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description/share/gg_hex_description//meshes/porg_system_screw.step.part
+[0.765s] -- Installing: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description/share/gg_hex_description//meshes/arm_low__same_8.part
+[0.765s] -- Installing: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description/share/gg_hex_description//meshes/1side_3.stl
+[0.766s] -- Installing: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description/share/gg_hex_description//meshes/porg_system_screw.step.stl
+[0.766s] -- Installing: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description/share/gg_hex_description//meshes/porg_system_screw.step_3.stl
+[0.767s] -- Installing: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description/share/gg_hex_description//meshes/porg_hex_standoff.step.stl
+[0.767s] -- Installing: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description/share/gg_hex_description//meshes/center.stl
+[0.768s] -- Installing: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description/share/gg_hex_description//meshes/porg_system_screw.step_3.part
+[0.768s] -- Installing: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description/share/gg_hex_description//meshes/servo_motor_35kg_motor_6.stl
+[0.770s] -- Installing: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description/share/gg_hex_description//meshes/scanner.step.stl
+[0.770s] -- Installing: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description/share/gg_hex_description//meshes/cam_lider_stand.part
+[0.770s] -- Installing: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description/share/gg_hex_description//meshes/part_1_12.stl
+[0.771s] -- Installing: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description/share/gg_hex_description//meshes/1side_3.part
+[0.771s] -- Installing: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description/share/gg_hex_description//meshes/servo_motor_35kg_motor.part
+[0.771s] -- Installing: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description/share/gg_hex_description//meshes/142-13449-1000-a02.step.stl
+[0.775s] -- Installing: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description/share/gg_hex_description//meshes/servo_motor_35kg_motor_6.part
+[0.775s] -- Installing: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description/share/gg_hex_description//meshes/arm_up_same_9.stl
+[0.776s] -- Installing: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description/share/gg_hex_description//meshes/robot.urdf.xacro
+[0.777s] -- Installing: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description/share/gg_hex_description//meshes/robot.xacro
+[0.778s] -- Installing: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description/share/gg_hex_description//meshes/porg_system_screw.step_1.part
+[0.778s] -- Installing: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description/share/gg_hex_description//meshes/1side_2.part
+[0.778s] -- Installing: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description/share/gg_hex_description//meshes/porg_heat_sink.step.stl
+[0.779s] -- Installing: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description/share/gg_hex_description//meshes/porg_heat_sink.step.part
+[0.779s] -- Installing: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description/share/gg_hex_description//meshes/leg_1.stl
+[0.783s] -- Installing: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description/share/gg_hex_description//meshes/142-63448-1gen_a00.step.stl
+[0.784s] -- Installing: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description/share/gg_hex_description//meshes/porg_system_screw.step_2.stl
+[0.784s] -- Installing: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description/share/gg_hex_description//meshes/leg_1.part
+[0.784s] -- Installing: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description/share/gg_hex_description//meshes/scanner.step.part
+[0.785s] -- Installing: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description/share/gg_hex_description//meshes/servo_motor_35kg_motor.stl
+[0.785s] -- Installing: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description/share/gg_hex_description//meshes/1side_1.part
+[0.785s] -- Installing: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description/share/gg_hex_description//meshes/mounting_plate.step.part
+[0.785s] -- Installing: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description/share/gg_hex_description//meshes/142-63448-1gen_a00.step.part
+[0.785s] -- Installing: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description/share/gg_hex_description//meshes/1side_4.stl
+[0.786s] -- Installing: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description/share/gg_hex_description//meshes/document.stl
+[0.788s] -- Installing: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description/share/gg_hex_description//meshes/1side_4.part
+[0.788s] -- Installing: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description/share/gg_hex_description//meshes/porg_system_screw.step_2.part
+[0.788s] -- Installing: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description/share/gg_hex_description//meshes/1side_5.stl
+[0.789s] -- Installing: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description/share/gg_hex_description//meshes/cam_lider_stand.stl
+[0.789s] -- Installing: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description/share/gg_hex_description//meshes/1side.stl
+[0.790s] -- Installing: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description/share/gg_hex_description//meshes/part_1.stl
+[0.791s] -- Installing: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description/share/gg_hex_description//meshes/porg_system_screw.step_1.stl
+[0.792s] -- Installing: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description/share/gg_hex_description//meshes/porg_hex_standoff.step.part
+[0.792s] -- Installing: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description/share/gg_hex_description//meshes/base_(1).step.part
+[0.792s] -- Installing: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description/share/gg_hex_description//meshes/base_(1).step.stl
+[0.799s] -- Installing: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description/share/gg_hex_description//meshes/arm_up_same_9.part
+[0.799s] -- Installing: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description/share/gg_hex_description//meshes/1side_1.stl
+[0.800s] -- Installing: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description/share/gg_hex_description//meshes/142-13449-1000-a02.step.part
+[0.800s] -- Installing: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description/share/gg_hex_description//meshes/arm_low__same_8.stl
+[0.801s] -- Installing: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description/share/gg_hex_description//meshes/part_1_13.stl
+[0.803s] -- Installing: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description/share/gg_hex_description//meshes/mounting_plate.step.stl
+[0.808s] -- Installing: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description/share/gg_hex_description//meshes/part_1_12.part
+[0.809s] -- Installing: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description/share/gg_hex_description//meshes/part_1.part
+[0.809s] -- Installing: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description/share/gg_hex_description//meshes/1side.part
+[0.809s] -- Installing: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description/share/gg_hex_description//meshes/080-1656-000_3.step.part
+[0.809s] -- Installing: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description/share/gg_hex_description//meshes/center.part
+[0.809s] -- Installing: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description/share/gg_hex_description//meshes/1side_2.stl
+[0.810s] -- Installing: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description/share/gg_hex_description//meshes/porg_hex_standoff.step_1.part
+[0.810s] -- Installing: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description/share/gg_hex_description//meshes/porg_hex_standoff.step_1.stl
+[0.810s] -- Installing: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description/share/gg_hex_description//meshes/config.json
+[0.811s] -- Installing: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description/share/gg_hex_description//meshes/document.part
+[0.811s] -- Installing: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description/share/gg_hex_description//meshes/part_1_13.part
+[0.811s] -- Installing: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description/share/gg_hex_description//leg_sim
+[0.811s] -- Installing: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description/share/gg_hex_description//leg_sim/part_5.stl
+[0.811s] -- Installing: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description/share/gg_hex_description//leg_sim/part_2.part
+[0.811s] -- Installing: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description/share/gg_hex_description//leg_sim/gg_sim_controller.xacro
+[0.812s] -- Installing: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description/share/gg_hex_description//leg_sim/robot.urdf.xacro
+[0.812s] -- Installing: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description/share/gg_hex_description//leg_sim/part_4.stl
+[0.812s] -- Installing: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description/share/gg_hex_description//leg_sim/gg_sim_gazebo.xacro
+[0.812s] -- Installing: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description/share/gg_hex_description//leg_sim/part_4.part
+[0.812s] -- Installing: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description/share/gg_hex_description//leg_sim/part_5.part
+[0.812s] -- Installing: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description/share/gg_hex_description//leg_sim/part_3.part
+[0.812s] -- Installing: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description/share/gg_hex_description//leg_sim/part_3.stl
+[0.812s] -- Installing: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description/share/gg_hex_description//leg_sim/part_1.stl
+[0.813s] -- Installing: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description/share/gg_hex_description//leg_sim/gg_sim_ros2_control.xacro
+[0.813s] -- Installing: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description/share/gg_hex_description//leg_sim/gg_sim_combo.urdf.xacro
+[0.813s] -- Installing: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description/share/gg_hex_description//leg_sim/part_1.part
+[0.813s] -- Installing: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description/share/gg_hex_description//leg_sim/part_2.stl
+[0.813s] -- Installing: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description/share/gg_hex_description//leg_sim/config.json
+[0.813s] -- Installing: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description/share/ament_index/resource_index/package_run_dependencies/gg_hex_description
+[0.813s] -- Installing: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description/share/ament_index/resource_index/parent_prefix_path/gg_hex_description
+[0.813s] -- Installing: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description/share/gg_hex_description/environment/ament_prefix_path.sh
+[0.813s] -- Installing: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description/share/gg_hex_description/environment/ament_prefix_path.dsv
+[0.813s] -- Installing: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description/share/gg_hex_description/environment/path.sh
+[0.813s] -- Installing: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description/share/gg_hex_description/environment/path.dsv
+[0.813s] -- Installing: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description/share/gg_hex_description/local_setup.bash
+[0.814s] -- Installing: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description/share/gg_hex_description/local_setup.sh
+[0.814s] -- Installing: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description/share/gg_hex_description/local_setup.zsh
+[0.814s] -- Installing: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description/share/gg_hex_description/local_setup.dsv
+[0.814s] -- Installing: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description/share/gg_hex_description/package.dsv
+[0.814s] -- Installing: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description/share/ament_index/resource_index/packages/gg_hex_description
+[0.814s] -- Installing: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description/share/gg_hex_description/cmake/gg_hex_descriptionConfig.cmake
+[0.814s] -- Installing: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description/share/gg_hex_description/cmake/gg_hex_descriptionConfig-version.cmake
+[0.814s] -- Installing: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description/share/gg_hex_description/package.xml
+[0.816s] Invoked command in '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/build/gg_hex_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nobel/workspace_arm/IRoC_U_arm/arm_ws/install/armkin_pkg:/home/nobel/Drone_Related/Drones_Library/follow_drone_ws/install/sjtu_drone_bringup:/home/nobel/arduinobot_ws/install/arduinobot_py_examples:/home/nobel/install/arduinobot_py_examples:/opt/ros/humble /usr/bin/cmake --install /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/build/gg_hex_description

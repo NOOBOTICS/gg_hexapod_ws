@@ -1,1 +1,13 @@
-/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/src/gg_hex_description/meshes/document.part
+{
+    "configuration": "default",
+    "documentId": "3373df1cb1f0eb05db8860d8",
+    "documentMicroversion": "e6c2d38edb3bab828103bacd",
+    "elementId": "a6810cf5e2c3213215301b72",
+    "fullConfiguration": "default",
+    "id": "MfidkG5VthM2iU4Q6",
+    "isStandardContent": false,
+    "name": "Document <32>",
+    "partId": "KFbE",
+    "suppressed": false,
+    "type": "Part"
+}

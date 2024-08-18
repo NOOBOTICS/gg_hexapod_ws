@@ -1,1 +1,13 @@
-/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/src/gg_hex_description/leg_sim/gg_sim_combo.urdf.xacro
+<?xml version="1.0"?>
+<robot name="Hexapod_sim"  xmlns:xacro= "http://www.ros.org/wiki/xacro">
+
+<xacro:include filename="robot.urdf.xacro"/>
+
+<xacro:include filename="gg_sim_ros2_control.xacro"/>
+
+<xacro:include filename="gg_sim_gazebo.xacro"/>
+
+<xacro:include filename="gg_sim_controller.xacro"/>
+
+
+</robot>

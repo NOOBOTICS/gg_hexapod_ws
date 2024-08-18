@@ -1,1 +1,13 @@
-/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/src/gg_hex_description/meshes/porg_system_screw.step_2.part
+{
+    "configuration": "default",
+    "documentId": "3373df1cb1f0eb05db8860d8",
+    "documentMicroversion": "e6c2d38edb3bab828103bacd",
+    "elementId": "c38418dd358ab68aa6461d8c",
+    "fullConfiguration": "default",
+    "id": "MJk+0Z0G/gXHbha8d",
+    "isStandardContent": false,
+    "name": "PORG_SYSTEM_SCREW.step_2 <1>",
+    "partId": "KFvz",
+    "suppressed": false,
+    "type": "Part"
+}

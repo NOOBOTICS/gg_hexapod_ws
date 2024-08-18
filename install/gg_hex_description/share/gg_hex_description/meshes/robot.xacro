@@ -1,1 +1,2115 @@
-/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/src/gg_hex_description/meshes/robot.xacro
+<?xml version="1.0"?>
+<robot name="gg_hex"  xmlns:xacro= "http://www.ros.org/wiki/xacro">
+<link name="assembly_1">
+<visual>
+<origin xyz="0.058445987923858813695 0.0025815864746969729993 0.081173616907979834201" rpy="-1.69454300017771331 -0.11830186565368287777 3.0080280755874211351" />
+<geometry>
+<mesh filename="file://$(find gg_hex_description)/meshes/142-63448-1gen_a00.step.stl"/>
+</geometry>
+<material name="142-63448-1gen_a00.step_material">
+<color rgba="0.098039215686274508443 0.098039215686274508443 0.098039215686274508443 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.058445987923858813695 0.0025815864746969729993 0.081173616907979834201" rpy="-1.69454300017771331 -0.11830186565368287777 3.0080280755874211351" />
+<geometry>
+<mesh filename="file://$(find gg_hex_description)/meshes/142-63448-1gen_a00.step.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="-0.0026353769445509461766 -0.11145398988349541902 0.093828402700609228604" rpy="0.80933746469795697642 -1.399726853669977622 -0.94468224678350543044" />
+<geometry>
+<mesh filename="file://$(find gg_hex_description)/meshes/document.stl"/>
+</geometry>
+<material name="document_material">
+<color rgba="0.98039215686274505668 0.71372549019607844922 0.0039215686274509803377 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-0.0026353769445509461766 -0.11145398988349541902 0.093828402700609228604" rpy="0.80933746469795697642 -1.399726853669977622 -0.94468224678350543044" />
+<geometry>
+<mesh filename="file://$(find gg_hex_description)/meshes/document.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="-0.039166111262782112024 -0.14021546247950628095 0.017636901985599945375" rpy="1.6909828577768013513 0.12191759249371435236 -0.16327451293527850407" />
+<geometry>
+<mesh filename="file://$(find gg_hex_description)/meshes/1side_2.stl"/>
+</geometry>
+<material name="1side_2_material">
+<color rgba="0.79215686274509800047 0.81960784313725487671 0.92941176470588238168 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-0.039166111262782112024 -0.14021546247950628095 0.017636901985599945375" rpy="1.6909828577768013513 0.12191759249371435236 -0.16327451293527850407" />
+<geometry>
+<mesh filename="file://$(find gg_hex_description)/meshes/1side_2.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="0.058014120894321438704 0.0051363283649073221415 0.080042527606181496092" rpy="-1.6945430001777139761 -0.11830186565368287777 3.0080280755874211351" />
+<geometry>
+<mesh filename="file://$(find gg_hex_description)/meshes/porg_heat_sink.step.stl"/>
+</geometry>
+<material name="porg_heat_sink.step_material">
+<color rgba="0.098039215686274508443 0.098039215686274508443 0.098039215686274508443 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.058014120894321438704 0.0051363283649073221415 0.080042527606181496092" rpy="-1.6945430001777139761 -0.11830186565368287777 3.0080280755874211351" />
+<geometry>
+<mesh filename="file://$(find gg_hex_description)/meshes/porg_heat_sink.step.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="0.068597716109985634736 -0.098283233993007035334 -0.01155617395439459405" rpy="3.0402468030918208264 -0.13795396206865251365 2.8331651461695792626" />
+<geometry>
+<mesh filename="file://$(find gg_hex_description)/meshes/part_1.stl"/>
+</geometry>
+<material name="part_1_material">
+<color rgba="1 0.56862745098039213509 0.43529411764705883137 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.068597716109985634736 -0.098283233993007035334 -0.01155617395439459405" rpy="3.0402468030918208264 -0.13795396206865251365 2.8331651461695792626" />
+<geometry>
+<mesh filename="file://$(find gg_hex_description)/meshes/part_1.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="-0.09069894650481218068 -0.076879413048327571722 0.0075474743876648014984" rpy="-2.9992705478562897703 0.0950925067881510655 0.04041414892793478153" />
+<geometry>
+<mesh filename="file://$(find gg_hex_description)/meshes/part_1.stl"/>
+</geometry>
+<material name="part_1_material">
+<color rgba="1 0.56862745098039213509 0.43529411764705883137 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-0.09069894650481218068 -0.076879413048327571722 0.0075474743876648014984" rpy="-2.9992705478562897703 0.0950925067881510655 0.04041414892793478153" />
+<geometry>
+<mesh filename="file://$(find gg_hex_description)/meshes/part_1.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="-0.032619955776820516724 -0.1430973061706969085 0.01657159633135281418" rpy="1.6962815466713001555 0.1164550360245116406 -0.11871932491830738954" />
+<geometry>
+<mesh filename="file://$(find gg_hex_description)/meshes/1side_4.stl"/>
+</geometry>
+<material name="1side_4_material">
+<color rgba="0.79215686274509800047 0.81960784313725487671 0.92941176470588238168 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-0.032619955776820516724 -0.1430973061706969085 0.01657159633135281418" rpy="1.6962815466713001555 0.1164550360245116406 -0.11871932491830738954" />
+<geometry>
+<mesh filename="file://$(find gg_hex_description)/meshes/1side_4.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="-0.065805404461019248452 0.089811581899605114065 0.028362030443218902431" rpy="-3.0443969306756768489 0.14089933506975102495 -0.3382876277383131125" />
+<geometry>
+<mesh filename="file://$(find gg_hex_description)/meshes/part_1.stl"/>
+</geometry>
+<material name="part_1_material">
+<color rgba="1 0.56862745098039213509 0.43529411764705883137 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-0.065805404461019248452 0.089811581899605114065 0.028362030443218902431" rpy="-3.0443969306756768489 0.14089933506975102495 -0.3382876277383131125" />
+<geometry>
+<mesh filename="file://$(find gg_hex_description)/meshes/part_1.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="0.093491258153778455942 0.068407760954925789232 0.009258382101159493005" rpy="2.99652831538419262 -0.090836794789820624052 -3.0716405868405085577" />
+<geometry>
+<mesh filename="file://$(find gg_hex_description)/meshes/part_1.stl"/>
+</geometry>
+<material name="part_1_material">
+<color rgba="1 0.56862745098039213509 0.43529411764705883137 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.093491258153778455942 0.068407760954925789232 0.009258382101159493005" rpy="2.99652831538419262 -0.090836794789820624052 -3.0716405868405085577" />
+<geometry>
+<mesh filename="file://$(find gg_hex_description)/meshes/part_1.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="-1.4987603452312112662 -0.18773248174587564563 0.32807494299820194605" rpy="0 -0 0" />
+<geometry>
+<mesh filename="file://$(find gg_hex_description)/meshes/servo_motor_35kg_motor.stl"/>
+</geometry>
+<material name="servo_motor_35kg_motor_material">
+<color rgba="0.78039215686274510109 0.76078431372549015776 0.74117647058823532547 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-1.4987603452312112662 -0.18773248174587564563 0.32807494299820194605" rpy="0 -0 0" />
+<geometry>
+<mesh filename="file://$(find gg_hex_description)/meshes/servo_motor_35kg_motor.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="0.058391303639082389743 0.002657281822629337098 0.080632820011446643127" rpy="-1.694543000177713088 -0.11830186565368287777 3.0080280755874211351" />
+<geometry>
+<mesh filename="file://$(find gg_hex_description)/meshes/porg_hex_standoff.step.stl"/>
+</geometry>
+<material name="porg_hex_standoff.step_material">
+<color rgba="1 0.92941176470588238168 0.43137254901960786491 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.058391303639082389743 0.002657281822629337098 0.080632820011446643127" rpy="-1.694543000177713088 -0.11830186565368287777 3.0080280755874211351" />
+<geometry>
+<mesh filename="file://$(find gg_hex_description)/meshes/porg_hex_standoff.step.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="0.05845607183351508862 0.0025676280759892866623 0.081273341117034436643" rpy="-1.6945430001777139761 -0.11830186565368287777 3.0080280755874211351" />
+<geometry>
+<mesh filename="file://$(find gg_hex_description)/meshes/porg_system_screw.step_3.stl"/>
+</geometry>
+<material name="porg_system_screw.step_3_material">
+<color rgba="0.96078431372549022438 0.96078431372549022438 0.96470588235294119084 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.05845607183351508862 0.0025676280759892866623 0.081273341117034436643" rpy="-1.6945430001777139761 -0.11830186565368287777 3.0080280755874211351" />
+<geometry>
+<mesh filename="file://$(find gg_hex_description)/meshes/porg_system_screw.step_3.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="-0.033775108696400421571 -0.14335986387219379345 0.016651652845960998595" rpy="1.69454300017771331 0.11830186565368282225 -0.13356457800237125921" />
+<geometry>
+<mesh filename="file://$(find gg_hex_description)/meshes/1side.stl"/>
+</geometry>
+<material name="1side_material">
+<color rgba="0.79215686274509800047 0.81960784313725487671 0.92941176470588238168 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-0.033775108696400421571 -0.14335986387219379345 0.016651652845960998595" rpy="1.69454300017771331 0.11830186565368282225 -0.13356457800237125921" />
+<geometry>
+<mesh filename="file://$(find gg_hex_description)/meshes/1side.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="0.058456071833515074743 0.0025676280759893144179 0.081273341117034436643" rpy="-1.6945430001777139761 -0.11830186565368287777 3.0080280755874211351" />
+<geometry>
+<mesh filename="file://$(find gg_hex_description)/meshes/porg_system_screw.step_2.stl"/>
+</geometry>
+<material name="porg_system_screw.step_2_material">
+<color rgba="0.96078431372549022438 0.96078431372549022438 0.96470588235294119084 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.058456071833515074743 0.0025676280759893144179 0.081273341117034436643" rpy="-1.6945430001777139761 -0.11830186565368287777 3.0080280755874211351" />
+<geometry>
+<mesh filename="file://$(find gg_hex_description)/meshes/porg_system_screw.step_2.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="0.056785387548437843419 -0.00057867630844646300581 0.078281010724167321424" rpy="-1.69454300017771331 -0.11830186565368287777 3.0080280755874211351" />
+<geometry>
+<mesh filename="file://$(find gg_hex_description)/meshes/080-1656-000_3.step.stl"/>
+</geometry>
+<material name="080-1656-000_3.step_material">
+<color rgba="0.34901960784313723618 0.34901960784313723618 0.34901960784313723618 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.056785387548437843419 -0.00057867630844646300581 0.078281010724167321424" rpy="-1.69454300017771331 -0.11830186565368287777 3.0080280755874211351" />
+<geometry>
+<mesh filename="file://$(find gg_hex_description)/meshes/080-1656-000_3.step.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="0.058547743739481308833 0.0024407335422834963712 0.082179924835712417353" rpy="-1.694543000177713088 -0.11830186565368287777 3.0080280755874211351" />
+<geometry>
+<mesh filename="file://$(find gg_hex_description)/meshes/porg_system_screw.step_1.stl"/>
+</geometry>
+<material name="porg_system_screw.step_1_material">
+<color rgba="0.96078431372549022438 0.96078431372549022438 0.96470588235294119084 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.058547743739481308833 0.0024407335422834963712 0.082179924835712417353" rpy="-1.694543000177713088 -0.11830186565368287777 3.0080280755874211351" />
+<geometry>
+<mesh filename="file://$(find gg_hex_description)/meshes/porg_system_screw.step_1.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="-0.036433095928893564908 -0.14204766413218608556 0.017104091734199425301" rpy="1.6927766487694455577 0.12012285548194641394 -0.14841630398830452098" />
+<geometry>
+<mesh filename="file://$(find gg_hex_description)/meshes/1side_1.stl"/>
+</geometry>
+<material name="1side_1_material">
+<color rgba="0.79215686274509800047 0.81960784313725487671 0.92941176470588238168 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-0.036433095928893564908 -0.14204766413218608556 0.017104091734199425301" rpy="1.6927766487694455577 0.12012285548194641394 -0.14841630398830452098" />
+<geometry>
+<mesh filename="file://$(find gg_hex_description)/meshes/1side_1.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="-0.029524862101982039808 -0.14258536828116658013 0.01633028269199308935" rpy="1.6979919299963646129 0.11458278475589817047 -0.10388052898764205123" />
+<geometry>
+<mesh filename="file://$(find gg_hex_description)/meshes/1side_3.stl"/>
+</geometry>
+<material name="1side_3_material">
+<color rgba="0.79215686274509800047 0.81960784313725487671 0.92941176470588238168 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-0.029524862101982039808 -0.14258536828116658013 0.01633028269199308935" rpy="1.6979919299963646129 0.11458278475589817047 -0.10388052898764205123" />
+<geometry>
+<mesh filename="file://$(find gg_hex_description)/meshes/1side_3.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="0.0089574322290239122291 0.019448022512668416972 0.044548307240028992005" rpy="0.12374667338281677975 0.11830186565368287777 -0.13356457800237200861" />
+<geometry>
+<mesh filename="file://$(find gg_hex_description)/meshes/mounting_plate.step.stl"/>
+</geometry>
+<material name="mounting_plate.step_material">
+<color rgba="0.62745098039215685404 0.62745098039215685404 0.62745098039215685404 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.0089574322290239122291 0.019448022512668416972 0.044548307240028992005" rpy="0.12374667338281677975 0.11830186565368287777 -0.13356457800237200861" />
+<geometry>
+<mesh filename="file://$(find gg_hex_description)/meshes/mounting_plate.step.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="0.05845607183351508862 0.0025676280759893144179 0.081273341117034436643" rpy="-1.6945430001777139761 -0.11830186565368287777 3.0080280755874211351" />
+<geometry>
+<mesh filename="file://$(find gg_hex_description)/meshes/porg_hex_standoff.step_1.stl"/>
+</geometry>
+<material name="porg_hex_standoff.step_1_material">
+<color rgba="1 0.92941176470588238168 0.43137254901960786491 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.05845607183351508862 0.0025676280759893144179 0.081273341117034436643" rpy="-1.6945430001777139761 -0.11830186565368287777 3.0080280755874211351" />
+<geometry>
+<mesh filename="file://$(find gg_hex_description)/meshes/porg_hex_standoff.step_1.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="-0.042615323518084953502 -0.14088459115942569833 0.019251593871988659235" rpy="1.69454300017771331 0.11830186565368287777 -0.13356457800237200861" />
+<geometry>
+<mesh filename="file://$(find gg_hex_description)/meshes/cam_lider_stand.stl"/>
+</geometry>
+<material name="cam_lider_stand_material">
+<color rgba="0.79215686274509800047 0.81960784313725487671 0.93333333333333334814 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-0.042615323518084953502 -0.14088459115942569833 0.019251593871988659235" rpy="1.69454300017771331 0.11830186565368287777 -0.13356457800237200861" />
+<geometry>
+<mesh filename="file://$(find gg_hex_description)/meshes/cam_lider_stand.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="0.057140635911830217619 0.0018067071222367114824 0.078707038476072924138" rpy="-1.69454300017771331 -0.11830186565368287777 3.0080280755874211351" />
+<geometry>
+<mesh filename="file://$(find gg_hex_description)/meshes/142-13449-1000-a02.step.stl"/>
+</geometry>
+<material name="142-13449-1000-a02.step_material">
+<color rgba="0.62745098039215685404 0.62745098039215685404 0.62745098039215685404 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.057140635911830217619 0.0018067071222367114824 0.078707038476072924138" rpy="-1.69454300017771331 -0.11830186565368287777 3.0080280755874211351" />
+<geometry>
+<mesh filename="file://$(find gg_hex_description)/meshes/142-13449-1000-a02.step.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="-0.002653542430012825748 -0.11145182582111268221 0.093831955876718678433" rpy="0.80933746469795819767 -1.399726853669977622 -0.94468224678350543044" />
+<geometry>
+<mesh filename="file://$(find gg_hex_description)/meshes/document.stl"/>
+</geometry>
+<material name="document_material">
+<color rgba="0.49803921568627451677 0.49803921568627451677 0.49803921568627451677 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-0.002653542430012825748 -0.11145182582111268221 0.093831955876718678433" rpy="0.80933746469795819767 -1.399726853669977622 -0.94468224678350543044" />
+<geometry>
+<mesh filename="file://$(find gg_hex_description)/meshes/document.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="0.0089076105409987837991 0.019516986933160729301 0.044055598697269160446" rpy="0.12374667338281714057 0.11830186565368325247 -0.13356457800237214739" />
+<geometry>
+<mesh filename="file://$(find gg_hex_description)/meshes/scanner.step.stl"/>
+</geometry>
+<material name="scanner.step_material">
+<color rgba="0.62745098039215685404 0.62745098039215685404 0.62745098039215685404 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.0089076105409987837991 0.019516986933160729301 0.044055598697269160446" rpy="0.12374667338281714057 0.11830186565368325247 -0.13356457800237214739" />
+<geometry>
+<mesh filename="file://$(find gg_hex_description)/meshes/scanner.step.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="-0.10122655237900639313 0.0095530257420968767157 0.020709953999056757157" rpy="-3.0196123316152441163 0.12012285548194605311 -0.14841630398830435444" />
+<geometry>
+<mesh filename="file://$(find gg_hex_description)/meshes/part_1.stl"/>
+</geometry>
+<material name="part_1_material">
+<color rgba="1 0.56862745098039213509 0.43529411764705883137 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-0.10122655237900639313 0.0095530257420968767157 0.020709953999056757157" rpy="-3.0196123316152441163 0.12012285548194605311 -0.14841630398830435444" />
+<geometry>
+<mesh filename="file://$(find gg_hex_description)/meshes/part_1.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="-0.034416065853841021349 -0.14181942817678294677 0.016932079935374252933" rpy="1.69454300017771331 0.11830186565368287777 -0.13356457800237200861" />
+<geometry>
+<mesh filename="file://$(find gg_hex_description)/meshes/center.stl"/>
+</geometry>
+<material name="center_material">
+<color rgba="0.79215686274509800047 0.81960784313725487671 0.92941176470588238168 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-0.034416065853841021349 -0.14181942817678294677 0.016932079935374252933" rpy="1.69454300017771331 0.11830186565368287777 -0.13356457800237200861" />
+<geometry>
+<mesh filename="file://$(find gg_hex_description)/meshes/center.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="0.10401886402797272391 -0.018024677835498686962 -0.003904097510232351631" rpy="3.0161074337133890744 -0.1164550360245113908 3.0228733286714861705" />
+<geometry>
+<mesh filename="file://$(find gg_hex_description)/meshes/part_1.stl"/>
+</geometry>
+<material name="part_1_material">
+<color rgba="1 0.56862745098039213509 0.43529411764705883137 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.10401886402797272391 -0.018024677835498686962 -0.003904097510232351631" rpy="3.0161074337133890744 -0.1164550360245113908 3.0228733286714861705" />
+<geometry>
+<mesh filename="file://$(find gg_hex_description)/meshes/part_1.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="-0.035482851226386807886 -0.14313040385255848541 0.016856453826823547537" rpy="1.694543000177713088 0.11830186565368346063 -0.13356457800237264699" />
+<geometry>
+<mesh filename="file://$(find gg_hex_description)/meshes/1side_5.stl"/>
+</geometry>
+<material name="1side_5_material">
+<color rgba="0.79215686274509800047 0.81960784313725487671 0.92941176470588238168 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-0.035482851226386807886 -0.14313040385255848541 0.016856453826823547537" rpy="1.694543000177713088 0.11830186565368346063 -0.13356457800237264699" />
+<geometry>
+<mesh filename="file://$(find gg_hex_description)/meshes/1side_5.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="0.058612511933914035467 0.0023510797956434736911 0.082820445941300169235" rpy="-1.694543000177713088 -0.11830186565368287777 3.0080280755874211351" />
+<geometry>
+<mesh filename="file://$(find gg_hex_description)/meshes/porg_system_screw.step.stl"/>
+</geometry>
+<material name="porg_system_screw.step_material">
+<color rgba="0.96078431372549022438 0.96078431372549022438 0.96470588235294119084 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.058612511933914035467 0.0023510797956434736911 0.082820445941300169235" rpy="-1.694543000177713088 -0.11830186565368287777 3.0080280755874211351" />
+<geometry>
+<mesh filename="file://$(find gg_hex_description)/meshes/porg_system_screw.step.stl"/>
+</geometry>
+</collision>
+<inertial>
+<origin xyz="0.0049144726111679075398 -0.0082949796992221359881 0.042289287757209768903" rpy="0 0 0"/>
+<mass value="0.82958818216076846142" />
+<inertia ixx="0.0038861049810958131316" ixy="-0.00013159810871960506487"  ixz="7.8806615666422686565e-05" iyy="0.003163921728398344773" iyz="-0.00028176171911983903615" izz="0.0048666635019478238222" />
+</inertial>
+</link>
+
+<link name="assembly_3">
+<visual>
+<origin xyz="-0.17112428024776815683 0.13092260782139794606 -0.16568576577660887317" rpy="3.1415926535897917837 0.058527728455402244778 2.0943951023931948185" />
+<geometry>
+<mesh filename="file://$(find gg_hex_description)/meshes/arm_low__same_8.stl"/>
+</geometry>
+<material name="arm_low__same_8_material">
+<color rgba="0.79215686274509800047 0.81960784313725487671 0.93333333333333334814 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-0.17112428024776815683 0.13092260782139794606 -0.16568576577660887317" rpy="3.1415926535897917837 0.058527728455402244778 2.0943951023931948185" />
+<geometry>
+<mesh filename="file://$(find gg_hex_description)/meshes/arm_low__same_8.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="-0.16311151208748786434 0.022787492236866477291 -0.16200180699142549545" rpy="-1.4706350212333036964 1.0934154581527093519 2.0755396376665955493" />
+<geometry>
+<mesh filename="file://$(find gg_hex_description)/meshes/arm_up_same_9.stl"/>
+</geometry>
+<material name="arm_up_same_9_material">
+<color rgba="0.79215686274509800047 0.81960784313725487671 0.93333333333333334814 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-0.16311151208748786434 0.022787492236866477291 -0.16200180699142549545" rpy="-1.4706350212333036964 1.0934154581527093519 2.0755396376665955493" />
+<geometry>
+<mesh filename="file://$(find gg_hex_description)/meshes/arm_up_same_9.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="0.38862075192311062999 0.068804257019581066546 -0.16296739614808505858" rpy="3.1415926535897917837 -0.62730705367627770386 -1.2915581004622399893e-18" />
+<geometry>
+<mesh filename="file://$(find gg_hex_description)/meshes/servo_motor_35kg_motor_6.stl"/>
+</geometry>
+<material name="servo_motor_35kg_motor_6_material">
+<color rgba="0.54117647058823525885 0.68235294117647060652 0.83921568627450982003 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.38862075192311062999 0.068804257019581066546 -0.16296739614808505858" rpy="3.1415926535897917837 -0.62730705367627770386 -1.2915581004622399893e-18" />
+<geometry>
+<mesh filename="file://$(find gg_hex_description)/meshes/servo_motor_35kg_motor_6.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="0.058690721103457688113 -0.06476010202345697242 -0.022076546598382231629" rpy="1.56470495051515468 0.013892410592663276964 1.9596561167853767671" />
+<geometry>
+<mesh filename="file://$(find gg_hex_description)/meshes/part_1.stl"/>
+</geometry>
+<material name="part_1_material">
+<color rgba="1 0.56862745098039213509 0.43529411764705883137 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.058690721103457688113 -0.06476010202345697242 -0.022076546598382231629" rpy="1.56470495051515468 0.013892410592663276964 1.9596561167853767671" />
+<geometry>
+<mesh filename="file://$(find gg_hex_description)/meshes/part_1.stl"/>
+</geometry>
+</collision>
+<inertial>
+<origin xyz="0.010017013608670341518 -0.023529721305144059296 -0.022358199064121009325" rpy="0 0 0"/>
+<mass value="0.067476595002583544813" />
+<inertia ixx="4.6325829939252475772e-05" ixy="1.2235622760424621621e-05"  ixz="2.8967523507951578403e-08" iyy="2.3362680842590751817e-05" iyz="-1.3747940641714326551e-07" izz="4.9084138088991365631e-05" />
+</inertial>
+</link>
+
+<link name="assembly_4">
+<visual>
+<origin xyz="0.031604749256238656718 -0.075860515729515201611 0.0066488723576033775808" rpy="-0.0060835378832986607492 -0.00029710614351855142452 1.9109423893997836696" />
+<geometry>
+<mesh filename="file://$(find gg_hex_description)/meshes/part_1.stl"/>
+</geometry>
+<material name="part_1_material">
+<color rgba="1 0.56862745098039213509 0.43529411764705883137 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.031604749256238656718 -0.075860515729515201611 0.0066488723576033775808" rpy="-0.0060835378832986607492 -0.00029710614351855142452 1.9109423893997836696" />
+<geometry>
+<mesh filename="file://$(find gg_hex_description)/meshes/part_1.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="0.098464002499942610003 0.12998676290266020228 -0.16538783459977249302" rpy="3.1388042696990527958 0.053110456188875700134 0.86358836955631335108" />
+<geometry>
+<mesh filename="file://$(find gg_hex_description)/meshes/arm_up_same_9.stl"/>
+</geometry>
+<material name="arm_up_same_9_material">
+<color rgba="0.79215686274509800047 0.81960784313725487671 0.93333333333333334814 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.098464002499942610003 0.12998676290266020228 -0.16538783459977249302" rpy="3.1388042696990527958 0.053110456188875700134 0.86358836955631335108" />
+<geometry>
+<mesh filename="file://$(find gg_hex_description)/meshes/arm_up_same_9.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="-0.17112428024776399349 0.13092260782139375497 -0.16568576577660790172" rpy="3.1415926535897900074 0.058527728455404125218 2.0943951023931979272" />
+<geometry>
+<mesh filename="file://$(find gg_hex_description)/meshes/arm_low__same_8.stl"/>
+</geometry>
+<material name="arm_low__same_8_material">
+<color rgba="0.79215686274509800047 0.81960784313725487671 0.93333333333333334814 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-0.17112428024776399349 0.13092260782139375497 -0.16568576577660790172" rpy="3.1415926535897900074 0.058527728455404125218 2.0943951023931979272" />
+<geometry>
+<mesh filename="file://$(find gg_hex_description)/meshes/arm_low__same_8.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="0.38862075192311062999 0.06880425701958103879 -0.16296739614808511409" rpy="3.1415926535897922278 -0.62730705367627759284 -5.9118703347496787536e-17" />
+<geometry>
+<mesh filename="file://$(find gg_hex_description)/meshes/servo_motor_35kg_motor_6.stl"/>
+</geometry>
+<material name="servo_motor_35kg_motor_6_material">
+<color rgba="0.54117647058823525885 0.68235294117647060652 0.83921568627450982003 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.38862075192311062999 0.06880425701958103879 -0.16296739614808511409" rpy="3.1415926535897922278 -0.62730705367627759284 -5.9118703347496787536e-17" />
+<geometry>
+<mesh filename="file://$(find gg_hex_description)/meshes/servo_motor_35kg_motor_6.stl"/>
+</geometry>
+</collision>
+<inertial>
+<origin xyz="0.0099258431088840130829 -0.023567084936440423765 -0.022313621155748187413" rpy="0 0 0"/>
+<mass value="0.067476595002583544813" />
+<inertia ixx="5.0338648412057097805e-05" ixy="1.3659898743794937523e-05"  ixz="4.0675664834584334154e-08" iyy="2.3848967580350391681e-05" iyz="-2.2689103634730599594e-08" izz="4.457280029787115145e-05" />
+</inertial>
+</link>
+
+<link name="assembly_4_2">
+<visual>
+<origin xyz="0.031604749256239489386 -0.075860515729516547756 0.0066488723576038771812" rpy="-0.0060835378832939058721 -0.00029710614351927534631 1.9109423893997867783" />
+<geometry>
+<mesh filename="file://$(find gg_hex_description)/meshes/part_1.stl"/>
+</geometry>
+<material name="part_1_material">
+<color rgba="1 0.56862745098039213509 0.43529411764705883137 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.031604749256239489386 -0.075860515729516547756 0.0066488723576038771812" rpy="-0.0060835378832939058721 -0.00029710614351927534631 1.9109423893997867783" />
+<geometry>
+<mesh filename="file://$(find gg_hex_description)/meshes/part_1.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="0.098464002499943664715 0.1299867629026628113 -0.16538783459977351997" rpy="3.1388042696990554603 0.053110456188877629147 0.86358836955631412824" />
+<geometry>
+<mesh filename="file://$(find gg_hex_description)/meshes/arm_up_same_9.stl"/>
+</geometry>
+<material name="arm_up_same_9_material">
+<color rgba="0.79215686274509800047 0.81960784313725487671 0.93333333333333334814 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.098464002499943664715 0.1299867629026628113 -0.16538783459977351997" rpy="3.1388042696990554603 0.053110456188877629147 0.86358836955631412824" />
+<geometry>
+<mesh filename="file://$(find gg_hex_description)/meshes/arm_up_same_9.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="-0.17112428024776790703 0.13092260782139672481 -0.16568576577660787397" rpy="3.1415926535897922278 0.058527728455402036611 2.0943951023931992594" />
+<geometry>
+<mesh filename="file://$(find gg_hex_description)/meshes/arm_low__same_8.stl"/>
+</geometry>
+<material name="arm_low__same_8_material">
+<color rgba="0.79215686274509800047 0.81960784313725487671 0.93333333333333334814 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-0.17112428024776790703 0.13092260782139672481 -0.16568576577660787397" rpy="3.1415926535897922278 0.058527728455402036611 2.0943951023931992594" />
+<geometry>
+<mesh filename="file://$(find gg_hex_description)/meshes/arm_low__same_8.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="0.38862075192311051897 0.068804257019581052668 -0.16296739614808497532" rpy="3.1415926535897917837 -0.62730705367627803692 7.4094698837833764691e-18" />
+<geometry>
+<mesh filename="file://$(find gg_hex_description)/meshes/servo_motor_35kg_motor_6.stl"/>
+</geometry>
+<material name="servo_motor_35kg_motor_6_material">
+<color rgba="0.54117647058823525885 0.68235294117647060652 0.83921568627450982003 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.38862075192311051897 0.068804257019581052668 -0.16296739614808497532" rpy="3.1415926535897917837 -0.62730705367627803692 7.4094698837833764691e-18" />
+<geometry>
+<mesh filename="file://$(find gg_hex_description)/meshes/servo_motor_35kg_motor_6.stl"/>
+</geometry>
+</collision>
+<inertial>
+<origin xyz="0.0099258431088841032885 -0.023567084936440753362 -0.022313621155748013941" rpy="0 0 0"/>
+<mass value="0.067476595002583544813" />
+<inertia ixx="5.0338648412058778318e-05" ixy="1.3659898743795557551e-05"  ixz="4.0675664834478845465e-08" iyy="2.3848967580351154011e-05" iyz="-2.2689103634545761123e-08" izz="4.457280029787270999e-05" />
+</inertial>
+</link>
+
+<link name="assembly_2">
+<visual>
+<origin xyz="-0.38185852300375139334 -0.085517539034458772695 -0.16796739614808611774" rpy="3.1415926535897913396 -0.62730705367627781488 3.141592653589793116" />
+<geometry>
+<mesh filename="file://$(find gg_hex_description)/meshes/leg_1.stl"/>
+</geometry>
+<material name="leg_1_material">
+<color rgba="0.79215686274509800047 0.81960784313725487671 0.93333333333333334814 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-0.38185852300375139334 -0.085517539034458772695 -0.16796739614808611774" rpy="3.1415926535897913396 -0.62730705367627781488 3.141592653589793116" />
+<geometry>
+<mesh filename="file://$(find gg_hex_description)/meshes/leg_1.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="0.38862075192311051897 0.068804257019581094301 -0.16296739614808503083" rpy="3.1415926535897917837 -0.6273070536762779259 -8.8396982667666153573e-17" />
+<geometry>
+<mesh filename="file://$(find gg_hex_description)/meshes/servo_motor_35kg_motor_6.stl"/>
+</geometry>
+<material name="servo_motor_35kg_motor_6_material">
+<color rgba="0.54117647058823525885 0.68235294117647060652 0.83921568627450982003 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.38862075192311051897 0.068804257019581094301 -0.16296739614808503083" rpy="3.1415926535897917837 -0.6273070536762779259 -8.8396982667666153573e-17" />
+<geometry>
+<mesh filename="file://$(find gg_hex_description)/meshes/servo_motor_35kg_motor_6.stl"/>
+</geometry>
+</collision>
+<inertial>
+<origin xyz="0.010557789188092704322 -0.021319284726329868623 -0.022134591458078396731" rpy="0 0 0"/>
+<mass value="0.062959844899816666541" />
+<inertia ixx="6.869307188141672712e-05" ixy="1.8562553003213872258e-05"  ixz="1.2311048808134416584e-07" iyy="1.7120165703682070526e-05" iyz="-4.2429306617763932702e-07" izz="7.3594133415483861237e-05" />
+</inertial>
+</link>
+
+<joint name="joint1" type="revolute">
+<origin xyz="0.031638564247150086084 -0.075846657619101059966 0.00064898365037235200559" rpy="0.0049178344284086664487 0.0035934263290651130909 -1.8128766270479328426" />
+<parent link="assembly_4_2" />
+<child link="assembly_2" />
+<axis xyz="0 0 1"/>
+<limit effort="1" velocity="20" lower="-1.570796326794896558" upper="1.570796326794896558"/>
+<joint_properties friction="0.0"/>
+</joint>
+
+<joint name="joint2" type="revolute">
+<origin xyz="0.031638564247149197906 -0.075846657619099602798 0.00064898365037175526071" rpy="0.0031650863657648469103 -0.005203846930267351685 -0.15750114240453158554" />
+<parent link="assembly_4" />
+<child link="assembly_4_2" />
+<axis xyz="0 0 1"/>
+<limit effort="1" velocity="20" lower="-1.570796326794896558" upper="1.570796326794896558"/>
+<joint_properties friction="0.0"/>
+</joint>
+
+<joint name="joint3" type="revolute">
+<origin xyz="0.053138964883358952296 -0.067035331104617706943 -0.02211309110323007518" rpy="-1.5642602288223492746 0.37126243927120344823 -1.1794806402196127415" />
+<parent link="assembly_3" />
+<child link="assembly_4" />
+<axis xyz="0 0 1"/>
+<limit effort="1" velocity="20" lower="-1.570796326794896558" upper="1.570796326794896558"/>
+<joint_properties friction="0.0"/>
+</joint>
+
+<joint name="joint4" type="revolute">
+<origin xyz="0.069195576366287425696 -0.099110807038914727762 -0.0056436714412770316862" rpy="2.9867345369287718881 0.072790062365610128103 -2.0800021733571312232" />
+<parent link="assembly_1" />
+<child link="assembly_3" />
+<axis xyz="0 0 1"/>
+<limit effort="1" velocity="20" lower="-1.570796326794896558" upper="1.570796326794896558"/>
+<joint_properties friction="0.0"/>
+</joint>
+
+<link name="assembly_3_copy_1">
+<visual>
+<origin xyz="-0.17112428024776676905 0.13092260782139647501 -0.16568576577660715232" rpy="3.1415926535897926719 0.058527728455399052887 2.0943951023931934863" />
+<geometry>
+<mesh filename="file://$(find gg_hex_description)/meshes/arm_low__same_8.stl"/>
+</geometry>
+<material name="arm_low__same_8_material">
+<color rgba="0.79215686274509800047 0.81960784313725487671 0.93333333333333334814 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-0.17112428024776676905 0.13092260782139647501 -0.16568576577660715232" rpy="3.1415926535897926719 0.058527728455399052887 2.0943951023931934863" />
+<geometry>
+<mesh filename="file://$(find gg_hex_description)/meshes/arm_low__same_8.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="0.10159712725498397379 0.13127078480041207142 0.11730180699142367384" rpy="1.6709576323565025202 -1.0934154581527153471 1.8439418403536560476" />
+<geometry>
+<mesh filename="file://$(find gg_hex_description)/meshes/arm_up_same_9.stl"/>
+</geometry>
+<material name="arm_up_same_9_material">
+<color rgba="0.79215686274509800047 0.81960784313725487671 0.93333333333333334814 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.10159712725498397379 0.13127078480041207142 0.11730180699142367384" rpy="1.6709576323565025202 -1.0934154581527153471 1.8439418403536560476" />
+<geometry>
+<mesh filename="file://$(find gg_hex_description)/meshes/arm_up_same_9.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="0.38862075192311051897 0.068804257019581080423 -0.16296739614808503083" rpy="3.1415926535897922278 -0.6273070536762779259 2.9298641541014159985e-17" />
+<geometry>
+<mesh filename="file://$(find gg_hex_description)/meshes/servo_motor_35kg_motor_6.stl"/>
+</geometry>
+<material name="servo_motor_35kg_motor_6_material">
+<color rgba="0.54117647058823525885 0.68235294117647060652 0.83921568627450982003 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.38862075192311051897 0.068804257019581080423 -0.16296739614808503083" rpy="3.1415926535897922278 -0.6273070536762779259 2.9298641541014159985e-17" />
+<geometry>
+<mesh filename="file://$(find gg_hex_description)/meshes/servo_motor_35kg_motor_6.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="0.0050248356702373708771 -0.08675353587810941125 -0.022623453401617796277" rpy="-1.5768877030746326628 -0.013892410592667074273 1.9598253612348823793" />
+<geometry>
+<mesh filename="file://$(find gg_hex_description)/meshes/part_1.stl"/>
+</geometry>
+<material name="part_1_material">
+<color rgba="1 0.56862745098039213509 0.43529411764705883137 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.0050248356702373708771 -0.08675353587810941125 -0.022623453401617796277" rpy="-1.5768877030746326628 -0.013892410592667074273 1.9598253612348823793" />
+<geometry>
+<mesh filename="file://$(find gg_hex_description)/meshes/part_1.stl"/>
+</geometry>
+</collision>
+<inertial>
+<origin xyz="0.0098845947304282439499 -0.02358398940891625814 -0.022412150851652219707" rpy="0 0 0"/>
+<mass value="0.067476595002583544813" />
+<inertia ixx="4.65520115356897254e-05" ixy="1.2007641767452479519e-05"  ixz="7.6766946774200109014e-08" iyy="2.3126796190870749193e-05" iyz="-2.4864979885479134708e-07" izz="4.9074947249041796628e-05" />
+</inertial>
+</link>
+
+<link name="assembly_4_3">
+<visual>
+<origin xyz="0.031604749256240363686 -0.07586051572951865718 0.0066488723576048902597" rpy="-0.006083537883285312052 -0.00029710614351972279654 1.9109423893997843358" />
+<geometry>
+<mesh filename="file://$(find gg_hex_description)/meshes/part_1.stl"/>
+</geometry>
+<material name="part_1_material">
+<color rgba="1 0.56862745098039213509 0.43529411764705883137 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.031604749256240363686 -0.07586051572951865718 0.0066488723576048902597" rpy="-0.006083537883285312052 -0.00029710614351972279654 1.9109423893997843358" />
+<geometry>
+<mesh filename="file://$(find gg_hex_description)/meshes/part_1.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="0.098464002499947161917 0.12998676290266483746 -0.16538783459977535184" rpy="3.1388042696990559044 0.053110456188876949135 0.86358836955630935428" />
+<geometry>
+<mesh filename="file://$(find gg_hex_description)/meshes/arm_up_same_9.stl"/>
+</geometry>
+<material name="arm_up_same_9_material">
+<color rgba="0.79215686274509800047 0.81960784313725487671 0.93333333333333334814 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.098464002499947161917 0.12998676290266483746 -0.16538783459977535184" rpy="3.1388042696990559044 0.053110456188876949135 0.86358836955630935428" />
+<geometry>
+<mesh filename="file://$(find gg_hex_description)/meshes/arm_up_same_9.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="-0.17112428024777409652 0.1309226078214016098 -0.16568576577661134341" rpy="3.1415926535897926719 0.05852772845540028801 2.0943951023931988153" />
+<geometry>
+<mesh filename="file://$(find gg_hex_description)/meshes/arm_low__same_8.stl"/>
+</geometry>
+<material name="arm_low__same_8_material">
+<color rgba="0.79215686274509800047 0.81960784313725487671 0.93333333333333334814 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-0.17112428024777409652 0.1309226078214016098 -0.16568576577661134341" rpy="3.1415926535897926719 0.05852772845540028801 2.0943951023931988153" />
+<geometry>
+<mesh filename="file://$(find gg_hex_description)/meshes/arm_low__same_8.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="0.38862075192311057448 0.068804257019581024912 -0.16296739614808497532" rpy="3.1415926535897922278 -0.6273070536762779259 3.5112428706536636743e-18" />
+<geometry>
+<mesh filename="file://$(find gg_hex_description)/meshes/servo_motor_35kg_motor_6.stl"/>
+</geometry>
+<material name="servo_motor_35kg_motor_6_material">
+<color rgba="0.54117647058823525885 0.68235294117647060652 0.83921568627450982003 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.38862075192311057448 0.068804257019581024912 -0.16296739614808497532" rpy="3.1415926535897922278 -0.6273070536762779259 3.5112428706536636743e-18" />
+<geometry>
+<mesh filename="file://$(find gg_hex_description)/meshes/servo_motor_35kg_motor_6.stl"/>
+</geometry>
+</collision>
+<inertial>
+<origin xyz="0.0099258431088843877832 -0.023567084936441308474 -0.022313621155747816183" rpy="0 0 0"/>
+<mass value="0.067476595002583544813" />
+<inertia ixx="5.0338648412061244878e-05" ixy="1.3659898743796343597e-05"  ixz="4.0675664834339310022e-08" iyy="2.3848967580352075583e-05" iyz="-2.2689103634218329949e-08" izz="4.4572800297875108787e-05" />
+</inertial>
+</link>
+
+<link name="assembly_4_4">
+<visual>
+<origin xyz="0.03160474925623958653 -0.075860515729517657979 0.0066488723576031459953" rpy="-0.0060835378832892845688 -0.00029710614353303018559 1.910942389399780339" />
+<geometry>
+<mesh filename="file://$(find gg_hex_description)/meshes/part_1.stl"/>
+</geometry>
+<material name="part_1_material">
+<color rgba="1 0.56862745098039213509 0.43529411764705883137 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.03160474925623958653 -0.075860515729517657979 0.0066488723576031459953" rpy="-0.0060835378832892845688 -0.00029710614353303018559 1.910942389399780339" />
+<geometry>
+<mesh filename="file://$(find gg_hex_description)/meshes/part_1.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="0.098464002499944608404 0.12998676290266292233 -0.1653878345997709387" rpy="3.1388042696990652303 0.053110456188868004901 0.86358836955631013144" />
+<geometry>
+<mesh filename="file://$(find gg_hex_description)/meshes/arm_up_same_9.stl"/>
+</geometry>
+<material name="arm_up_same_9_material">
+<color rgba="0.79215686274509800047 0.81960784313725487671 0.93333333333333334814 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.098464002499944608404 0.12998676290266292233 -0.1653878345997709387" rpy="3.1388042696990652303 0.053110456188868004901 0.86358836955631013144" />
+<geometry>
+<mesh filename="file://$(find gg_hex_description)/meshes/arm_up_same_9.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="-0.17112428024777151525 0.13092260782139925057 -0.16568576577660809601" rpy="3.1415926535897877869 0.058527728455390393147 2.0943951023931961508" />
+<geometry>
+<mesh filename="file://$(find gg_hex_description)/meshes/arm_low__same_8.stl"/>
+</geometry>
+<material name="arm_low__same_8_material">
+<color rgba="0.79215686274509800047 0.81960784313725487671 0.93333333333333334814 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-0.17112428024777151525 0.13092260782139925057 -0.16568576577660809601" rpy="3.1415926535897877869 0.058527728455390393147 2.0943951023931961508" />
+<geometry>
+<mesh filename="file://$(find gg_hex_description)/meshes/arm_low__same_8.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="0.38862075192311051897 0.068804257019581066546 -0.16296739614808503083" rpy="3.1415926535897922278 -0.6273070536762779259 8.203808317485944609e-17" />
+<geometry>
+<mesh filename="file://$(find gg_hex_description)/meshes/servo_motor_35kg_motor_6.stl"/>
+</geometry>
+<material name="servo_motor_35kg_motor_6_material">
+<color rgba="0.54117647058823525885 0.68235294117647060652 0.83921568627450982003 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.38862075192311051897 0.068804257019581066546 -0.16296739614808503083" rpy="3.1415926535897922278 -0.6273070536762779259 8.203808317485944609e-17" />
+<geometry>
+<mesh filename="file://$(find gg_hex_description)/meshes/servo_motor_35kg_motor_6.stl"/>
+</geometry>
+</collision>
+<inertial>
+<origin xyz="0.0099258431088841969636 -0.023567084936441003162 -0.022313621155748152719" rpy="0 0 0"/>
+<mass value="0.067476595002583544813" />
+<inertia ixx="5.0338648412059679561e-05" ixy="1.3659898743795877729e-05"  ixz="4.0675664834547316168e-08" iyy="2.384896758035139118e-05" iyz="-2.2689103634589515668e-08" izz="4.457280029787367222e-05" />
+</inertial>
+</link>
+
+<link name="assembly_2_copy_1">
+<visual>
+<origin xyz="0.33407977608518651946 0.20373523849368208039 0.12554932960878761872" rpy="2.4602351556632568966e-15 0.62730705367628381008 0.76794487087750418208" />
+<geometry>
+<mesh filename="file://$(find gg_hex_description)/meshes/leg_1.stl"/>
+</geometry>
+<material name="leg_1_material">
+<color rgba="0.79215686274509800047 0.81960784313725487671 0.93333333333333334814 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.33407977608518651946 0.20373523849368208039 0.12554932960878761872" rpy="2.4602351556632568966e-15 0.62730705367628381008 0.76794487087750418208" />
+<geometry>
+<mesh filename="file://$(find gg_hex_description)/meshes/leg_1.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="0.38862075192311051897 0.06880425701958103879 -0.16296739614808503083" rpy="3.1415926535897917837 -0.62730705367627781488 5.4062023861566369629e-17" />
+<geometry>
+<mesh filename="file://$(find gg_hex_description)/meshes/servo_motor_35kg_motor_6.stl"/>
+</geometry>
+<material name="servo_motor_35kg_motor_6_material">
+<color rgba="0.54117647058823525885 0.68235294117647060652 0.83921568627450982003 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.38862075192311051897 0.06880425701958103879 -0.16296739614808503083" rpy="3.1415926535897917837 -0.62730705367627781488 5.4062023861566369629e-17" />
+<geometry>
+<mesh filename="file://$(find gg_hex_description)/meshes/servo_motor_35kg_motor_6.stl"/>
+</geometry>
+</collision>
+<inertial>
+<origin xyz="0.0072157327308013325187 -0.022671457724625660585 -0.021552930470100074845" rpy="0 0 0"/>
+<mass value="0.062959844899816666541" />
+<inertia ixx="6.2416299960598548794e-05" ixy="2.51165997087574715e-05"  ixz="-4.1147565437759589295e-07" iyy="2.349872872464473566e-05" iyz="1.2841701662630688563e-06" izz="7.3602946338955716398e-05" />
+</inertial>
+</link>
+
+<joint name="joint1r" type="revolute">
+<origin xyz="0.031638564247150030573 -0.075846657619101948145 0.00064898365037160347241" rpy="-0.0054733141512966721962 0.0026721915452721997641 2.4139171004368420448" />
+<parent link="assembly_4_4" />
+<child link="assembly_2_copy_1" />
+<axis xyz="0 0 1"/>
+<limit effort="1" velocity="20" lower="-1.570796326794896558" upper="1.570796326794896558"/>
+<joint_properties friction="0.0"/>
+</joint>
+
+<joint name="joint2r" type="revolute">
+<origin xyz="0.031638564247150904873 -0.075846657619103058368 0.00064898365037320028537" rpy="0.0025366003507026769342 -0.0055374568690168476937 -0.040611554194178313415" />
+<parent link="assembly_4_3" />
+<child link="assembly_4_4" />
+<axis xyz="0 0 1"/>
+<limit effort="1" velocity="20" lower="-1.570796326794896558" upper="1.570796326794896558"/>
+<joint_properties friction="0.0"/>
+</joint>
+
+<joint name="joint3r" type="revolute">
+<origin xyz="0.010576591890336273227 -0.084478306796948621216 -0.02258690889676998742" rpy="-1.5867970061860323661 -1.18027341898918392 1.9745369123026259572" />
+<parent link="assembly_3_copy_1" />
+<child link="assembly_4_3" />
+<axis xyz="0 0 1"/>
+<limit effort="1" velocity="20" lower="-1.570796326794896558" upper="1.570796326794896558"/>
+<joint_properties friction="0.0"/>
+</joint>
+
+<joint name="joint4r" type="revolute">
+<origin xyz="-0.090101086248510486865 -0.077706986094235319662 0.013459976900782461007" rpy="3.0277931913933264774 -0.12789614813910216151 2.9270615655747280748" />
+<parent link="assembly_1" />
+<child link="assembly_3_copy_1" />
+<axis xyz="0 0 1"/>
+<limit effort="1" velocity="20" lower="-1.570796326794896558" upper="1.570796326794896558"/>
+<joint_properties friction="0.0"/>
+</joint>
+
+<link name="assembly_3_2">
+<visual>
+<origin xyz="-0.17112428024776810132 0.13092260782139725217 -0.16568576577660812377" rpy="3.1415926535897926719 0.058527728455400024332 2.0943951023931957067" />
+<geometry>
+<mesh filename="file://$(find gg_hex_description)/meshes/arm_low__same_8.stl"/>
+</geometry>
+<material name="arm_low__same_8_material">
+<color rgba="0.79215686274509800047 0.81960784313725487671 0.93333333333333334814 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-0.17112428024776810132 0.13092260782139725217 -0.16568576577660812377" rpy="3.1415926535897926719 0.058527728455400024332 2.0943951023931957067" />
+<geometry>
+<mesh filename="file://$(find gg_hex_description)/meshes/arm_low__same_8.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="-0.16311151208748808639 0.022787492236866095652 -0.16200180699142480156" rpy="-1.4706350212333045846 1.0934154581527093519 2.0755396376665973257" />
+<geometry>
+<mesh filename="file://$(find gg_hex_description)/meshes/arm_up_same_9.stl"/>
+</geometry>
+<material name="arm_up_same_9_material">
+<color rgba="0.79215686274509800047 0.81960784313725487671 0.93333333333333334814 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-0.16311151208748808639 0.022787492236866095652 -0.16200180699142480156" rpy="-1.4706350212333045846 1.0934154581527093519 2.0755396376665973257" />
+<geometry>
+<mesh filename="file://$(find gg_hex_description)/meshes/arm_up_same_9.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="0.38862075192311057448 0.068804257019581052668 -0.16296739614808503083" rpy="3.1415926535897922278 -0.62730705367627781488 9.0180412587593477652e-18" />
+<geometry>
+<mesh filename="file://$(find gg_hex_description)/meshes/servo_motor_35kg_motor_6.stl"/>
+</geometry>
+<material name="servo_motor_35kg_motor_6_material">
+<color rgba="0.54117647058823525885 0.68235294117647060652 0.83921568627450982003 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.38862075192311057448 0.068804257019581052668 -0.16296739614808503083" rpy="3.1415926535897922278 -0.62730705367627781488 9.0180412587593477652e-18" />
+<geometry>
+<mesh filename="file://$(find gg_hex_description)/meshes/servo_motor_35kg_motor_6.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="0.058690721103457535457 -0.064760102023456944664 -0.022076546598382491837" rpy="1.5647049505151551241 0.01389241059265909975 1.9596561167853794316" />
+<geometry>
+<mesh filename="file://$(find gg_hex_description)/meshes/part_1.stl"/>
+</geometry>
+<material name="part_1_material">
+<color rgba="1 0.56862745098039213509 0.43529411764705883137 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.058690721103457535457 -0.064760102023456944664 -0.022076546598382491837" rpy="1.5647049505151551241 0.01389241059265909975 1.9596561167853794316" />
+<geometry>
+<mesh filename="file://$(find gg_hex_description)/meshes/part_1.stl"/>
+</geometry>
+</collision>
+<inertial>
+<origin xyz="0.010017013608670306823 -0.023529721305144052357 -0.022358199064121037081" rpy="0 0 0"/>
+<mass value="0.067476595002583544813" />
+<inertia ixx="4.6325829939252428338e-05" ixy="1.2235622760424501342e-05"  ixz="2.896752350796603752e-08" iyy="2.336268084259061968e-05" iyz="-1.3747940641718376427e-07" izz="4.9084138088991175895e-05" />
+</inertial>
+</link>
+
+<link name="assembly_4_5">
+<visual>
+<origin xyz="0.03160474925623896203 -0.075860515729515493044 0.0066488723576032734974" rpy="-0.0060835378832950447181 -0.00029710614352217000348 1.9109423893997832256" />
+<geometry>
+<mesh filename="file://$(find gg_hex_description)/meshes/part_1.stl"/>
+</geometry>
+<material name="part_1_material">
+<color rgba="1 0.56862745098039213509 0.43529411764705883137 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.03160474925623896203 -0.075860515729515493044 0.0066488723576032734974" rpy="-0.0060835378832950447181 -0.00029710614352217000348 1.9109423893997832256" />
+<geometry>
+<mesh filename="file://$(find gg_hex_description)/meshes/part_1.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="0.098464002499941638558 0.12998676290266028555 -0.16538783459977199342" rpy="3.1388042696990572367 0.053110456188875221351 0.86358836955631312904" />
+<geometry>
+<mesh filename="file://$(find gg_hex_description)/meshes/arm_up_same_9.stl"/>
+</geometry>
+<material name="arm_up_same_9_material">
+<color rgba="0.79215686274509800047 0.81960784313725487671 0.93333333333333334814 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.098464002499941638558 0.12998676290266028555 -0.16538783459977199342" rpy="3.1388042696990572367 0.053110456188875221351 0.86358836955631312904" />
+<geometry>
+<mesh filename="file://$(find gg_hex_description)/meshes/arm_up_same_9.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="-0.17112428024776496494 0.13092260782139414355 -0.16568576577660656945" rpy="3.1415926535897922278 0.058527728455400628016 2.0943951023931983713" />
+<geometry>
+<mesh filename="file://$(find gg_hex_description)/meshes/arm_low__same_8.stl"/>
+</geometry>
+<material name="arm_low__same_8_material">
+<color rgba="0.79215686274509800047 0.81960784313725487671 0.93333333333333334814 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-0.17112428024776496494 0.13092260782139414355 -0.16568576577660656945" rpy="3.1415926535897922278 0.058527728455400628016 2.0943951023931983713" />
+<geometry>
+<mesh filename="file://$(find gg_hex_description)/meshes/arm_low__same_8.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="0.38862075192311051897 0.068804257019581052668 -0.16296739614808500307" rpy="3.1415926535897917837 -0.62730705367627781488 -1.0928563644304022615e-17" />
+<geometry>
+<mesh filename="file://$(find gg_hex_description)/meshes/servo_motor_35kg_motor_6.stl"/>
+</geometry>
+<material name="servo_motor_35kg_motor_6_material">
+<color rgba="0.54117647058823525885 0.68235294117647060652 0.83921568627450982003 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.38862075192311051897 0.068804257019581052668 -0.16296739614808500307" rpy="3.1415926535897917837 -0.62730705367627781488 -1.0928563644304022615e-17" />
+<geometry>
+<mesh filename="file://$(find gg_hex_description)/meshes/servo_motor_35kg_motor_6.stl"/>
+</geometry>
+</collision>
+<inertial>
+<origin xyz="0.0099258431088839298162 -0.023567084936440507031 -0.022313621155748166597" rpy="0 0 0"/>
+<mass value="0.067476595002583544813" />
+<inertia ixx="5.0338648412057409513e-05" ixy="1.3659898743795025614e-05"  ixz="4.0675664834595008093e-08" iyy="2.3848967580350469609e-05" iyz="-2.2689103634737322918e-08" izz="4.457280029787147671e-05" />
+</inertial>
+</link>
+
+<link name="assembly_4_6">
+<visual>
+<origin xyz="0.031604749256239295097 -0.075860515729516408978 0.0066488723576036898311" rpy="-0.006083537883288395523 -0.00029710614351864965323 1.9109423893997816712" />
+<geometry>
+<mesh filename="file://$(find gg_hex_description)/meshes/part_1.stl"/>
+</geometry>
+<material name="part_1_material">
+<color rgba="1 0.56862745098039213509 0.43529411764705883137 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.031604749256239295097 -0.075860515729516408978 0.0066488723576036898311" rpy="-0.006083537883288395523 -0.00029710614351864965323 1.9109423893997816712" />
+<geometry>
+<mesh filename="file://$(find gg_hex_description)/meshes/part_1.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="0.098464002499944081048 0.12998676290266261701 -0.16538783459977382528" rpy="3.1388042696990554603 0.053110456188879787143 0.86358836955631124166" />
+<geometry>
+<mesh filename="file://$(find gg_hex_description)/meshes/arm_up_same_9.stl"/>
+</geometry>
+<material name="arm_up_same_9_material">
+<color rgba="0.79215686274509800047 0.81960784313725487671 0.93333333333333334814 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.098464002499944081048 0.12998676290266261701 -0.16538783459977382528" rpy="3.1388042696990554603 0.053110456188879787143 0.86358836955631124166" />
+<geometry>
+<mesh filename="file://$(find gg_hex_description)/meshes/arm_up_same_9.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="-0.17112428024776737967 0.13092260782139633624 -0.16568576577660767968" rpy="-3.1415926535897917837 0.058527728455402085184 2.0943951023931974831" />
+<geometry>
+<mesh filename="file://$(find gg_hex_description)/meshes/arm_low__same_8.stl"/>
+</geometry>
+<material name="arm_low__same_8_material">
+<color rgba="0.79215686274509800047 0.81960784313725487671 0.93333333333333334814 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-0.17112428024776737967 0.13092260782139633624 -0.16568576577660767968" rpy="-3.1415926535897917837 0.058527728455402085184 2.0943951023931974831" />
+<geometry>
+<mesh filename="file://$(find gg_hex_description)/meshes/arm_low__same_8.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="0.38862075192311051897 0.068804257019580997157 -0.16296739614808503083" rpy="3.1415926535897922278 -0.62730705367627803692 -4.2350630427722315865e-17" />
+<geometry>
+<mesh filename="file://$(find gg_hex_description)/meshes/servo_motor_35kg_motor_6.stl"/>
+</geometry>
+<material name="servo_motor_35kg_motor_6_material">
+<color rgba="0.54117647058823525885 0.68235294117647060652 0.83921568627450982003 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.38862075192311051897 0.068804257019580997157 -0.16296739614808503083" rpy="3.1415926535897922278 -0.62730705367627803692 -4.2350630427722315865e-17" />
+<geometry>
+<mesh filename="file://$(find gg_hex_description)/meshes/servo_motor_35kg_motor_6.stl"/>
+</geometry>
+</collision>
+<inertial>
+<origin xyz="0.0099258431088840460427 -0.023567084936440708259 -0.022313621155748114555" rpy="0 0 0"/>
+<mass value="0.067476595002583544813" />
+<inertia ixx="5.0338648412058588583e-05" ixy="1.3659898743795462683e-05"  ixz="4.0675664834497850767e-08" iyy="2.3848967580351042203e-05" iyz="-2.2689103634632661409e-08" izz="4.457280029787243894e-05" />
+</inertial>
+</link>
+
+<link name="assembly_2_2">
+<visual>
+<origin xyz="-0.3818585230037506717 -0.085517539034459189029 -0.16796739614808625651" rpy="3.1415926535897904515 -0.62730705367627825897 -3.1415926535897926719" />
+<geometry>
+<mesh filename="file://$(find gg_hex_description)/meshes/leg_1.stl"/>
+</geometry>
+<material name="leg_1_material">
+<color rgba="0.79215686274509800047 0.81960784313725487671 0.93333333333333334814 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-0.3818585230037506717 -0.085517539034459189029 -0.16796739614808625651" rpy="3.1415926535897904515 -0.62730705367627825897 -3.1415926535897926719" />
+<geometry>
+<mesh filename="file://$(find gg_hex_description)/meshes/leg_1.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="0.38862075192311046345 0.06880425701958103879 -0.16296739614808503083" rpy="3.1415926535897917837 -0.6273070536762779259 1.6954604246791526421e-18" />
+<geometry>
+<mesh filename="file://$(find gg_hex_description)/meshes/servo_motor_35kg_motor_6.stl"/>
+</geometry>
+<material name="servo_motor_35kg_motor_6_material">
+<color rgba="0.54117647058823525885 0.68235294117647060652 0.83921568627450982003 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.38862075192311046345 0.06880425701958103879 -0.16296739614808503083" rpy="3.1415926535897917837 -0.6273070536762779259 1.6954604246791526421e-18" />
+<geometry>
+<mesh filename="file://$(find gg_hex_description)/meshes/servo_motor_35kg_motor_6.stl"/>
+</geometry>
+</collision>
+<inertial>
+<origin xyz="0.010557789188092803201 -0.021319284726329927604 -0.022134591458078365506" rpy="0 0 0"/>
+<mass value="0.062959844899816666541" />
+<inertia ixx="6.869307188141667291e-05" ixy="1.856255300321397729e-05"  ixz="1.2311048808142023999e-07" iyy="1.7120165703682145065e-05" iyz="-4.2429306617754673573e-07" izz="7.3594133415483969658e-05" />
+</inertial>
+</link>
+
+<joint name="joint11" type="revolute">
+<origin xyz="0.031638564247149836284 -0.075846657619100726899 0.00064898365037215077766" rpy="0.004089729244662635918 0.0045135277150048650277 -2.0164660640463374364" />
+<parent link="assembly_4_6" />
+<child link="assembly_2_2" />
+<axis xyz="0 0 1"/>
+<limit effort="1" velocity="20" lower="-1.570796326794896558" upper="1.570796326794896558"/>
+<joint_properties friction="0.0"/>
+</joint>
+
+<joint name="joint21" type="revolute">
+<origin xyz="0.031638564247149447706 -0.075846657619099894232 0.0006489836503717621996" rpy="0.0047368008903134759327 -0.0038289073013523891066 -0.50205599993004512704" />
+<parent link="assembly_4_5" />
+<child link="assembly_4_6" />
+<axis xyz="0 0 1"/>
+<limit effort="1" velocity="20" lower="-1.570796326794896558" upper="1.570796326794896558"/>
+<joint_properties friction="0.0"/>
+</joint>
+
+<joint name="joint31" type="revolute">
+<origin xyz="0.053138964883358688618 -0.067035331104617706943 -0.022113091103230425594" rpy="-1.5603826028955858352 0.94605450543788194295 -1.1734050912950910739" />
+<parent link="assembly_3_2" />
+<child link="assembly_4_5" />
+<axis xyz="0 0 1"/>
+<limit effort="1" velocity="20" lower="-1.570796326794896558" upper="1.570796326794896558"/>
+<joint_properties friction="0.0"/>
+</joint>
+
+<joint name="joint41" type="revolute">
+<origin xyz="0.10461672428427440384 -0.018852250881406462657 0.0020084050028851829772" rpy="3.1218865090390131023 0.16985995111844287564 -1.0612423312681360521" />
+<parent link="assembly_1" />
+<child link="assembly_3_2" />
+<axis xyz="0 0 1"/>
+<limit effort="1" velocity="20" lower="-1.570796326794896558" upper="1.570796326794896558"/>
+<joint_properties friction="0.0"/>
+</joint>
+
+<link name="assembly_3_3">
+<visual>
+<origin xyz="-0.17112428024776948909 0.1309226078213976685 -0.16568576577660784621" rpy="-3.141592653589793116 0.058527728455399323504 2.0943951023931988153" />
+<geometry>
+<mesh filename="file://$(find gg_hex_description)/meshes/arm_low__same_8.stl"/>
+</geometry>
+<material name="arm_low__same_8_material">
+<color rgba="0.79215686274509800047 0.81960784313725487671 0.93333333333333334814 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-0.17112428024776948909 0.1309226078213976685 -0.16568576577660784621" rpy="-3.141592653589793116 0.058527728455399323504 2.0943951023931988153" />
+<geometry>
+<mesh filename="file://$(find gg_hex_description)/meshes/arm_low__same_8.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="-0.16311151208748819741 0.022787492236865589113 -0.16200180699142502361" rpy="-1.4706350212333001437 1.0934154581527084638 2.0755396376666044311" />
+<geometry>
+<mesh filename="file://$(find gg_hex_description)/meshes/arm_up_same_9.stl"/>
+</geometry>
+<material name="arm_up_same_9_material">
+<color rgba="0.79215686274509800047 0.81960784313725487671 0.93333333333333334814 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-0.16311151208748819741 0.022787492236865589113 -0.16200180699142502361" rpy="-1.4706350212333001437 1.0934154581527084638 2.0755396376666044311" />
+<geometry>
+<mesh filename="file://$(find gg_hex_description)/meshes/arm_up_same_9.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="0.38862075192311057448 0.068804257019581011035 -0.16296739614808508634" rpy="3.1415926535897922278 -0.62730705367627781488 -7.1016025988930199806e-17" />
+<geometry>
+<mesh filename="file://$(find gg_hex_description)/meshes/servo_motor_35kg_motor_6.stl"/>
+</geometry>
+<material name="servo_motor_35kg_motor_6_material">
+<color rgba="0.54117647058823525885 0.68235294117647060652 0.83921568627450982003 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.38862075192311057448 0.068804257019581011035 -0.16296739614808508634" rpy="3.1415926535897922278 -0.62730705367627781488 -7.1016025988930199806e-17" />
+<geometry>
+<mesh filename="file://$(find gg_hex_description)/meshes/servo_motor_35kg_motor_6.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="0.058690721103457965668 -0.064760102023456875275 -0.022076546598382512654" rpy="1.5647049505151566784 0.01389241059266094723 1.9596561167853758789" />
+<geometry>
+<mesh filename="file://$(find gg_hex_description)/meshes/part_1.stl"/>
+</geometry>
+<material name="part_1_material">
+<color rgba="1 0.56862745098039213509 0.43529411764705883137 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.058690721103457965668 -0.064760102023456875275 -0.022076546598382512654" rpy="1.5647049505151566784 0.01389241059266094723 1.9596561167853758789" />
+<geometry>
+<mesh filename="file://$(find gg_hex_description)/meshes/part_1.stl"/>
+</geometry>
+</collision>
+<inertial>
+<origin xyz="0.010017013608670445601 -0.023529721305144076643 -0.022358199064121068306" rpy="0 0 0"/>
+<mass value="0.067476595002583544813" />
+<inertia ixx="4.632582993925246222e-05" ixy="1.2235622760424782557e-05"  ixz="2.8967523508017666825e-08" iyy="2.3362680842590904283e-05" iyz="-1.3747940641723273336e-07" izz="4.9084138088991460499e-05" />
+</inertial>
+</link>
+
+<link name="assembly_4_7">
+<visual>
+<origin xyz="0.031604749256238746924 -0.075860515729515159977 0.0066488723576033290086" rpy="-0.0060835378832914312891 -0.00029710614352197988863 1.910942389399780561" />
+<geometry>
+<mesh filename="file://$(find gg_hex_description)/meshes/part_1.stl"/>
+</geometry>
+<material name="part_1_material">
+<color rgba="1 0.56862745098039213509 0.43529411764705883137 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.031604749256238746924 -0.075860515729515159977 0.0066488723576033290086" rpy="-0.0060835378832914312891 -0.00029710614352197988863 1.910942389399780561" />
+<geometry>
+<mesh filename="file://$(find gg_hex_description)/meshes/part_1.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="0.098464002499941860602 0.12998676290266003575 -0.16538783459977263179" rpy="3.1388042696990567926 0.053110456188876997707 0.86358836955631257393" />
+<geometry>
+<mesh filename="file://$(find gg_hex_description)/meshes/arm_up_same_9.stl"/>
+</geometry>
+<material name="arm_up_same_9_material">
+<color rgba="0.79215686274509800047 0.81960784313725487671 0.93333333333333334814 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.098464002499941860602 0.12998676290266003575 -0.16538783459977263179" rpy="3.1388042696990567926 0.053110456188876997707 0.86358836955631257393" />
+<geometry>
+<mesh filename="file://$(find gg_hex_description)/meshes/arm_up_same_9.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="-0.17112428024776424329 0.13092260782139336639 -0.16568576577660690252" rpy="3.141592653589793116 0.058527728455401002716 2.0943951023931961508" />
+<geometry>
+<mesh filename="file://$(find gg_hex_description)/meshes/arm_low__same_8.stl"/>
+</geometry>
+<material name="arm_low__same_8_material">
+<color rgba="0.79215686274509800047 0.81960784313725487671 0.93333333333333334814 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-0.17112428024776424329 0.13092260782139336639 -0.16568576577660690252" rpy="3.141592653589793116 0.058527728455401002716 2.0943951023931961508" />
+<geometry>
+<mesh filename="file://$(find gg_hex_description)/meshes/arm_low__same_8.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="0.38862075192311051897 0.06880425701958103879 -0.16296739614808503083" rpy="3.1415926535897917837 -0.62730705367627803692 -7.2012383788120409419e-17" />
+<geometry>
+<mesh filename="file://$(find gg_hex_description)/meshes/servo_motor_35kg_motor_6.stl"/>
+</geometry>
+<material name="servo_motor_35kg_motor_6_material">
+<color rgba="0.54117647058823525885 0.68235294117647060652 0.83921568627450982003 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.38862075192311051897 0.06880425701958103879 -0.16296739614808503083" rpy="3.1415926535897917837 -0.62730705367627803692 -7.2012383788120409419e-17" />
+<geometry>
+<mesh filename="file://$(find gg_hex_description)/meshes/servo_motor_35kg_motor_6.stl"/>
+</geometry>
+</collision>
+<inertial>
+<origin xyz="0.0099258431088839471634 -0.023567084936440409887 -0.022313621155748218639" rpy="0 0 0"/>
+<mass value="0.067476595002583544813" />
+<inertia ixx="5.0338648412056996161e-05" ixy="1.3659898743794922276e-05"  ixz="4.0675664834560756198e-08" iyy="2.3848967580350361188e-05" iyz="-2.2689103634677289458e-08" izz="4.4572800297871070134e-05" />
+</inertial>
+</link>
+
+<link name="assembly_4_8">
+<visual>
+<origin xyz="0.031604749256239489386 -0.075860515729516603267 0.0066488723576038424867" rpy="-0.0060835378832930020812 -0.00029710614351837551271 1.910942389399785668" />
+<geometry>
+<mesh filename="file://$(find gg_hex_description)/meshes/part_1.stl"/>
+</geometry>
+<material name="part_1_material">
+<color rgba="1 0.56862745098039213509 0.43529411764705883137 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.031604749256239489386 -0.075860515729516603267 0.0066488723576038424867" rpy="-0.0060835378832930020812 -0.00029710614351837551271 1.910942389399785668" />
+<geometry>
+<mesh filename="file://$(find gg_hex_description)/meshes/part_1.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="0.098464002499944164315 0.12998676290266267253 -0.16538783459977393631" rpy="3.1388042696990563485 0.053110456188879266726 0.86358836955631324006" />
+<geometry>
+<mesh filename="file://$(find gg_hex_description)/meshes/arm_up_same_9.stl"/>
+</geometry>
+<material name="arm_up_same_9_material">
+<color rgba="0.79215686274509800047 0.81960784313725487671 0.93333333333333334814 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.098464002499944164315 0.12998676290266267253 -0.16538783459977393631" rpy="3.1388042696990563485 0.053110456188879266726 0.86358836955631324006" />
+<geometry>
+<mesh filename="file://$(find gg_hex_description)/meshes/arm_up_same_9.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="-0.17112428024776799029 0.13092260782139675257 -0.16568576577660765192" rpy="-3.1415926535897922278 0.058527728455401807628 2.0943951023931997035" />
+<geometry>
+<mesh filename="file://$(find gg_hex_description)/meshes/arm_low__same_8.stl"/>
+</geometry>
+<material name="arm_low__same_8_material">
+<color rgba="0.79215686274509800047 0.81960784313725487671 0.93333333333333334814 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-0.17112428024776799029 0.13092260782139675257 -0.16568576577660765192" rpy="-3.1415926535897922278 0.058527728455401807628 2.0943951023931997035" />
+<geometry>
+<mesh filename="file://$(find gg_hex_description)/meshes/arm_low__same_8.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="0.38862075192311057448 0.06880425701958103879 -0.16296739614808503083" rpy="3.1415926535897922278 -0.6273070536762779259 1.8020327149897364972e-17" />
+<geometry>
+<mesh filename="file://$(find gg_hex_description)/meshes/servo_motor_35kg_motor_6.stl"/>
+</geometry>
+<material name="servo_motor_35kg_motor_6_material">
+<color rgba="0.54117647058823525885 0.68235294117647060652 0.83921568627450982003 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.38862075192311057448 0.06880425701958103879 -0.16296739614808503083" rpy="3.1415926535897922278 -0.6273070536762779259 1.8020327149897364972e-17" />
+<geometry>
+<mesh filename="file://$(find gg_hex_description)/meshes/servo_motor_35kg_motor_6.stl"/>
+</geometry>
+</collision>
+<inertial>
+<origin xyz="0.0099258431088841501261 -0.023567084936440756832 -0.022313621155748128433" rpy="0 0 0"/>
+<mass value="0.067476595002583544813" />
+<inertia ixx="5.0338648412058778318e-05" ixy="1.3659898743795521975e-05"  ixz="4.0675664834460409264e-08" iyy="2.3848967580351126906e-05" iyz="-2.2689103634573422042e-08" izz="4.4572800297872682885e-05" />
+</inertial>
+</link>
+
+<link name="assembly_2_3">
+<visual>
+<origin xyz="-0.38185852300375222601 -0.085517539034459078007 -0.167967396148084952" rpy="3.1415926535897908956 -0.62730705367627981328 -3.1415926535897926719" />
+<geometry>
+<mesh filename="file://$(find gg_hex_description)/meshes/leg_1.stl"/>
+</geometry>
+<material name="leg_1_material">
+<color rgba="0.79215686274509800047 0.81960784313725487671 0.93333333333333334814 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-0.38185852300375222601 -0.085517539034459078007 -0.167967396148084952" rpy="3.1415926535897908956 -0.62730705367627981328 -3.1415926535897926719" />
+<geometry>
+<mesh filename="file://$(find gg_hex_description)/meshes/leg_1.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="0.38862075192311062999 0.06880425701958103879 -0.16296739614808500307" rpy="3.1415926535897922278 -0.62730705367627781488 1.3788255608998561606e-17" />
+<geometry>
+<mesh filename="file://$(find gg_hex_description)/meshes/servo_motor_35kg_motor_6.stl"/>
+</geometry>
+<material name="servo_motor_35kg_motor_6_material">
+<color rgba="0.54117647058823525885 0.68235294117647060652 0.83921568627450982003 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.38862075192311062999 0.06880425701958103879 -0.16296739614808500307" rpy="3.1415926535897922278 -0.62730705367627781488 1.3788255608998561606e-17" />
+<geometry>
+<mesh filename="file://$(find gg_hex_description)/meshes/servo_motor_35kg_motor_6.stl"/>
+</geometry>
+</collision>
+<inertial>
+<origin xyz="0.010557789188092856977 -0.021319284726329879032 -0.022134591458078448772" rpy="0 0 0"/>
+<mass value="0.062959844899816666541" />
+<inertia ixx="6.8693071881416808435e-05" ixy="1.8562553003213956961e-05"  ixz="1.2311048808138559105e-07" iyy="1.7120165703682151842e-05" iyz="-4.242930661776731554e-07" izz="7.3594133415483847685e-05" />
+</inertial>
+</link>
+
+<joint name="joint12" type="revolute">
+<origin xyz="0.031638564247150058328 -0.075846657619101004455 0.00064898365037225486107" rpy="0.0057599082624703304076 -0.0019802031009627497037 -0.85072300817502977122" />
+<parent link="assembly_4_8" />
+<child link="assembly_2_3" />
+<axis xyz="0 0 1"/>
+<limit effort="1" velocity="20" lower="-1.570796326794896558" upper="1.570796326794896558"/>
+<joint_properties friction="0.0"/>
+</joint>
+
+<joint name="joint22" type="revolute">
+<origin xyz="0.031638564247149190967 -0.075846657619099450143 0.00064898365037181077186" rpy="-0.0022961954067598887991 -0.0056413869514575394615 0.77549608421134064162" />
+<parent link="assembly_4_7" />
+<child link="assembly_4_8" />
+<axis xyz="0 0 1"/>
+<limit effort="1" velocity="20" lower="-1.570796326794896558" upper="1.570796326794896558"/>
+<joint_properties friction="0.0"/>
+</joint>
+
+<joint name="joint32" type="revolute">
+<origin xyz="0.05313896488335917434 -0.067035331104617609799 -0.022113091103230279877" rpy="-0.57603100566364084933 1.5635335339884930406 -0.18709864135583123557" />
+<parent link="assembly_3_3" />
+<child link="assembly_4_7" />
+<axis xyz="0 0 1"/>
+<limit effort="1" velocity="20" lower="-1.570796326794896558" upper="1.570796326794896558"/>
+<joint_properties friction="0.0"/>
+</joint>
+
+<joint name="joint42" type="revolute">
+<origin xyz="0.094089118410080219146 0.067580187909018069048 0.015170884614277083124" rpy="-3.0469181718972873085 0.14259947077587914466 -0.35613347021841462725" />
+<parent link="assembly_1" />
+<child link="assembly_3_3" />
+<axis xyz="0 0 1"/>
+<limit effort="1" velocity="20" lower="-1.570796326794896558" upper="1.570796326794896558"/>
+<joint_properties friction="0.0"/>
+</joint>
+
+<link name="assembly_3_copy_1_2">
+<visual>
+<origin xyz="-0.17112428024776757396 0.13092260782139758524 -0.1656857657766075409" rpy="3.1415926535897913396 0.058527728455398352059 2.0943951023931948185" />
+<geometry>
+<mesh filename="file://$(find gg_hex_description)/meshes/arm_low__same_8.stl"/>
+</geometry>
+<material name="arm_low__same_8_material">
+<color rgba="0.79215686274509800047 0.81960784313725487671 0.93333333333333334814 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-0.17112428024776757396 0.13092260782139758524 -0.1656857657766075409" rpy="3.1415926535897913396 0.058527728455398352059 2.0943951023931948185" />
+<geometry>
+<mesh filename="file://$(find gg_hex_description)/meshes/arm_low__same_8.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="0.10159712725498254438 0.13127078480041290409 0.11730180699142564449" rpy="1.6709576323564896416 -1.0934154581527120165 1.8439418403536578239" />
+<geometry>
+<mesh filename="file://$(find gg_hex_description)/meshes/arm_up_same_9.stl"/>
+</geometry>
+<material name="arm_up_same_9_material">
+<color rgba="0.79215686274509800047 0.81960784313725487671 0.93333333333333334814 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.10159712725498254438 0.13127078480041290409 0.11730180699142564449" rpy="1.6709576323564896416 -1.0934154581527120165 1.8439418403536578239" />
+<geometry>
+<mesh filename="file://$(find gg_hex_description)/meshes/arm_up_same_9.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="0.38862075192311051897 0.068804257019581066546 -0.16296739614808503083" rpy="3.1415926535897922278 -0.6273070536762779259 -1.7275443191324674389e-17" />
+<geometry>
+<mesh filename="file://$(find gg_hex_description)/meshes/servo_motor_35kg_motor_6.stl"/>
+</geometry>
+<material name="servo_motor_35kg_motor_6_material">
+<color rgba="0.54117647058823525885 0.68235294117647060652 0.83921568627450982003 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.38862075192311051897 0.068804257019581066546 -0.16296739614808503083" rpy="3.1415926535897922278 -0.6273070536762779259 -1.7275443191324674389e-17" />
+<geometry>
+<mesh filename="file://$(find gg_hex_description)/meshes/servo_motor_35kg_motor_6.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="0.0050248356702379433358 -0.086753535878109619417 -0.022623453401618004444" rpy="-1.5768877030746388801 -0.013892410592666602429 1.9598253612348837116" />
+<geometry>
+<mesh filename="file://$(find gg_hex_description)/meshes/part_1.stl"/>
+</geometry>
+<material name="part_1_material">
+<color rgba="1 0.56862745098039213509 0.43529411764705883137 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.0050248356702379433358 -0.086753535878109619417 -0.022623453401618004444" rpy="-1.5768877030746388801 -0.013892410592666602429 1.9598253612348837116" />
+<geometry>
+<mesh filename="file://$(find gg_hex_description)/meshes/part_1.stl"/>
+</geometry>
+</collision>
+<inertial>
+<origin xyz="0.009884594730428325482 -0.023583989408916327529 -0.022412150851652230116" rpy="0 0 0"/>
+<mass value="0.067476595002583544813" />
+<inertia ixx="4.6552011535689989674e-05" ixy="1.2007641767452584551e-05"  ixz="7.6766946774239112234e-08" iyy="2.3126796190870945705e-05" iyz="-2.4864979885476932422e-07" izz="4.9074947249042365834e-05" />
+</inertial>
+</link>
+
+<link name="assembly_4_9">
+<visual>
+<origin xyz="0.031604749256239322852 -0.075860515729515243244 0.0066488723576038286089" rpy="-0.0060835378832964481094 -0.00029710614351841915185 1.9109423893997896649" />
+<geometry>
+<mesh filename="file://$(find gg_hex_description)/meshes/part_1.stl"/>
+</geometry>
+<material name="part_1_material">
+<color rgba="1 0.56862745098039213509 0.43529411764705883137 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.031604749256239322852 -0.075860515729515243244 0.0066488723576038286089" rpy="-0.0060835378832964481094 -0.00029710614351841915185 1.9109423893997896649" />
+<geometry>
+<mesh filename="file://$(find gg_hex_description)/meshes/part_1.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="0.098464002499941943869 0.12998676290266064637 -0.16538783459977313139" rpy="3.1388042696990523517 0.053110456188876241368 0.8635883695563169038" />
+<geometry>
+<mesh filename="file://$(find gg_hex_description)/meshes/arm_up_same_9.stl"/>
+</geometry>
+<material name="arm_up_same_9_material">
+<color rgba="0.79215686274509800047 0.81960784313725487671 0.93333333333333334814 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.098464002499941943869 0.12998676290266064637 -0.16538783459977313139" rpy="3.1388042696990523517 0.053110456188876241368 0.8635883695563169038" />
+<geometry>
+<mesh filename="file://$(find gg_hex_description)/meshes/arm_up_same_9.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="-0.17112428024776549229 0.1309226078213936717 -0.16568576577660817928" rpy="3.1415926535897895633 0.058527728455404333385 2.0943951023932050326" />
+<geometry>
+<mesh filename="file://$(find gg_hex_description)/meshes/arm_low__same_8.stl"/>
+</geometry>
+<material name="arm_low__same_8_material">
+<color rgba="0.79215686274509800047 0.81960784313725487671 0.93333333333333334814 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-0.17112428024776549229 0.1309226078213936717 -0.16568576577660817928" rpy="3.1415926535897895633 0.058527728455404333385 2.0943951023932050326" />
+<geometry>
+<mesh filename="file://$(find gg_hex_description)/meshes/arm_low__same_8.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="0.38862075192311051897 0.068804257019581052668 -0.16296739614808505858" rpy="3.1415926535897917837 -0.6273070536762779259 6.7372704310294588385e-17" />
+<geometry>
+<mesh filename="file://$(find gg_hex_description)/meshes/servo_motor_35kg_motor_6.stl"/>
+</geometry>
+<material name="servo_motor_35kg_motor_6_material">
+<color rgba="0.54117647058823525885 0.68235294117647060652 0.83921568627450982003 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.38862075192311051897 0.068804257019581052668 -0.16296739614808505858" rpy="3.1415926535897917837 -0.6273070536762779259 6.7372704310294588385e-17" />
+<geometry>
+<mesh filename="file://$(find gg_hex_description)/meshes/servo_motor_35kg_motor_6.stl"/>
+</geometry>
+</collision>
+<inertial>
+<origin xyz="0.0099258431088840720635 -0.023567084936440441112 -0.022313621155748090269" rpy="0 0 0"/>
+<mass value="0.067476595002583544813" />
+<inertia ixx="5.0338648412057213001e-05" ixy="1.3659898743795191632e-05"  ixz="4.067566483452330146e-08" iyy="2.3848967580350683061e-05" iyz="-2.268910363457487788e-08" izz="4.4572800297871517368e-05" />
+</inertial>
+</link>
+
+<link name="assembly_4_10">
+<visual>
+<origin xyz="0.031604749256239378363 -0.07586051572951652 0.0066488723576038494256" rpy="-0.0060835378832938182686 -0.00029710614352034057494 1.9109423893997858901" />
+<geometry>
+<mesh filename="file://$(find gg_hex_description)/meshes/part_1.stl"/>
+</geometry>
+<material name="part_1_material">
+<color rgba="1 0.56862745098039213509 0.43529411764705883137 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.031604749256239378363 -0.07586051572951652 0.0066488723576038494256" rpy="-0.0060835378832938182686 -0.00029710614352034057494 1.9109423893997858901" />
+<geometry>
+<mesh filename="file://$(find gg_hex_description)/meshes/part_1.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="0.098464002499944552893 0.12998676290266314437 -0.16538783459977385304" rpy="3.1388042696990563485 0.053110456188876789541 0.86358836955631190779" />
+<geometry>
+<mesh filename="file://$(find gg_hex_description)/meshes/arm_up_same_9.stl"/>
+</geometry>
+<material name="arm_up_same_9_material">
+<color rgba="0.79215686274509800047 0.81960784313725487671 0.93333333333333334814 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.098464002499944552893 0.12998676290266314437 -0.16538783459977385304" rpy="3.1388042696990563485 0.053110456188876789541 0.86358836955631190779" />
+<geometry>
+<mesh filename="file://$(find gg_hex_description)/meshes/arm_up_same_9.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="-0.17112428024776801805 0.13092260782139636399 -0.16568576577660798499" rpy="3.1415926535897926719 0.058527728455400683527 2.0943951023932001476" />
+<geometry>
+<mesh filename="file://$(find gg_hex_description)/meshes/arm_low__same_8.stl"/>
+</geometry>
+<material name="arm_low__same_8_material">
+<color rgba="0.79215686274509800047 0.81960784313725487671 0.93333333333333334814 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-0.17112428024776801805 0.13092260782139636399 -0.16568576577660798499" rpy="3.1415926535897926719 0.058527728455400683527 2.0943951023932001476" />
+<geometry>
+<mesh filename="file://$(find gg_hex_description)/meshes/arm_low__same_8.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="0.38862075192311051897 0.068804257019581024912 -0.16296739614808497532" rpy="3.1415926535897922278 -0.62730705367627803692 -2.5618938283657206872e-17" />
+<geometry>
+<mesh filename="file://$(find gg_hex_description)/meshes/servo_motor_35kg_motor_6.stl"/>
+</geometry>
+<material name="servo_motor_35kg_motor_6_material">
+<color rgba="0.54117647058823525885 0.68235294117647060652 0.83921568627450982003 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.38862075192311051897 0.068804257019581024912 -0.16296739614808497532" rpy="3.1415926535897922278 -0.62730705367627803692 -2.5618938283657206872e-17" />
+<geometry>
+<mesh filename="file://$(find gg_hex_description)/meshes/servo_motor_35kg_motor_6.stl"/>
+</geometry>
+</collision>
+<inertial>
+<origin xyz="0.0099258431088841189011 -0.023567084936440746423 -0.022313621155748090269" rpy="0 0 0"/>
+<mass value="0.067476595002583544813" />
+<inertia ixx="5.0338648412058764766e-05" ixy="1.3659898743795508423e-05"  ixz="4.0675664834486660668e-08" iyy="2.3848967580351055755e-05" iyz="-2.2689103634590653869e-08" izz="4.457280029787260157e-05" />
+</inertial>
+</link>
+
+<link name="assembly_2_copy_1_2">
+<visual>
+<origin xyz="0.33407977608518574231 0.20373523849368171956 0.12554932960878753545" rpy="8.7694110024014671909e-16 0.62730705367628480928 0.76794487087750562537" />
+<geometry>
+<mesh filename="file://$(find gg_hex_description)/meshes/leg_1.stl"/>
+</geometry>
+<material name="leg_1_material">
+<color rgba="0.79215686274509800047 0.81960784313725487671 0.93333333333333334814 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.33407977608518574231 0.20373523849368171956 0.12554932960878753545" rpy="8.7694110024014671909e-16 0.62730705367628480928 0.76794487087750562537" />
+<geometry>
+<mesh filename="file://$(find gg_hex_description)/meshes/leg_1.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="0.38862075192311062999 0.068804257019581094301 -0.16296739614808505858" rpy="3.1415926535897922278 -0.6273070536762779259 4.058537180829502369e-17" />
+<geometry>
+<mesh filename="file://$(find gg_hex_description)/meshes/servo_motor_35kg_motor_6.stl"/>
+</geometry>
+<material name="servo_motor_35kg_motor_6_material">
+<color rgba="0.54117647058823525885 0.68235294117647060652 0.83921568627450982003 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.38862075192311062999 0.068804257019581094301 -0.16296739614808505858" rpy="3.1415926535897922278 -0.6273070536762779259 4.058537180829502369e-17" />
+<geometry>
+<mesh filename="file://$(find gg_hex_description)/meshes/servo_motor_35kg_motor_6.stl"/>
+</geometry>
+</collision>
+<inertial>
+<origin xyz="0.0072157327308014712966 -0.022671457724625573849 -0.021552930470100060967" rpy="0 0 0"/>
+<mass value="0.062959844899816666541" />
+<inertia ixx="6.2416299960598359059e-05" ixy="2.511659970875750877e-05"  ixz="-4.1147565437764406795e-07" iyy="2.3498728724644769541e-05" iyz="1.284170166263086644e-06" izz="7.3602946338955716398e-05" />
+</inertial>
+</link>
+
+<joint name="joint1r1" type="revolute">
+<origin xyz="0.031638564247149891795 -0.075846657619100893433 0.00064898365037228261665" rpy="-0.0017098514847968587695 -0.0058458656632547137399 0.67349802646722667365" />
+<parent link="assembly_4_10" />
+<child link="assembly_2_copy_1_2" />
+<axis xyz="0 0 1"/>
+<limit effort="1" velocity="20" lower="-1.570796326794896558" upper="1.570796326794896558"/>
+<joint_properties friction="0.0"/>
+</joint>
+
+<joint name="joint2r1" type="revolute">
+<origin xyz="0.031638564247149836284 -0.075846657619099644432 0.00064898365037228955554" rpy="0.0029396369418571758302 -0.0053344466224166707871 -0.11472076601456207556" />
+<parent link="assembly_4_9" />
+<child link="assembly_4_10" />
+<axis xyz="0 0 1"/>
+<limit effort="1" velocity="20" lower="-1.570796326794896558" upper="1.570796326794896558"/>
+<joint_properties friction="0.0"/>
+</joint>
+
+<joint name="joint3r1" type="revolute">
+<origin xyz="0.010576591890336727725 -0.084478306796948912649 -0.022586908896770174771" rpy="1.5774494991267415944 -0.41411591980329981455 -1.184529056069375752" />
+<parent link="assembly_3_copy_1_2" />
+<child link="assembly_4_9" />
+<axis xyz="0 0 1"/>
+<limit effort="1" velocity="20" lower="-1.570796326794896558" upper="1.570796326794896558"/>
+<joint_properties friction="0.0"/>
+</joint>
+
+<joint name="joint4r1" type="revolute">
+<origin xyz="-0.10062869212270468544 0.0087254526961891842873 0.026622456512174347276" rpy="-3.0554928516647916759 -0.14791208397818500497 1.666593854206198877" />
+<parent link="assembly_1" />
+<child link="assembly_3_copy_1_2" />
+<axis xyz="0 0 1"/>
+<limit effort="1" velocity="20" lower="-1.570796326794896558" upper="1.570796326794896558"/>
+<joint_properties friction="0.0"/>
+</joint>
+
+<link name="assembly_3_copy_1_3">
+<visual>
+<origin xyz="-0.17112428024776732416 0.1309226078213974187 -0.16568576577660745763" rpy="3.1415926535897926719 0.058527728455399732899 2.0943951023931925981" />
+<geometry>
+<mesh filename="file://$(find gg_hex_description)/meshes/arm_low__same_8.stl"/>
+</geometry>
+<material name="arm_low__same_8_material">
+<color rgba="0.79215686274509800047 0.81960784313725487671 0.93333333333333334814 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-0.17112428024776732416 0.1309226078213974187 -0.16568576577660745763" rpy="3.1415926535897926719 0.058527728455399732899 2.0943951023931925981" />
+<geometry>
+<mesh filename="file://$(find gg_hex_description)/meshes/arm_low__same_8.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="0.10159712725498287744 0.13127078480041359798 0.11730180699142501999" rpy="1.6709576323564934164 -1.0934154581527104622 1.8439418403536507185" />
+<geometry>
+<mesh filename="file://$(find gg_hex_description)/meshes/arm_up_same_9.stl"/>
+</geometry>
+<material name="arm_up_same_9_material">
+<color rgba="0.79215686274509800047 0.81960784313725487671 0.93333333333333334814 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.10159712725498287744 0.13127078480041359798 0.11730180699142501999" rpy="1.6709576323564934164 -1.0934154581527104622 1.8439418403536507185" />
+<geometry>
+<mesh filename="file://$(find gg_hex_description)/meshes/arm_up_same_9.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="0.38862075192311057448 0.06880425701958103879 -0.16296739614808505858" rpy="3.1415926535897922278 -0.6273070536762779259 -2.2585760302080697286e-17" />
+<geometry>
+<mesh filename="file://$(find gg_hex_description)/meshes/servo_motor_35kg_motor_6.stl"/>
+</geometry>
+<material name="servo_motor_35kg_motor_6_material">
+<color rgba="0.54117647058823525885 0.68235294117647060652 0.83921568627450982003 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.38862075192311057448 0.06880425701958103879 -0.16296739614808505858" rpy="3.1415926535897922278 -0.6273070536762779259 -2.2585760302080697286e-17" />
+<geometry>
+<mesh filename="file://$(find gg_hex_description)/meshes/servo_motor_35kg_motor_6.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="0.0050248356702379537442 -0.086753535878109702684 -0.022623453401617844849" rpy="-1.5768877030746368817 -0.013892410592665636188 1.9598253612348812691" />
+<geometry>
+<mesh filename="file://$(find gg_hex_description)/meshes/part_1.stl"/>
+</geometry>
+<material name="part_1_material">
+<color rgba="1 0.56862745098039213509 0.43529411764705883137 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.0050248356702379537442 -0.086753535878109702684 -0.022623453401617844849" rpy="-1.5768877030746368817 -0.013892410592665636188 1.9598253612348812691" />
+<geometry>
+<mesh filename="file://$(find gg_hex_description)/meshes/part_1.stl"/>
+</geometry>
+</collision>
+<inertial>
+<origin xyz="0.0098845947304283185431 -0.023583989408916334468 -0.022412150851652237055" rpy="0 0 0"/>
+<mass value="0.067476595002583544813" />
+<inertia ixx="4.6552011535690043884e-05" ixy="1.2007641767452621821e-05"  ixz="7.6766946774242804768e-08" iyy="2.3126796190870952481e-05" iyz="-2.4864979885473221359e-07" izz="4.9074947249042386163e-05" />
+</inertial>
+</link>
+
+<link name="assembly_4_11">
+<visual>
+<origin xyz="0.031604749256239128563 -0.075860515729515271 0.0066488723576038077923" rpy="-0.0060835378833006339971 -0.00029710614351507232817 1.9109423893997894428" />
+<geometry>
+<mesh filename="file://$(find gg_hex_description)/meshes/part_1.stl"/>
+</geometry>
+<material name="part_1_material">
+<color rgba="1 0.56862745098039213509 0.43529411764705883137 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.031604749256239128563 -0.075860515729515271 0.0066488723576038077923" rpy="-0.0060835378833006339971 -0.00029710614351507232817 1.9109423893997894428" />
+<geometry>
+<mesh filename="file://$(find gg_hex_description)/meshes/part_1.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="0.098464002499942332447 0.12998676290266039657 -0.16538783459977210444" rpy="3.1388042696990479108 0.053110456188871224548 0.86358836955631579357" />
+<geometry>
+<mesh filename="file://$(find gg_hex_description)/meshes/arm_up_same_9.stl"/>
+</geometry>
+<material name="arm_up_same_9_material">
+<color rgba="0.79215686274509800047 0.81960784313725487671 0.93333333333333334814 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.098464002499942332447 0.12998676290266039657 -0.16538783459977210444" rpy="3.1388042696990479108 0.053110456188871224548 0.86358836955631579357" />
+<geometry>
+<mesh filename="file://$(find gg_hex_description)/meshes/arm_up_same_9.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="-0.17112428024776582536 0.13092260782139372721 -0.1656857657766087899" rpy="3.1415926535897842342 0.058527728455406720365 2.0943951023932045885" />
+<geometry>
+<mesh filename="file://$(find gg_hex_description)/meshes/arm_low__same_8.stl"/>
+</geometry>
+<material name="arm_low__same_8_material">
+<color rgba="0.79215686274509800047 0.81960784313725487671 0.93333333333333334814 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-0.17112428024776582536 0.13092260782139372721 -0.1656857657766087899" rpy="3.1415926535897842342 0.058527728455406720365 2.0943951023932045885" />
+<geometry>
+<mesh filename="file://$(find gg_hex_description)/meshes/arm_low__same_8.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="0.38862075192311051897 0.06880425701958103879 -0.16296739614808508634" rpy="3.1415926535897917837 -0.62730705367627803692 4.519604768680905513e-18" />
+<geometry>
+<mesh filename="file://$(find gg_hex_description)/meshes/servo_motor_35kg_motor_6.stl"/>
+</geometry>
+<material name="servo_motor_35kg_motor_6_material">
+<color rgba="0.54117647058823525885 0.68235294117647060652 0.83921568627450982003 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.38862075192311051897 0.06880425701958103879 -0.16296739614808508634" rpy="3.1415926535897917837 -0.62730705367627803692 4.519604768680905513e-18" />
+<geometry>
+<mesh filename="file://$(find gg_hex_description)/meshes/servo_motor_35kg_motor_6.stl"/>
+</geometry>
+</collision>
+<inertial>
+<origin xyz="0.0099258431088840651246 -0.023567084936440441112 -0.022313621155748090269" rpy="0 0 0"/>
+<mass value="0.067476595002583544813" />
+<inertia ixx="5.0338648412057219778e-05" ixy="1.3659898743795195021e-05"  ixz="4.0675664834598435929e-08" iyy="2.3848967580350659344e-05" iyz="-2.2689103634565692867e-08" izz="4.457280029787147671e-05" />
+</inertial>
+</link>
+
+<link name="assembly_4_12">
+<visual>
+<origin xyz="0.031604749256239267341 -0.075860515729516686534 0.0066488723576038806506" rpy="-0.0060835378832927089129 -0.00029710614351894558622 1.910942389399780561" />
+<geometry>
+<mesh filename="file://$(find gg_hex_description)/meshes/part_1.stl"/>
+</geometry>
+<material name="part_1_material">
+<color rgba="1 0.56862745098039213509 0.43529411764705883137 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.031604749256239267341 -0.075860515729516686534 0.0066488723576038806506" rpy="-0.0060835378832927089129 -0.00029710614351894558622 1.910942389399780561" />
+<geometry>
+<mesh filename="file://$(find gg_hex_description)/meshes/part_1.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="0.098464002499945219027 0.12998676290266295008 -0.16538783459977396406" rpy="3.138804269699053684 0.053110456188876123407 0.86358836955631002041" />
+<geometry>
+<mesh filename="file://$(find gg_hex_description)/meshes/arm_up_same_9.stl"/>
+</geometry>
+<material name="arm_up_same_9_material">
+<color rgba="0.79215686274509800047 0.81960784313725487671 0.93333333333333334814 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.098464002499945219027 0.12998676290266295008 -0.16538783459977396406" rpy="3.138804269699053684 0.053110456188876123407 0.86358836955631002041" />
+<geometry>
+<mesh filename="file://$(find gg_hex_description)/meshes/arm_up_same_9.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="-0.17112428024776787927 0.13092260782139686359 -0.16568576577660806826" rpy="3.1415926535897917837 0.058527728455402300289 2.0943951023931974831" />
+<geometry>
+<mesh filename="file://$(find gg_hex_description)/meshes/arm_low__same_8.stl"/>
+</geometry>
+<material name="arm_low__same_8_material">
+<color rgba="0.79215686274509800047 0.81960784313725487671 0.93333333333333334814 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-0.17112428024776787927 0.13092260782139686359 -0.16568576577660806826" rpy="3.1415926535897917837 0.058527728455402300289 2.0943951023931974831" />
+<geometry>
+<mesh filename="file://$(find gg_hex_description)/meshes/arm_low__same_8.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="0.38862075192311051897 0.068804257019581066546 -0.16296739614808500307" rpy="3.1415926535897917837 -0.62730705367627803692 -7.5809274854197089382e-19" />
+<geometry>
+<mesh filename="file://$(find gg_hex_description)/meshes/servo_motor_35kg_motor_6.stl"/>
+</geometry>
+<material name="servo_motor_35kg_motor_6_material">
+<color rgba="0.54117647058823525885 0.68235294117647060652 0.83921568627450982003 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.38862075192311051897 0.068804257019581066546 -0.16296739614808500307" rpy="3.1415926535897917837 -0.62730705367627803692 -7.5809274854197089382e-19" />
+<geometry>
+<mesh filename="file://$(find gg_hex_description)/meshes/servo_motor_35kg_motor_6.stl"/>
+</geometry>
+</collision>
+<inertial>
+<origin xyz="0.0099258431088840286954 -0.023567084936440756832 -0.022313621155748090269" rpy="0 0 0"/>
+<mass value="0.067476595002583544813" />
+<inertia ixx="5.0338648412058900291e-05" ixy="1.3659898743795567715e-05"  ixz="4.0675664834507406357e-08" iyy="2.3848967580351140459e-05" iyz="-2.2689103634572575009e-08" izz="4.4572800297872750648e-05" />
+</inertial>
+</link>
+
+<link name="assembly_2_copy_1_3">
+<visual>
+<origin xyz="0.33407977608518563128 0.20373523849368221916 0.12554932960878778525" rpy="-3.8923579840461703066e-16 0.6273070536762843652 0.7679448708775067356" />
+<geometry>
+<mesh filename="file://$(find gg_hex_description)/meshes/leg_1.stl"/>
+</geometry>
+<material name="leg_1_material">
+<color rgba="0.79215686274509800047 0.81960784313725487671 0.93333333333333334814 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.33407977608518563128 0.20373523849368221916 0.12554932960878778525" rpy="-3.8923579840461703066e-16 0.6273070536762843652 0.7679448708775067356" />
+<geometry>
+<mesh filename="file://$(find gg_hex_description)/meshes/leg_1.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="0.38862075192311057448 0.06880425701958103879 -0.16296739614808503083" rpy="3.1415926535897917837 -0.6273070536762779259 -3.2067223899421444576e-17" />
+<geometry>
+<mesh filename="file://$(find gg_hex_description)/meshes/servo_motor_35kg_motor_6.stl"/>
+</geometry>
+<material name="servo_motor_35kg_motor_6_material">
+<color rgba="0.54117647058823525885 0.68235294117647060652 0.83921568627450982003 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.38862075192311057448 0.06880425701958103879 -0.16296739614808503083" rpy="3.1415926535897917837 -0.6273070536762779259 -3.2067223899421444576e-17" />
+<geometry>
+<mesh filename="file://$(find gg_hex_description)/meshes/servo_motor_35kg_motor_6.stl"/>
+</geometry>
+</collision>
+<inertial>
+<origin xyz="0.0072157327308014235917 -0.022671457724625646707 -0.021552930470100088722" rpy="0 0 0"/>
+<mass value="0.062959844899816666541" />
+<inertia ixx="6.2416299960598521689e-05" ixy="2.5116599708757424066e-05"  ixz="-4.1147565437761293949e-07" iyy="2.3498728724644759377e-05" iyz="1.2841701662631406423e-06" izz="7.3602946338955824819e-05" />
+</inertial>
+</link>
+
+<joint name="joint1r2" type="revolute">
+<origin xyz="0.031638564247149808528 -0.075846657619101032211 0.00064898365037228955554" rpy="-0.0016419127152645302588 -0.0058653096848330895166 0.66189570754515558715" />
+<parent link="assembly_4_12" />
+<child link="assembly_2_copy_1_3" />
+<axis xyz="0 0 1"/>
+<limit effort="1" velocity="20" lower="-1.570796326794896558" upper="1.570796326794896558"/>
+<joint_properties friction="0.0"/>
+</joint>
+
+<joint name="joint2r2" type="revolute">
+<origin xyz="0.031638564247149697506 -0.075846657619099644432 0.0006489836503722791472" rpy="0.0016422478014538788478 -0.0058652158727284268644 0.11593598592029664973" />
+<parent link="assembly_4_11" />
+<child link="assembly_4_12" />
+<axis xyz="0 0 1"/>
+<limit effort="1" velocity="20" lower="-1.570796326794896558" upper="1.570796326794896558"/>
+<joint_properties friction="0.0"/>
+</joint>
+
+<joint name="joint3r2" type="revolute">
+<origin xyz="0.010576591890336765889 -0.084478306796949051427 -0.022586908896770035993" rpy="1.5770555093500591148 -0.23248523902002582453 -1.1832940268593226119" />
+<parent link="assembly_3_copy_1_3" />
+<child link="assembly_4_11" />
+<axis xyz="0 0 1"/>
+<limit effort="1" velocity="20" lower="-1.570796326794896558" upper="1.570796326794896558"/>
+<joint_properties friction="0.0"/>
+</joint>
+
+<joint name="joint4r2" type="revolute">
+<origin xyz="-0.065207544204717582392 0.08898400885369733837 0.034274532956336506428" rpy="-2.9863629448580737424 -0.071989150016607009186 1.0564527818157674055" />
+<parent link="assembly_1" />
+<child link="assembly_3_copy_1_3" />
+<axis xyz="0 0 1"/>
+<limit effort="1" velocity="20" lower="-1.570796326794896558" upper="1.570796326794896558"/>
+<joint_properties friction="0.0"/>
+</joint>
+
+
+</robot>

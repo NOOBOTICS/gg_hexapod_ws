@@ -1,1 +1,3 @@
-/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/build/gg_hex_utils/ament_cmake_environment_hooks/pythonpath.sh
+# generated from ament_package/template/environment_hook/pythonpath.sh.in
+
+ament_prepend_unique_value PYTHONPATH "$AMENT_CURRENT_PREFIX/local/lib/python3.10/dist-packages"

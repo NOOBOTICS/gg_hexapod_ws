@@ -1,1 +1,7 @@
-/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/src/gg_hex_description/meshes/config.json
+{
+
+    "documentId": "3373df1cb1f0eb05db8860d8",
+   "assemblyName": "Assembly_5",
+    "outputFormat": "urdf"
+    
+}

@@ -1,3 +1,11 @@
+/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_moveit/share/gg_hex_moveit/launch/moveit.launch.py
+/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_moveit/share/gg_hex_moveit/config/kinematics.yaml
+/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_moveit/share/gg_hex_moveit/config/gg_hex_leg.srdf
+/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_moveit/share/gg_hex_moveit/config/moveit_controllers.yaml
+/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_moveit/share/gg_hex_moveit/config/moveit.rviz
+/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_moveit/share/gg_hex_moveit/config/joint_limits.yaml
+/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_moveit/share/gg_hex_moveit/config/pilz_cartesian_limits.yaml
+/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_moveit/share/gg_hex_moveit/config/initial_positions.yaml
 /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_moveit/share/ament_index/resource_index/package_run_dependencies/gg_hex_moveit
 /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_moveit/share/ament_index/resource_index/parent_prefix_path/gg_hex_moveit
 /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_moveit/share/gg_hex_moveit/environment/ament_prefix_path.sh

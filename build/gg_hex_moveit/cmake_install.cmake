@@ -43,6 +43,13 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gg_hex_moveit" TYPE DIRECTORY FILES
+    "/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/src/gg_hex_moveit/launch"
+    "/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/src/gg_hex_moveit/config"
+    )
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/build/gg_hex_moveit/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/gg_hex_moveit")
 endif()
 

@@ -1,0 +1,50 @@
+[0.032s] Invoking command in '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/build/gg_hex_input': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nobel/workspace_arm/IRoC_U_arm/arm_ws/install/armkin_pkg:/home/nobel/workspace_arm/IRoC_U_arm/arm_ws/install/armcam_pkg:/home/nobel/workspace_arm/IRoC_U_arm/arm_ws/install/arm_sensorfus_pkg:/home/nobel/Drone_Related/Drones_Library/follow_drone_ws/install/sjtu_drone_bringup:/home/nobel/arduinobot_ws/install/arduinobot_py_examples:/home/nobel/install/arduinobot_py_examples:/opt/ros/humble /usr/bin/cmake --build /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/build/gg_hex_input -- -j16 -l16
+[0.098s] [35m[1mConsolidate compiler generated dependencies of target simple_moveit_interface[0m
+[0.125s] [ 50%] [32mBuilding CXX object CMakeFiles/simple_moveit_interface.dir/src/simple_moveit_interface.cpp.o[0m
+[3.944s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[3.944s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[3.944s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[3.945s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[3.945s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[3.945s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[3.945s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[3.945s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[3.945s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[3.945s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[3.945s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[3.945s]                  from [01m[K/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/src/gg_hex_input/src/simple_moveit_interface.cpp:1[m[K:
+[3.945s] [01m[K/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/src/gg_hex_input/src/simple_moveit_interface.cpp:[m[K In function ‘[01m[Kvoid move_robot(std::shared_ptr<rclcpp::Node>)[m[K’:
+[3.945s] [01m[K/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/src/gg_hex_input/src/simple_moveit_interface.cpp:34:52:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[Kmoveit::core::MoveItErrorCode[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[3.945s]    34 |         RCLCPP_ERROR(rclcpp::get_logger("rclcpp"), [01;35m[K"Planning failed with error code: %d"[m[K, [32m[Kresult[m[K);
+[3.945s]       |                                                    [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K  [32m[K~~~~~~[m[K
+[3.945s]       |                                                                                           [32m[K|[m[K
+[3.945s]       |                                                                                           [32m[Kmoveit::core::MoveItErrorCode[m[K
+[3.945s] [01m[K/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/src/gg_hex_input/src/simple_moveit_interface.cpp:34:87:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[3.945s]    34 |    RCLCPP_ERROR(rclcpp::get_logger("rclcpp"), "Planning failed with error code: [01;36m[K%d[m[K", result);
+[3.945s]       |                                                                                 [01;36m[K~^[m[K
+[3.945s]       |                                                                                  [01;36m[K|[m[K
+[3.945s]       |                                                                                  [01;36m[Kint[m[K
+[3.945s] 
+[6.023s] [100%] [32m[1mLinking CXX executable simple_moveit_interface[0m
+[6.254s] [100%] Built target simple_moveit_interface
+[6.264s] Invoked command in '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/build/gg_hex_input' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nobel/workspace_arm/IRoC_U_arm/arm_ws/install/armkin_pkg:/home/nobel/workspace_arm/IRoC_U_arm/arm_ws/install/armcam_pkg:/home/nobel/workspace_arm/IRoC_U_arm/arm_ws/install/arm_sensorfus_pkg:/home/nobel/Drone_Related/Drones_Library/follow_drone_ws/install/sjtu_drone_bringup:/home/nobel/arduinobot_ws/install/arduinobot_py_examples:/home/nobel/install/arduinobot_py_examples:/opt/ros/humble /usr/bin/cmake --build /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/build/gg_hex_input -- -j16 -l16
+[6.287s] Invoking command in '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/build/gg_hex_input': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nobel/workspace_arm/IRoC_U_arm/arm_ws/install/armkin_pkg:/home/nobel/workspace_arm/IRoC_U_arm/arm_ws/install/armcam_pkg:/home/nobel/workspace_arm/IRoC_U_arm/arm_ws/install/arm_sensorfus_pkg:/home/nobel/Drone_Related/Drones_Library/follow_drone_ws/install/sjtu_drone_bringup:/home/nobel/arduinobot_ws/install/arduinobot_py_examples:/home/nobel/install/arduinobot_py_examples:/opt/ros/humble /usr/bin/cmake --install /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/build/gg_hex_input
+[6.294s] -- Install configuration: ""
+[6.294s] -- Installing: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_input/lib/gg_hex_input/simple_moveit_interface
+[6.295s] -- Set runtime path of "/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_input/lib/gg_hex_input/simple_moveit_interface" to ""
+[6.295s] -- Up-to-date: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_input/share/ament_index/resource_index/package_run_dependencies/gg_hex_input
+[6.295s] -- Up-to-date: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_input/share/ament_index/resource_index/parent_prefix_path/gg_hex_input
+[6.295s] -- Up-to-date: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_input/share/gg_hex_input/environment/ament_prefix_path.sh
+[6.295s] -- Up-to-date: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_input/share/gg_hex_input/environment/ament_prefix_path.dsv
+[6.295s] -- Up-to-date: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_input/share/gg_hex_input/environment/path.sh
+[6.295s] -- Up-to-date: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_input/share/gg_hex_input/environment/path.dsv
+[6.295s] -- Up-to-date: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_input/share/gg_hex_input/local_setup.bash
+[6.295s] -- Up-to-date: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_input/share/gg_hex_input/local_setup.sh
+[6.295s] -- Up-to-date: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_input/share/gg_hex_input/local_setup.zsh
+[6.295s] -- Up-to-date: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_input/share/gg_hex_input/local_setup.dsv
+[6.295s] -- Installing: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_input/share/gg_hex_input/package.dsv
+[6.295s] -- Up-to-date: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_input/share/ament_index/resource_index/packages/gg_hex_input
+[6.295s] -- Up-to-date: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_input/share/gg_hex_input/cmake/gg_hex_inputConfig.cmake
+[6.295s] -- Up-to-date: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_input/share/gg_hex_input/cmake/gg_hex_inputConfig-version.cmake
+[6.296s] -- Up-to-date: /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_input/share/gg_hex_input/package.xml
+[6.298s] Invoked command in '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/build/gg_hex_input' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nobel/workspace_arm/IRoC_U_arm/arm_ws/install/armkin_pkg:/home/nobel/workspace_arm/IRoC_U_arm/arm_ws/install/armcam_pkg:/home/nobel/workspace_arm/IRoC_U_arm/arm_ws/install/arm_sensorfus_pkg:/home/nobel/Drone_Related/Drones_Library/follow_drone_ws/install/sjtu_drone_bringup:/home/nobel/arduinobot_ws/install/arduinobot_py_examples:/home/nobel/install/arduinobot_py_examples:/opt/ros/humble /usr/bin/cmake --install /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/build/gg_hex_input

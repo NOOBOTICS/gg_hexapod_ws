@@ -17,13 +17,15 @@ def generate_launch_description():
     .robot_description(file_path=os.path.join(get_package_share_directory("gg_hex_description"),"leg_sim","gg_sim_combo.urdf.xacro" ))
     .robot_description_semantic(file_path="config/gg_hex_leg.srdf") # as this file is in same file path as the launch fiel
     .trajectory_execution(file_path="config/moveit_controllers.yaml")
+    .robot_description_kinematics(file_path=os.path.join(get_package_share_directory("gg_hex_moveit"), "config", "kinematics.yaml"))
+
     .to_moveit_configs()
     )
 
     move_group_node = Node(
         package="moveit_ros_move_group",
         executable="move_group",
-        parameters=[moveit_config.to_dict(), {"use_sim_time": is_sim}, {"publish_robot_description_sematic": True}],
+        parameters=[moveit_config.to_dict(), {"use_sim_time": is_sim}, {'publish_robot_description_semantic': True}],
         arguments=["--ros_args", "--log-level", "info"]
     )
 

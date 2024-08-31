@@ -90,6 +90,7 @@
 /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description/share/gg_hex_description//simple_hex/part_3.part
 /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description/share/gg_hex_description//simple_hex/part_3.stl
 /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description/share/gg_hex_description//simple_hex/part_6.stl
+/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description/share/gg_hex_description//simple_hex/robot.urdf*.xacro
 /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description/share/gg_hex_description//simple_hex/part_2.stl
 /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description/share/gg_hex_description//simple_hex/config.json
 /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description/share/ament_index/resource_index/package_run_dependencies/gg_hex_description

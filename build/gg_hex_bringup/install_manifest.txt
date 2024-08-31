@@ -3,6 +3,7 @@
 /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_bringup/share/gg_hex_bringup//launch/gg_gazebo.launch.xml
 /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_bringup/share/gg_hex_bringup//launch/gg_gazebo_rviz.launch.xml
 /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_bringup/share/gg_hex_bringup//launch/gg_hexleg_rviz.launch.xml
+/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_bringup/share/gg_hex_bringup//rviz/simple_sim.rviz
 /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_bringup/share/gg_hex_bringup//rviz/config.rviz
 /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_bringup/share/gg_hex_bringup//rviz/gg_sim.rviz
 /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_bringup/share/gg_hex_bringup//rviz/hex_config.rviz

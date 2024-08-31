@@ -17,10 +17,11 @@
 /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description/share/gg_hex_description//meshes/142-13449-1000-a02.step.stl
 /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description/share/gg_hex_description//meshes/servo_motor_35kg_motor_6.part
 /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description/share/gg_hex_description//meshes/arm_up_same_9.stl
+/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description/share/gg_hex_description//meshes/gg_sim_controller.xacro
 /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description/share/gg_hex_description//meshes/robot.urdf.xacro
-/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description/share/gg_hex_description//meshes/robot.xacro
 /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description/share/gg_hex_description//meshes/porg_system_screw.step_1.part
 /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description/share/gg_hex_description//meshes/1side_2.part
+/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description/share/gg_hex_description//meshes/gg_sim_gazebo.xacro
 /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description/share/gg_hex_description//meshes/porg_heat_sink.step.stl
 /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description/share/gg_hex_description//meshes/porg_heat_sink.step.part
 /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description/share/gg_hex_description//meshes/leg_1.stl
@@ -30,6 +31,7 @@
 /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description/share/gg_hex_description//meshes/scanner.step.part
 /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description/share/gg_hex_description//meshes/servo_motor_35kg_motor.stl
 /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description/share/gg_hex_description//meshes/1side_1.part
+/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description/share/gg_hex_description//meshes/gg_sim_complete_combo.urdf.xacro
 /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description/share/gg_hex_description//meshes/mounting_plate.step.part
 /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description/share/gg_hex_description//meshes/142-63448-1gen_a00.step.part
 /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description/share/gg_hex_description//meshes/1side_4.stl
@@ -40,6 +42,7 @@
 /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description/share/gg_hex_description//meshes/cam_lider_stand.stl
 /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description/share/gg_hex_description//meshes/1side.stl
 /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description/share/gg_hex_description//meshes/part_1.stl
+/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description/share/gg_hex_description//meshes/gg_sim_ros2_control.xacro
 /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description/share/gg_hex_description//meshes/porg_system_screw.step_1.stl
 /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description/share/gg_hex_description//meshes/porg_hex_standoff.step.part
 /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description/share/gg_hex_description//meshes/base_(1).step.part
@@ -77,6 +80,18 @@
 /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description/share/gg_hex_description//leg_sim/part_1.part
 /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description/share/gg_hex_description//leg_sim/part_2.stl
 /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description/share/gg_hex_description//leg_sim/config.json
+/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description/share/gg_hex_description//simple_hex/part_6.part
+/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description/share/gg_hex_description//simple_hex/part_5.stl
+/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description/share/gg_hex_description//simple_hex/part_2.part
+/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description/share/gg_hex_description//simple_hex/robot.urdf.xacro
+/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description/share/gg_hex_description//simple_hex/part_4.stl
+/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description/share/gg_hex_description//simple_hex/part_4.part
+/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description/share/gg_hex_description//simple_hex/part_5.part
+/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description/share/gg_hex_description//simple_hex/part_3.part
+/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description/share/gg_hex_description//simple_hex/part_3.stl
+/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description/share/gg_hex_description//simple_hex/part_6.stl
+/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description/share/gg_hex_description//simple_hex/part_2.stl
+/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description/share/gg_hex_description//simple_hex/config.json
 /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description/share/ament_index/resource_index/package_run_dependencies/gg_hex_description
 /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description/share/ament_index/resource_index/parent_prefix_path/gg_hex_description
 /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_hex_description/share/gg_hex_description/environment/ament_prefix_path.sh

@@ -7,3 +7,9 @@ ros2 launch gg_hex_bringup gg_sim.xml
 
 
 ros2 topic pub /gg_hexleg_controller/joint_trajectory trajectory_msgs/msg/JointTrajectory "{joint_names: ['joint1', 'joint2', 'joint3', 'joint4'], points: [{positions: [0.5, 0.5, 0.5, 0.5], time_from_start: {sec: 2, nanosec: 0}}]}"
+
+
+
+ros2 topic pub /gg_hexleg_controller/joint_trajectory trajectory_msgs/msg/JointTrajectory "{joint_names: ['joint1', 'joint2', 'joint3', 'joint4','joint11', 'joint21', 'joint31', 'joint41','joint12', 'joint22', 'joint32', 'joint42','joint1r', 'joint2r', 'joint3r', 'joint4r','joint1r1', 'joint2r1', 'joint3r1', 'joint4r1','joint1r2', 'joint2r2', 'joint3r2', 'joint4r2'], points: [{positions: [0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5], time_from_start: {sec: 2, nanosec: 0}}]}"
+
+

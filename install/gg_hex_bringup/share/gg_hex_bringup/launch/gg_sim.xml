@@ -1,12 +1,12 @@
 <launch>
     <let name = "urdf_path"
-        value="$(find-pkg-share gg_hex_description)/leg_sim/gg_sim_combo.urdf.xacro" />
+        value="$(find-pkg-share gg_hex_description)/meshes/gg_sim_complete_combo.urdf.xacro" />
 
 
 
 
     <let name = "rviz_config" 
-        value = "$(find-pkg-share gg_hex_bringup)/rviz/gg_sim.rviz"/>
+        value = "$(find-pkg-share gg_hex_bringup)/rviz/simple_sim.rviz"/>
 
 
 

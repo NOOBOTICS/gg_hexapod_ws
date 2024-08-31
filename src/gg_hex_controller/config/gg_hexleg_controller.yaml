@@ -18,6 +18,26 @@ gg_hexleg_controller:
       - joint2
       - joint3
       - joint4
+      - joint11
+      - joint21
+      - joint31
+      - joint41
+      - joint12
+      - joint22
+      - joint32
+      - joint42
+      - joint1r
+      - joint2r
+      - joint3r
+      - joint4r
+      - joint1r1
+      - joint2r1
+      - joint3r1
+      - joint4r1
+      - joint1r2
+      - joint2r2
+      - joint3r2
+      - joint4r2
 
 
     command_interfaces:

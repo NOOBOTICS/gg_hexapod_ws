@@ -46,6 +46,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gg_hex_description/" TYPE DIRECTORY FILES
     "/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/src/gg_hex_description/meshes"
     "/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/src/gg_hex_description/leg_sim"
+    "/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/src/gg_hex_description/simple_hex"
     )
 endif()
 

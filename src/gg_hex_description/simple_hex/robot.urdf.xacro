@@ -1,5 +1,8 @@
 <?xml version="1.0"?>
 <robot name="gg_hex"  xmlns:xacro= "http://www.ros.org/wiki/xacro">
+  
+<pose>0 0 0 0 0 0</pose>
+
 <link name="part_6">
 <visual>
 <origin xyz="0.17788709746222436392 -0.05492614997015445033 0.010699999999999997707" rpy="0 -0 0" />
@@ -791,15 +794,15 @@
 <joint_properties friction="0.0"/>
 </joint>
 
-<link name="world"/>
+<!-- <link name="world"/>
 
 <joint name="joint0" type="fixed">
 <origin xyz="0.0 0.0 0.25" rpy="0.0 0.0 0.0" />
 
   <parent link="world"/>
   <child link="part_6"/>
-  <pose>0 0 0 0 0 0</pose> <!-- Set the z-axis to 0.5 meters -->
-</joint>
+  <pose>0 0 0 0 0 0</pose> 
+</joint> -->
 
 
 </robot>

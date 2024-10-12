@@ -1,0 +1,33 @@
+[0.674s] Invoking command in '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/src/gg_controller': PYTHONPATH=/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/build/gg_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/gg_controller build --build-base /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/build/gg_controller/build install --record /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/build/gg_controller/install.log --single-version-externally-managed install_data
+[0.875s] running egg_info
+[0.876s] creating ../../build/gg_controller/gg_controller.egg-info
+[0.876s] writing ../../build/gg_controller/gg_controller.egg-info/PKG-INFO
+[0.876s] writing dependency_links to ../../build/gg_controller/gg_controller.egg-info/dependency_links.txt
+[0.876s] writing entry points to ../../build/gg_controller/gg_controller.egg-info/entry_points.txt
+[0.876s] writing requirements to ../../build/gg_controller/gg_controller.egg-info/requires.txt
+[0.876s] writing top-level names to ../../build/gg_controller/gg_controller.egg-info/top_level.txt
+[0.876s] writing manifest file '../../build/gg_controller/gg_controller.egg-info/SOURCES.txt'
+[0.877s] reading manifest file '../../build/gg_controller/gg_controller.egg-info/SOURCES.txt'
+[0.878s] writing manifest file '../../build/gg_controller/gg_controller.egg-info/SOURCES.txt'
+[0.878s] running build
+[0.878s] running build_py
+[0.878s] creating /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/build/gg_controller/build
+[0.878s] creating /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/build/gg_controller/build/lib
+[0.879s] creating /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/build/gg_controller/build/lib/gg_controller
+[0.879s] copying gg_controller/__init__.py -> /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/build/gg_controller/build/lib/gg_controller
+[0.879s] running install
+[0.879s] running install_lib
+[0.879s] creating /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_controller/lib/python3.10/site-packages/gg_controller
+[0.879s] copying /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/build/gg_controller/build/lib/gg_controller/__init__.py -> /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_controller/lib/python3.10/site-packages/gg_controller
+[0.880s] byte-compiling /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_controller/lib/python3.10/site-packages/gg_controller/__init__.py to __init__.cpython-310.pyc
+[0.880s] running install_data
+[0.880s] creating /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_controller/share/ament_index
+[0.880s] creating /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_controller/share/ament_index/resource_index
+[0.880s] creating /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_controller/share/ament_index/resource_index/packages
+[0.880s] copying resource/gg_controller -> /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_controller/share/ament_index/resource_index/packages
+[0.880s] copying package.xml -> /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_controller/share/gg_controller
+[0.880s] running install_egg_info
+[0.882s] Copying ../../build/gg_controller/gg_controller.egg-info to /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_controller/lib/python3.10/site-packages/gg_controller-0.0.0-py3.10.egg-info
+[0.882s] running install_scripts
+[0.899s] writing list of installed files to '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/build/gg_controller/install.log'
+[0.922s] Invoked command in '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/src/gg_controller' returned '0': PYTHONPATH=/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/build/gg_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/gg_controller build --build-base /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/build/gg_controller/build install --record /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/build/gg_controller/install.log --single-version-externally-managed install_data

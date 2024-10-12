@@ -1,0 +1,31 @@
+running egg_info
+creating ../../build/gg_controller/gg_controller.egg-info
+writing ../../build/gg_controller/gg_controller.egg-info/PKG-INFO
+writing dependency_links to ../../build/gg_controller/gg_controller.egg-info/dependency_links.txt
+writing entry points to ../../build/gg_controller/gg_controller.egg-info/entry_points.txt
+writing requirements to ../../build/gg_controller/gg_controller.egg-info/requires.txt
+writing top-level names to ../../build/gg_controller/gg_controller.egg-info/top_level.txt
+writing manifest file '../../build/gg_controller/gg_controller.egg-info/SOURCES.txt'
+reading manifest file '../../build/gg_controller/gg_controller.egg-info/SOURCES.txt'
+writing manifest file '../../build/gg_controller/gg_controller.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/build/gg_controller/build
+creating /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/build/gg_controller/build/lib
+creating /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/build/gg_controller/build/lib/gg_controller
+copying gg_controller/__init__.py -> /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/build/gg_controller/build/lib/gg_controller
+running install
+running install_lib
+creating /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_controller/lib/python3.10/site-packages/gg_controller
+copying /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/build/gg_controller/build/lib/gg_controller/__init__.py -> /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_controller/lib/python3.10/site-packages/gg_controller
+byte-compiling /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_controller/lib/python3.10/site-packages/gg_controller/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_controller/share/ament_index
+creating /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_controller/share/ament_index/resource_index
+creating /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_controller/share/ament_index/resource_index/packages
+copying resource/gg_controller -> /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_controller/share/ament_index/resource_index/packages
+copying package.xml -> /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_controller/share/gg_controller
+running install_egg_info
+Copying ../../build/gg_controller/gg_controller.egg-info to /home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/install/gg_controller/lib/python3.10/site-packages/gg_controller-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/nobel/Gujrat_Government_Hexapod/gg_hexapod_ws/build/gg_controller/install.log'
